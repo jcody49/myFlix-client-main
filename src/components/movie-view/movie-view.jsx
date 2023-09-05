@@ -3,14 +3,15 @@ import Button from "react-bootstrap/Button";
 import { Card } from "react-bootstrap";
 import { useParams } from "react-router";
 import "./movie-view.scss";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export const MovieView = ({ movies, user, setUser }) => {
   console.log("Received user prop:", user);
   const { movieId } = useParams();
   const [isFavorite, setIsFavorite] = useState(false);
-  //const history = useHistory();
+  const navigate = useNavigate();
+
 
 
   const storedUser = JSON.parse(localStorage.getItem('user'));
@@ -163,7 +164,7 @@ export const MovieView = ({ movies, user, setUser }) => {
               
           <div
             className="d-flex justify-content-center"
-            onClick={() => history.goBack()} 
+            onClick={() => navigate(-1)} 
           >
             <Button variant="secondary">Back</Button>
           </div>
