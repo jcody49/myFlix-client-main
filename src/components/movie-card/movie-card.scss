@@ -1,0 +1,18 @@
+$primary: #ffade5;
+$secondary: rgba(89, 216, 251, 0.68);
+
+.card-body {
+  background-color: #595959;
+  color: $secondary;
+}
+
+.movie-card-wrapper {
+    border: 2px solid $secondary;
+    border-radius: 10px;
+    background-color: #595959;
+    color: white;
+}
+
+
+
+@import '~bootstrap/scss/bootstrap.scss';

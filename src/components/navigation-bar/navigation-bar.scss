@@ -1,0 +1,68 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+.custom-navbar {
+    $primary: #ffade5;
+    $secondary: rgba(89, 216, 251, 0.68);
+    $body-bg: #595959;
+  border: 2px solid rgba(89, 216, 251, 0.68);
+  border-radius: 10px; /* Add border-radius to make corners rounded */
+  .login-signup-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    color: $primary;
+    margin-right: auto;
+    } 
+}
+
+
+.custom-navbar .navbar-nav .nav-link {
+  color: rgba(89, 216, 251, 0.68);
+  justify-content: right;
+}
+
+.navbar-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 140px; // Adjust the size of the logo as needed
+  margin-right: 10px; // Add some space between the logo and text
+}
+
+.navbar-brand {
+  color: white; // Set the text color to white
+}
+
+
+
+.basic-navbar-nav {
+  justify-content: right;
+}
+
+.delete-account-modal {
+  justify-content: right;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: right;
+}
+
+
+.nav-link {
+  justify-content: flex-end !important;
+}
+
+
+.navbar-expand-lg .navbar-nav {
+  margin: auto; /* This will center-align the links horizontally */
+  text-align: center; /* This helps center-align the individual link items */
+}
+
+/* Optional: If you want to adjust the space between the nav items */
+.navbar-expand-lg .navbar-nav .nav-item {
+  margin: 0 10px; /* Adjust the margins as needed */
+}
