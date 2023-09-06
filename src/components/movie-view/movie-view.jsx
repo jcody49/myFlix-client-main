@@ -35,7 +35,7 @@ export const MovieView = ({ movies, user, setUser }) => {
 
   const removeFavorite = () => {
     fetch(
-      `https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}/${movieId}/favorites`,
+      `https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}/movies/${movieId}/favorites`,
       {
         method: "DELETE",
         headers: {

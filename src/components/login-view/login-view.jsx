@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import "./login-view.scss";
 import loginImage from "../../assets/login.png";
 
+
 export const LoginView = ({ onLoggedIn }) => {
   const [Username, setUsername] = useState("");
   const [Password, setPassword] = useState("");
