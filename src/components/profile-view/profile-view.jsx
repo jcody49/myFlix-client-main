@@ -8,6 +8,17 @@ import { MovieCard } from "../movie-card/movie-card";
 import "./profile-view.scss";
 import profileImage from "../../assets/profile.png";
 
+/**
+ * A component that displays the user's profile information, favorite movies, and movies to watch.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.user - The user object.
+ * @param {string} props.token - The user's authentication token.
+ * @param {Array} props.movies - An array of movie objects.
+ * @param {Function} props.onLoggedOut - A callback function to handle user logout.
+ * @param {Function} props.setUser - A callback function to update user information.
+ * @returns {JSX.Element} The profile view component's JSX.
+ */
 export const ProfileView = ({ user, token, movies, onLoggedOut, setUser }) => {
   const [Username, setUsername] = useState(user.Username);
   const [Password, setPassword] = useState("");
@@ -32,16 +43,28 @@ export const ProfileView = ({ user, token, movies, onLoggedOut, setUser }) => {
   });
   console.log("MoviesToWatch IDs from user object:", moviesToWatchIds);
   
-
+  /**
+   * Show the profile edit modal.
+   * @function
+   */
   const handleShowModal = () => {
     setShowModal(true);
   };
 
-
+  /**
+   * Close the profile edit modal.
+   * @function
+   */
   const handleCloseModal = () => {
     setShowModal(false);
   };
 
+  /**
+   * Format a date string.
+   * @function
+   * @param {string} date - The date to format.
+   * @returns {string} The formatted date in "YYYY-MM-DD" format.
+   */
   const formatDate = (date) => {
     const formattedDate = new Date(date);
     const year = formattedDate.getFullYear();
@@ -50,7 +73,10 @@ export const ProfileView = ({ user, token, movies, onLoggedOut, setUser }) => {
     return `${year}-${month}-${day}`;
   };
 
-  
+    /**
+     * Handle the submission of profile edits.
+     * @function
+     */
     const handleProfileEditSubmit = () => {
             
         const data = {
@@ -89,7 +115,10 @@ export const ProfileView = ({ user, token, movies, onLoggedOut, setUser }) => {
     };
 
  
-
+  /**
+   * Handle the deletion of a user account.
+   * @function
+   */
   const handleDeleteUser = () => {
     fetch(`https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}`, {
       method: "DELETE",

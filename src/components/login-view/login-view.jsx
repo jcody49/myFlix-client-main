@@ -5,11 +5,22 @@ import { Link } from "react-router-dom";
 import "./login-view.scss";
 import loginImage from "../../assets/login.png";
 
-
+/**
+ * A component for user login.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Function} props.onLoggedIn - A callback function for handling user login.
+ * @returns {JSX.Element} The component's JSX.
+ */
 export const LoginView = ({ onLoggedIn }) => {
   const [Username, setUsername] = useState("");
   const [Password, setPassword] = useState("");
 
+  /**
+   * Handles the form submission for user login.
+   * @function
+   * @param {Event} event - The form submission event.
+   */
   const handleSubmit = (event) => {
     event.preventDefault();
   

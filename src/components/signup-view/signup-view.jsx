@@ -4,12 +4,22 @@ import Form from "react-bootstrap/Form";
 import "./signup-view.scss";
 import signupImage from "../../assets/signup.png";
 
+/**
+ * A component that provides a form for user signup.
+ * @function
+ * @returns {JSX.Element} The signup view component's JSX.
+ */
 export const SignupView = () => {
   const [Username, setUsername] = useState("");
   const [Password, setPassword] = useState("");
   const [Email, setEmail] = useState("");
   const [Birthdate, setBirthdate] = useState("");
 
+  /**
+   * Handles the form submission for user signup.
+   * @function
+   * @param {Event} event - The form submission event.
+   */
   const handleSubmit = (event) => {
     event.preventDefault();
 

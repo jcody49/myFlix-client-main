@@ -15,6 +15,11 @@ import Form from "react-bootstrap/Form";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { NavigationBar } from "../navigation-bar/navigation-bar";
 
+/**
+ * The main view component for the application.
+ * @function
+ * @returns {JSX.Element} The main view component's JSX.
+ */
 export const MainView = () => {
   const [loading, setLoading] = useState(true);
   const [movies, setMovies] = useState([]);
@@ -32,9 +37,13 @@ export const MainView = () => {
   const [moviesLoaded, setMoviesLoaded] = useState(false);
 
 
-
+  
   console.log("Token from localStorage:", token);
 
+  /**
+   * Handles the user's log out action.
+   * @function
+   */
   const onLoggedOut = () => {
     console.log("test");
     setUser(null);

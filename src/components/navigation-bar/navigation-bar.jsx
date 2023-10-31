@@ -5,6 +5,15 @@ import "./navigation-bar.scss";
 import logo from "../../assets/myFlix-logo.png"; // Import the logo image
 import { DeleteAccountConfirmation } from "../delete-account-confirmation/delete-account-confirmation";
 
+/**
+ * A component for the navigation bar at the top of the application.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.user - The user object.
+ * @param {string} props.token - The user's authentication token.
+ * @param {Function} props.onLoggedOut - A callback function to handle user logout.
+ * @returns {JSX.Element} The navigation bar component's JSX.
+ */
 export const NavigationBar = ({ user, token, onLoggedOut }) => {
 console.log("token:", token)
   return (

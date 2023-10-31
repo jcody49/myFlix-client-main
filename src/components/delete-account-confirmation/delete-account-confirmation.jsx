@@ -1,16 +1,38 @@
 import React, { useState } from "react";
 import { Button, Modal, Nav } from "react-bootstrap";
 
+/**
+ * A component to confirm the deletion of a user account.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.user - The user information.
+ * @param {string} props.token - The user's authentication token.
+ * @param {Function} props.onLoggedOut - A callback function to log the user out.
+ * @returns {JSX.Element} The component's JSX.
+ */
 export const DeleteAccountConfirmation = ({ user, token, onLoggedOut }) => {
     const [showModal, setShowModal] = useState(false);
   
     
     console.log("Token from localStorage:", token);
+
+    /**
+     * Opens the delete account confirmation modal.
+     * @function
+     */
     const handleShowModal = () => setShowModal(true);
+
+    /**
+     * Closes the delete account confirmation modal.
+     * @function
+     */
     const handleCloseModal = () => setShowModal(false);
 
 
-
+    /**
+     * Handles the user account deletion process.
+     * @function
+     */
     const handleDeleteUser = () => {
       fetch(`https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}`, {
         method: "DELETE",

@@ -5,7 +5,15 @@ import { useParams } from "react-router";
 import "./movie-view.scss";
 import { useNavigate } from "react-router-dom";
 
-
+/**
+ * A component to view and interact with a specific movie's details.
+ * @function
+ * @param {Object} props - the component's props 
+ * @param {Array} props.movies - array of movies
+ * @param {Object} props.user - user object
+ * @param {Function} props.setUser - A callback function to set the user object.
+ * @returns {JSX.Element} The movie view component's JSX.
+ */
 export const MovieView = ({ movies, user, setUser }) => {
   console.log("Received user prop:", user);
   const { movieId } = useParams();
@@ -33,6 +41,10 @@ export const MovieView = ({ movies, user, setUser }) => {
     }
   }, [user, movieId]);
 
+  /**
+   * Removes the movie from the user's favorite list.
+   * @function
+   */
   const removeFavorite = () => {
     fetch(
       `https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}/movies/${movieId}/favorites`,
@@ -56,6 +68,10 @@ export const MovieView = ({ movies, user, setUser }) => {
       });
   };
 
+  /**
+   * Removes the movie from the user's watchlist.
+   * @function
+   */
   const removeMovieToWatch = () => {
     fetch(
       `https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}/movies/${movieId}/watchlist`,
@@ -79,6 +95,10 @@ export const MovieView = ({ movies, user, setUser }) => {
       });
   };
 
+  /**
+   * Adds the movie to the user's favorite list.
+   * @function
+   */
   const addToFavorite = () => {
     fetch(
       `https://myflixmovieapp-3df5d197457c.herokuapp.com/users/${user.Username}/movies/${movieId}/favorites`,
@@ -102,6 +122,10 @@ export const MovieView = ({ movies, user, setUser }) => {
       });
   };
 
+  /**
+   * Adds the movie to the user's watchlist.
+   * @function
+   */
   const addToMoviesToWatch = () => {
     console.log("Adding movie to watchlist...");
     fetch(

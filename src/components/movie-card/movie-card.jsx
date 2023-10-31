@@ -4,7 +4,13 @@ import { Button, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./movie-card.scss";
 
-
+/**
+ * A component to display movie information in a card format.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.movie - The movie object to display.
+ * @returns {JSX.Element} The movie card component's JSX.
+ */
 export const MovieCard = ({ movie }) => {
   
   return (
@@ -23,7 +29,9 @@ export const MovieCard = ({ movie }) => {
   );
 };
 
-// Defines all the props constraints for the MovieCard
+/**
+ * PropTypes for the MovieCard component, defining the prop constraints.
+ */
 MovieCard.propTypes = {
   movie: PropTypes.shape({
     ImagePath: PropTypes.string.isRequired,
