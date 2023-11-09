@@ -12,9 +12,6 @@ import { Button, Modal, Nav } from "react-bootstrap";
  */
 export const DeleteAccountConfirmation = ({ user, token, onLoggedOut }) => {
     const [showModal, setShowModal] = useState(false);
-  
-    
-    console.log("Token from localStorage:", token);
 
     /**
      * Opens the delete account confirmation modal.

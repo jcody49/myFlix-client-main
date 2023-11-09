@@ -15,7 +15,6 @@ import { useNavigate } from "react-router-dom";
  * @returns {JSX.Element} The movie view component's JSX.
  */
 export const MovieView = ({ movies, user, setUser }) => {
-  console.log("Received user prop:", user);
   const { movieId } = useParams();
   const [isFavorite, setIsFavorite] = useState(false);
   const navigate = useNavigate();

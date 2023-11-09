@@ -45,7 +45,6 @@ export const MainView = () => {
    * @function
    */
   const onLoggedOut = () => {
-    console.log("test");
     setUser(null);
     setToken(null);
     localStorage.clear(); // Clearing token and other user data from localStorage
