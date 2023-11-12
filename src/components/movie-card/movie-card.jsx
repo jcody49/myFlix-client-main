@@ -19,7 +19,6 @@ export const MovieCard = ({ movie }) => {
         <Card style={{ border: 'none' }}>
           <Link to={`/movies/${encodeURIComponent(movie._id)}`}>
             <Card.Img variant="top" src={movie.ImagePath} />
-            
           </Link>
           <Card.Body className="text-white">
             <Card.Title className="d-flex justify-content-center"><h2>{movie.Title}</h2></Card.Title>
