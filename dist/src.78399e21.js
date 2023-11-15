@@ -54736,7 +54736,7 @@ function useViewTransitionState(to, opts) {
   return (0, _router.matchPath)(path.pathname, nextPath) != null || (0, _router.matchPath)(path.pathname, currentPath) != null;
 }
 //#endregion
-},{"react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/dist/index.js","@remix-run/router":"../node_modules/@remix-run/router/dist/router.js"}],"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/dist/index.js","@remix-run/router":"../node_modules/@remix-run/router/dist/router.js"}],"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -54761,7 +54761,7 @@ function getBaseURL(url) {
 }
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 function updateLink(link) {
   var newLink = link.cloneNode();
@@ -54787,11 +54787,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/movie-card/movie-card.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/movie-card/movie-card.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-card/movie-card.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-card/movie-card.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -54852,7 +54852,7 @@ MovieCard.propTypes = {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-view/movie-view.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-view/movie-view.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -55054,7 +55054,7 @@ var MovieView = exports.MovieView = function MovieView(_ref) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/login.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/login.png":[function(require,module,exports) {
 module.exports = "/login.748995fe.png";
 },{}],"components/login-view/login-view.jsx":[function(require,module,exports) {
 "use strict";
@@ -55185,7 +55185,7 @@ var LoginView = exports.LoginView = function LoginView(_ref) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/signup.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/signup.png":[function(require,module,exports) {
 module.exports = "/signup.5b219ab2.png";
 },{}],"components/signup-view/signup-view.jsx":[function(require,module,exports) {
 "use strict";
@@ -55331,7 +55331,7 @@ var SignupView = exports.SignupView = function SignupView() {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/profile.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/profile.png":[function(require,module,exports) {
 module.exports = "/profile.ae7bce2d.png";
 },{}],"components/profile-view/profile-view.jsx":[function(require,module,exports) {
 "use strict";
@@ -55618,11 +55618,11 @@ module.exports = "/logo.e9a9c890.png";
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navigation-bar/navigation-bar.scss":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navigation-bar/navigation-bar.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/myFlix-logo.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/myFlix-logo.png":[function(require,module,exports) {
 module.exports = "/myFlix-logo.6520c8a4.png";
 },{}],"components/delete-account-confirmation/delete-account-confirmation.jsx":[function(require,module,exports) {
 "use strict";
@@ -56062,7 +56062,7 @@ var MainView = exports.MainView = function MainView() {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -56096,7 +56096,7 @@ var root = (0, _client.createRoot)(container);
 
 // Tells React to render the app in the root DOM element
 root.render( /*#__PURE__*/_react.default.createElement(MyFlixApplication, null));
-},{"react":"../node_modules/react/index.js","react-dom/client":"../node_modules/react-dom/client.js","./components/main-view/main-view":"components/main-view/main-view.jsx","react-bootstrap/Container":"../node_modules/react-bootstrap/esm/Container.js","./index.scss":"index.scss"}],"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom/client":"../node_modules/react-dom/client.js","./components/main-view/main-view":"components/main-view/main-view.jsx","react-bootstrap/Container":"../node_modules/react-bootstrap/esm/Container.js","./index.scss":"index.scss"}],"../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -56121,7 +56121,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57965" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58543" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -56265,5 +56265,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
+},{}]},{},["../../../../.nvm/versions/node/v16.19.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
 //# sourceMappingURL=/src.78399e21.js.map
