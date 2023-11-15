@@ -213,7 +213,7 @@ export const MainView = () => {
                       </Row>
                       <Row className="mt-1 mb-2 ms-1 w-100">
                         <Form.Control
-                          className="text-white"
+                          class="text-white"
                           type="text"
                           placeholder="Search..."
                           value={filter}
