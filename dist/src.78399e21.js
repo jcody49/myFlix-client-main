@@ -30031,8 +30031,8 @@ var _extends3 = _interopRequireDefault(require("@babel/runtime/helpers/esm/exten
 var _objectWithoutPropertiesLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/esm/objectWithoutPropertiesLoose"));
 var _react = require("react");
 var Utils = _interopRequireWildcard(require("./utils"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function _toPropertyKey(arg) {
   var key = _toPrimitive(arg, "string");
@@ -30246,8 +30246,8 @@ var _react = _interopRequireDefault(require("react"));
 var _reactLifecyclesCompat = require("react-lifecycles-compat");
 var _invariant = _interopRequireDefault(require("invariant"));
 var Utils = _interopRequireWildcard(require("./utils"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 var _jsxFileName = "/Users/jquense/src/uncontrollable/src/uncontrollable.js";
 function uncontrollable(Component, controlledValues, methods) {
@@ -30416,8 +30416,8 @@ Object.defineProperty(exports, "useUncontrolledProp", {
 var _hook = _interopRequireWildcard(require("./hook"));
 var _uncontrollable = _interopRequireDefault(require("./uncontrollable"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 },{"./hook":"../node_modules/uncontrollable/lib/esm/hook.js","./uncontrollable":"../node_modules/uncontrollable/lib/esm/uncontrollable.js"}],"../node_modules/react/cjs/react-jsx-runtime.development.js":[function(require,module,exports) {
 /**
  * @license React
@@ -31562,6 +31562,7 @@ if ("development" === 'production') {
 }
 },{"./cjs/react-jsx-runtime.development.js":"../node_modules/react/cjs/react-jsx-runtime.development.js"}],"../node_modules/react-bootstrap/esm/ThemeProvider.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -31573,14 +31574,13 @@ exports.useBootstrapBreakpoints = useBootstrapBreakpoints;
 exports.useBootstrapMinBreakpoint = useBootstrapMinBreakpoint;
 exports.useBootstrapPrefix = useBootstrapPrefix;
 exports.useIsRTL = useIsRTL;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-const DEFAULT_BREAKPOINTS = ['xxl', 'xl', 'lg', 'md', 'sm', 'xs'];
-exports.DEFAULT_BREAKPOINTS = DEFAULT_BREAKPOINTS;
-const DEFAULT_MIN_BREAKPOINT = 'xs';
-exports.DEFAULT_MIN_BREAKPOINT = DEFAULT_MIN_BREAKPOINT;
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DEFAULT_BREAKPOINTS = exports.DEFAULT_BREAKPOINTS = ['xxl', 'xl', 'lg', 'md', 'sm', 'xs'];
+const DEFAULT_MIN_BREAKPOINT = exports.DEFAULT_MIN_BREAKPOINT = 'xs';
 const ThemeContext = /*#__PURE__*/React.createContext({
   prefixes: {},
   breakpoints: DEFAULT_BREAKPOINTS,
@@ -31598,7 +31598,7 @@ function ThemeProvider({
   dir,
   children
 }) {
-  const contextValue = (0, React.useMemo)(() => ({
+  const contextValue = (0, _react.useMemo)(() => ({
     prefixes: {
       ...prefixes
     },
@@ -31614,25 +31614,25 @@ function ThemeProvider({
 function useBootstrapPrefix(prefix, defaultPrefix) {
   const {
     prefixes
-  } = (0, React.useContext)(ThemeContext);
+  } = (0, _react.useContext)(ThemeContext);
   return prefix || prefixes[defaultPrefix] || defaultPrefix;
 }
 function useBootstrapBreakpoints() {
   const {
     breakpoints
-  } = (0, React.useContext)(ThemeContext);
+  } = (0, _react.useContext)(ThemeContext);
   return breakpoints;
 }
 function useBootstrapMinBreakpoint() {
   const {
     minBreakpoint
-  } = (0, React.useContext)(ThemeContext);
+  } = (0, _react.useContext)(ThemeContext);
   return minBreakpoint;
 }
 function useIsRTL() {
   const {
     dir
-  } = (0, React.useContext)(ThemeContext);
+  } = (0, _react.useContext)(ThemeContext);
   return dir === 'rtl';
 }
 function createBootstrapComponent(Component, opts) {
@@ -31658,8 +31658,7 @@ function createBootstrapComponent(Component, opts) {
   Wrapped.displayName = `Bootstrap(${Component.displayName || Component.name})`;
   return Wrapped;
 }
-var _default = ThemeProvider;
-exports.default = _default;
+var _default = exports.default = ThemeProvider;
 },{"react":"../node_modules/react/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/dom-helpers/esm/ownerDocument.js":[function(require,module,exports) {
 "use strict";
 
@@ -31786,8 +31785,7 @@ function style(node, property) {
   }
   node.style.cssText += ";" + css;
 }
-var _default = style;
-exports.default = _default;
+var _default = exports.default = style;
 },{"./getComputedStyle":"../node_modules/dom-helpers/esm/getComputedStyle.js","./hyphenateStyle":"../node_modules/dom-helpers/esm/hyphenateStyle.js","./isTransform":"../node_modules/dom-helpers/esm/isTransform.js"}],"../node_modules/react-transition-group/esm/config.js":[function(require,module,exports) {
 "use strict";
 
@@ -31795,10 +31793,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _default = {
+var _default = exports.default = {
   disabled: false
 };
-exports.default = _default;
 },{}],"../node_modules/react-transition-group/esm/utils/PropTypes.js":[function(require,module,exports) {
 "use strict";
 
@@ -31808,13 +31805,12 @@ Object.defineProperty(exports, "__esModule", {
 exports.timeoutsShape = exports.classNamesShape = void 0;
 var _propTypes = _interopRequireDefault(require("prop-types"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var timeoutsShape = "development" !== 'production' ? _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
+var timeoutsShape = exports.timeoutsShape = "development" !== 'production' ? _propTypes.default.oneOfType([_propTypes.default.number, _propTypes.default.shape({
   enter: _propTypes.default.number,
   exit: _propTypes.default.number,
   appear: _propTypes.default.number
 }).isRequired]) : null;
-exports.timeoutsShape = timeoutsShape;
-var classNamesShape = "development" !== 'production' ? _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.shape({
+var classNamesShape = exports.classNamesShape = "development" !== 'production' ? _propTypes.default.oneOfType([_propTypes.default.string, _propTypes.default.shape({
   enter: _propTypes.default.string,
   exit: _propTypes.default.string,
   active: _propTypes.default.string
@@ -31826,7 +31822,6 @@ var classNamesShape = "development" !== 'production' ? _propTypes.default.oneOfT
   exitDone: _propTypes.default.string,
   exitActive: _propTypes.default.string
 })]) : null;
-exports.classNamesShape = classNamesShape;
 },{"prop-types":"../node_modules/prop-types/index.js"}],"../node_modules/react-transition-group/esm/TransitionGroupContext.js":[function(require,module,exports) {
 "use strict";
 
@@ -31836,8 +31831,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = _react.default.createContext(null);
-exports.default = _default;
+var _default = exports.default = _react.default.createContext(null);
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-transition-group/esm/utils/reflow.js":[function(require,module,exports) {
 "use strict";
 
@@ -31845,10 +31839,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.forceReflow = void 0;
-var forceReflow = function forceReflow(node) {
+var forceReflow = exports.forceReflow = function forceReflow(node) {
   return node.scrollTop;
 };
-exports.forceReflow = forceReflow;
 },{}],"../node_modules/react-transition-group/esm/Transition.js":[function(require,module,exports) {
 "use strict";
 
@@ -31866,15 +31859,11 @@ var _PropTypes = require("./utils/PropTypes");
 var _TransitionGroupContext = _interopRequireDefault(require("./TransitionGroupContext"));
 var _reflow = require("./utils/reflow");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var UNMOUNTED = 'unmounted';
-exports.UNMOUNTED = UNMOUNTED;
-var EXITED = 'exited';
-exports.EXITED = EXITED;
-var ENTERING = 'entering';
-exports.ENTERING = ENTERING;
-var ENTERED = 'entered';
-exports.ENTERED = ENTERED;
-var EXITING = 'exiting';
+var UNMOUNTED = exports.UNMOUNTED = 'unmounted';
+var EXITED = exports.EXITED = 'exited';
+var ENTERING = exports.ENTERING = 'entering';
+var ENTERED = exports.ENTERED = 'entered';
+var EXITING = exports.EXITING = 'exiting';
 /**
  * The Transition component lets you describe a transition from one component
  * state to another _over time_ with a simple declarative API. Most commonly
@@ -31966,7 +31955,7 @@ var EXITING = 'exiting';
  * When `in` is `false` the same thing happens except the state moves from
  * `'exiting'` to `'exited'`.
  */
-exports.EXITING = EXITING;
+
 var Transition = /*#__PURE__*/function (_React$Component) {
   (0, _inheritsLoose2.default)(Transition, _React$Component);
   function Transition(props, context) {
@@ -32418,8 +32407,7 @@ Transition.EXITED = EXITED;
 Transition.ENTERING = ENTERING;
 Transition.ENTERED = ENTERED;
 Transition.EXITING = EXITING;
-var _default = Transition;
-exports.default = _default;
+var _default = exports.default = Transition;
 },{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"../node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","@babel/runtime/helpers/esm/inheritsLoose":"../node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./config":"../node_modules/react-transition-group/esm/config.js","./utils/PropTypes":"../node_modules/react-transition-group/esm/utils/PropTypes.js","./TransitionGroupContext":"../node_modules/react-transition-group/esm/TransitionGroupContext.js","./utils/reflow":"../node_modules/react-transition-group/esm/utils/reflow.js"}],"../node_modules/dom-helpers/esm/canUseDOM.js":[function(require,module,exports) {
 "use strict";
 
@@ -32427,8 +32415,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
-exports.default = _default;
+var _default = exports.default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 },{}],"../node_modules/dom-helpers/esm/addEventListener.js":[function(require,module,exports) {
 "use strict";
 
@@ -32440,10 +32427,8 @@ var _canUseDOM = _interopRequireDefault(require("./canUseDOM"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /* eslint-disable no-return-assign */
 
-var optionsSupported = false;
-exports.optionsSupported = optionsSupported;
-var onceSupported = false;
-exports.onceSupported = onceSupported;
+var optionsSupported = exports.optionsSupported = false;
+var onceSupported = exports.onceSupported = false;
 try {
   var options = {
     get passive() {
@@ -32486,8 +32471,7 @@ function addEventListener(node, eventName, handler, options) {
   }
   node.addEventListener(eventName, handler, options);
 }
-var _default = addEventListener;
-exports.default = _default;
+var _default = exports.default = addEventListener;
 },{"./canUseDOM":"../node_modules/dom-helpers/esm/canUseDOM.js"}],"../node_modules/dom-helpers/esm/removeEventListener.js":[function(require,module,exports) {
 "use strict";
 
@@ -32510,8 +32494,7 @@ function removeEventListener(node, eventName, handler, options) {
     node.removeEventListener(eventName, handler.__once, capture);
   }
 }
-var _default = removeEventListener;
-exports.default = _default;
+var _default = exports.default = removeEventListener;
 },{}],"../node_modules/dom-helpers/esm/listen.js":[function(require,module,exports) {
 "use strict";
 
@@ -32528,8 +32511,7 @@ function listen(node, eventName, handler, options) {
     (0, _removeEventListener.default)(node, eventName, handler, options);
   };
 }
-var _default = listen;
-exports.default = _default;
+var _default = exports.default = listen;
 },{"./addEventListener":"../node_modules/dom-helpers/esm/addEventListener.js","./removeEventListener":"../node_modules/dom-helpers/esm/removeEventListener.js"}],"../node_modules/dom-helpers/esm/triggerEvent.js":[function(require,module,exports) {
 "use strict";
 
@@ -32656,8 +32638,7 @@ function createChainedFunction(...funcs) {
     };
   }, null);
 }
-var _default = createChainedFunction;
-exports.default = _default;
+var _default = exports.default = createChainedFunction;
 },{}],"../node_modules/react-bootstrap/esm/triggerBrowserReflow.js":[function(require,module,exports) {
 "use strict";
 
@@ -32711,8 +32692,7 @@ function mergeRefs(refA, refB) {
 function useMergedRefs(refA, refB) {
   return (0, _react.useMemo)(() => mergeRefs(refA, refB), [refA, refB]);
 }
-var _default = useMergedRefs;
-exports.default = _default;
+var _default = exports.default = useMergedRefs;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/safeFindDOMNode.js":[function(require,module,exports) {
 "use strict";
 
@@ -32730,6 +32710,7 @@ function safeFindDOMNode(componentOrElement) {
 }
 },{"react-dom":"../node_modules/react-dom/index.js"}],"../node_modules/react-bootstrap/esm/TransitionWrapper.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -32741,8 +32722,8 @@ var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRef
 var _safeFindDOMNode = _interopRequireDefault(require("./safeFindDOMNode"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 // Normalizes Transition callbacks when nodeRef is used.
 const TransitionWrapper = /*#__PURE__*/_react.default.forwardRef(({
   onEnter,
@@ -32798,8 +32779,7 @@ const TransitionWrapper = /*#__PURE__*/_react.default.forwardRef(({
     })
   });
 });
-var _default = TransitionWrapper;
-exports.default = _default;
+var _default = exports.default = TransitionWrapper;
 },{"react":"../node_modules/react/index.js","react-transition-group/Transition":"../node_modules/react-transition-group/esm/Transition.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","./safeFindDOMNode":"../node_modules/react-bootstrap/esm/safeFindDOMNode.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Collapse.js":[function(require,module,exports) {
 "use strict";
 
@@ -32816,8 +32796,8 @@ var _createChainedFunction = _interopRequireDefault(require("./createChainedFunc
 var _triggerBrowserReflow = _interopRequireDefault(require("./triggerBrowserReflow"));
 var _TransitionWrapper = _interopRequireDefault(require("./TransitionWrapper"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const MARGINS = {
   height: ['marginTop', 'marginBottom'],
@@ -32903,10 +32883,10 @@ const Collapse = /*#__PURE__*/_react.default.forwardRef(({
 });
 
 // @ts-ignore
-var _default = Collapse;
-exports.default = _default;
+var _default = exports.default = Collapse;
 },{"classnames":"../node_modules/classnames/index.js","dom-helpers/css":"../node_modules/dom-helpers/esm/css.js","react":"../node_modules/react/index.js","react-transition-group/Transition":"../node_modules/react-transition-group/esm/Transition.js","./transitionEndListener":"../node_modules/react-bootstrap/esm/transitionEndListener.js","./createChainedFunction":"../node_modules/react-bootstrap/esm/createChainedFunction.js","./triggerBrowserReflow":"../node_modules/react-bootstrap/esm/triggerBrowserReflow.js","./TransitionWrapper":"../node_modules/react-bootstrap/esm/TransitionWrapper.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AccordionContext.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -32914,30 +32894,31 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 exports.isAccordionItemSelected = isAccordionItemSelected;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function isAccordionItemSelected(activeEventKey, eventKey) {
   return Array.isArray(activeEventKey) ? activeEventKey.includes(eventKey) : activeEventKey === eventKey;
 }
 const context = /*#__PURE__*/React.createContext({});
 context.displayName = 'AccordionContext';
-var _default = context;
-exports.default = _default;
+var _default = exports.default = context;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/AccordionCollapse.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _Collapse = _interopRequireDefault(require("./Collapse"));
 var _AccordionContext = _interopRequireWildcard(require("./AccordionContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /**
  * This component accepts all of [`Collapse`'s props](/docs/utilities/transitions#collapse-1).
@@ -32952,7 +32933,7 @@ const AccordionCollapse = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     activeEventKey
-  } = (0, React.useContext)(_AccordionContext.default);
+  } = (0, _react.useContext)(_AccordionContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'accordion-collapse');
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Collapse.default, {
     ref: ref,
@@ -32965,39 +32946,40 @@ const AccordionCollapse = /*#__PURE__*/React.forwardRef(({
   });
 });
 AccordionCollapse.displayName = 'AccordionCollapse';
-var _default = AccordionCollapse;
-exports.default = _default;
+var _default = exports.default = AccordionCollapse;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Collapse":"../node_modules/react-bootstrap/esm/Collapse.js","./AccordionContext":"../node_modules/react-bootstrap/esm/AccordionContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AccordionItemContext.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const context = /*#__PURE__*/React.createContext({
   eventKey: ''
 });
 context.displayName = 'AccordionItemContext';
-var _default = context;
-exports.default = _default;
+var _default = exports.default = context;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/AccordionBody.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _AccordionCollapse = _interopRequireDefault(require("./AccordionCollapse"));
 var _AccordionItemContext = _interopRequireDefault(require("./AccordionItemContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const AccordionBody = /*#__PURE__*/React.forwardRef(({
   // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -33015,7 +32997,7 @@ const AccordionBody = /*#__PURE__*/React.forwardRef(({
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'accordion-body');
   const {
     eventKey
-  } = (0, React.useContext)(_AccordionItemContext.default);
+  } = (0, _react.useContext)(_AccordionItemContext.default);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_AccordionCollapse.default, {
     eventKey: eventKey,
     onEnter: onEnter,
@@ -33032,31 +33014,32 @@ const AccordionBody = /*#__PURE__*/React.forwardRef(({
   });
 });
 AccordionBody.displayName = 'AccordionBody';
-var _default = AccordionBody;
-exports.default = _default;
+var _default = exports.default = AccordionBody;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AccordionCollapse":"../node_modules/react-bootstrap/esm/AccordionCollapse.js","./AccordionItemContext":"../node_modules/react-bootstrap/esm/AccordionItemContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AccordionButton.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 exports.useAccordionButton = useAccordionButton;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _classnames = _interopRequireDefault(require("classnames"));
 var _AccordionContext = _interopRequireWildcard(require("./AccordionContext"));
 var _AccordionItemContext = _interopRequireDefault(require("./AccordionItemContext"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function useAccordionButton(eventKey, onClick) {
   const {
     activeEventKey,
     onSelect,
     alwaysOpen
-  } = (0, React.useContext)(_AccordionContext.default);
+  } = (0, _react.useContext)(_AccordionContext.default);
   return e => {
     /*
       Compare the event key in context with the given event key.
@@ -33090,11 +33073,11 @@ const AccordionButton = /*#__PURE__*/React.forwardRef(({
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'accordion-button');
   const {
     eventKey
-  } = (0, React.useContext)(_AccordionItemContext.default);
+  } = (0, _react.useContext)(_AccordionItemContext.default);
   const accordionOnClick = useAccordionButton(eventKey, onClick);
   const {
     activeEventKey
-  } = (0, React.useContext)(_AccordionContext.default);
+  } = (0, _react.useContext)(_AccordionContext.default);
   if (Component === 'button') {
     props.type = 'button';
   }
@@ -33107,10 +33090,10 @@ const AccordionButton = /*#__PURE__*/React.forwardRef(({
   });
 });
 AccordionButton.displayName = 'AccordionButton';
-var _default = AccordionButton;
-exports.default = _default;
+var _default = exports.default = AccordionButton;
 },{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./AccordionContext":"../node_modules/react-bootstrap/esm/AccordionContext.js","./AccordionItemContext":"../node_modules/react-bootstrap/esm/AccordionItemContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AccordionHeader.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -33121,8 +33104,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _AccordionButton = _interopRequireDefault(require("./AccordionButton"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const AccordionHeader = /*#__PURE__*/React.forwardRef(({
   // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -33145,22 +33128,23 @@ const AccordionHeader = /*#__PURE__*/React.forwardRef(({
   });
 });
 AccordionHeader.displayName = 'AccordionHeader';
-var _default = AccordionHeader;
-exports.default = _default;
+var _default = exports.default = AccordionHeader;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AccordionButton":"../node_modules/react-bootstrap/esm/AccordionButton.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AccordionItem.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _AccordionItemContext = _interopRequireDefault(require("./AccordionItemContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const AccordionItem = /*#__PURE__*/React.forwardRef(({
   // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -33171,7 +33155,7 @@ const AccordionItem = /*#__PURE__*/React.forwardRef(({
   ...props
 }, ref) => {
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'accordion-item');
-  const contextValue = (0, React.useMemo)(() => ({
+  const contextValue = (0, _react.useMemo)(() => ({
     eventKey
   }), [eventKey]);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_AccordionItemContext.default.Provider, {
@@ -33184,17 +33168,18 @@ const AccordionItem = /*#__PURE__*/React.forwardRef(({
   });
 });
 AccordionItem.displayName = 'AccordionItem';
-var _default = AccordionItem;
-exports.default = _default;
+var _default = exports.default = AccordionItem;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AccordionItemContext":"../node_modules/react-bootstrap/esm/AccordionItemContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Accordion.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _uncontrollable = require("uncontrollable");
 var _ThemeProvider = require("./ThemeProvider");
 var _AccordionBody = _interopRequireDefault(require("./AccordionBody"));
@@ -33204,8 +33189,8 @@ var _AccordionContext = _interopRequireDefault(require("./AccordionContext"));
 var _AccordionHeader = _interopRequireDefault(require("./AccordionHeader"));
 var _AccordionItem = _interopRequireDefault(require("./AccordionItem"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Accordion = /*#__PURE__*/React.forwardRef((props, ref) => {
   const {
@@ -33222,7 +33207,7 @@ const Accordion = /*#__PURE__*/React.forwardRef((props, ref) => {
     activeKey: 'onSelect'
   });
   const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'accordion');
-  const contextValue = (0, React.useMemo)(() => ({
+  const contextValue = (0, _react.useMemo)(() => ({
     activeEventKey: activeKey,
     onSelect,
     alwaysOpen
@@ -33237,14 +33222,13 @@ const Accordion = /*#__PURE__*/React.forwardRef((props, ref) => {
   });
 });
 Accordion.displayName = 'Accordion';
-var _default = Object.assign(Accordion, {
+var _default = exports.default = Object.assign(Accordion, {
   Button: _AccordionButton.default,
   Collapse: _AccordionCollapse.default,
   Item: _AccordionItem.default,
   Header: _AccordionHeader.default,
   Body: _AccordionBody.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AccordionBody":"../node_modules/react-bootstrap/esm/AccordionBody.js","./AccordionButton":"../node_modules/react-bootstrap/esm/AccordionButton.js","./AccordionCollapse":"../node_modules/react-bootstrap/esm/AccordionCollapse.js","./AccordionContext":"../node_modules/react-bootstrap/esm/AccordionContext.js","./AccordionHeader":"../node_modules/react-bootstrap/esm/AccordionHeader.js","./AccordionItem":"../node_modules/react-bootstrap/esm/AccordionItem.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/hooks/esm/useCommittedRef.js":[function(require,module,exports) {
 "use strict";
 
@@ -33269,8 +33253,7 @@ function useCommittedRef(value) {
   }, [value]);
   return ref;
 }
-var _default = useCommittedRef;
-exports.default = _default;
+var _default = exports.default = useCommittedRef;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/hooks/esm/useEventCallback.js":[function(require,module,exports) {
 "use strict";
 
@@ -33287,7 +33270,59 @@ function useEventCallback(fn) {
     return ref.current && ref.current(...args);
   }, [ref]);
 }
-},{"react":"../node_modules/react/index.js","./useCommittedRef":"../node_modules/@restart/hooks/esm/useCommittedRef.js"}],"../node_modules/@restart/hooks/esm/useCallbackRef.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","./useCommittedRef":"../node_modules/@restart/hooks/esm/useCommittedRef.js"}],"../node_modules/react-bootstrap/esm/divWithClassName.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+var _default = className => /*#__PURE__*/React.forwardRef((p, ref) => /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
+  ...p,
+  ref: ref,
+  className: (0, _classnames.default)(p.className, className)
+}));
+exports.default = _default;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AlertHeading.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DivStyledAsH4 = (0, _divWithClassName.default)('h4');
+DivStyledAsH4.displayName = 'DivStyledAsH4';
+const AlertHeading = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = DivStyledAsH4,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'alert-heading');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+AlertHeading.displayName = 'AlertHeading';
+var _default = exports.default = AlertHeading;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/hooks/esm/useCallbackRef.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33470,8 +33505,7 @@ function useInterval(fn, ms, paused = false, runImmediately = false) {
     return () => clearTimeout(handle);
   }, [paused, runImmediately]);
 }
-var _default = useInterval;
-exports.default = _default;
+var _default = exports.default = useInterval;
 },{"react":"../node_modules/react/index.js","./useCommittedRef":"../node_modules/@restart/hooks/esm/useCommittedRef.js"}],"../node_modules/@restart/hooks/esm/useRafInterval.js":[function(require,module,exports) {
 "use strict";
 
@@ -33505,8 +33539,7 @@ function useRafInterval(fn, ms, paused = false) {
     return () => cancelAnimationFrame(handle);
   }, []);
 }
-var _default = useRafInterval;
-exports.default = _default;
+var _default = exports.default = useRafInterval;
 },{"react":"../node_modules/react/index.js","./useCommittedRef":"../node_modules/@restart/hooks/esm/useCommittedRef.js"}],"../node_modules/@restart/hooks/esm/useMergeState.js":[function(require,module,exports) {
 "use strict";
 
@@ -33734,8 +33767,7 @@ const isDOM = typeof document !== 'undefined';
  *
  * @category effects
  */
-var _default = isDOM || isReactNative ? _react.useLayoutEffect : _react.useEffect;
-exports.default = _default;
+var _default = exports.default = isDOM || isReactNative ? _react.useLayoutEffect : _react.useEffect;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/hooks/esm/useResizeObserver.js":[function(require,module,exports) {
 "use strict";
 
@@ -33900,8 +33932,8 @@ exports.isTrivialHref = isTrivialHref;
 exports.useButtonProps = useButtonProps;
 var React = _interopRequireWildcard(require("react"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const _excluded = ["as", "disabled"];
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -33999,8 +34031,7 @@ const Button = /*#__PURE__*/React.forwardRef((_ref, ref) => {
   }));
 });
 Button.displayName = 'Button';
-var _default = Button;
-exports.default = _default;
+var _default = exports.default = Button;
 },{"react":"../node_modules/react/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/Anchor.js":[function(require,module,exports) {
 "use strict";
 
@@ -34013,8 +34044,8 @@ var React = _interopRequireWildcard(require("react"));
 var _hooks = require("@restart/hooks");
 var _Button = require("./Button");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const _excluded = ["onKeyDown"];
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -34063,9 +34094,39 @@ const Anchor = /*#__PURE__*/React.forwardRef((_ref, ref) => {
   }));
 });
 Anchor.displayName = 'Anchor';
-var _default = Anchor;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js","@restart/hooks":"../node_modules/@restart/hooks/esm/index.js","./Button":"../node_modules/@restart/ui/esm/Button.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Fade.js":[function(require,module,exports) {
+var _default = exports.default = Anchor;
+},{"react":"../node_modules/react/index.js","@restart/hooks":"../node_modules/@restart/hooks/esm/index.js","./Button":"../node_modules/@restart/ui/esm/Button.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AlertLink.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const AlertLink = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = _Anchor.default,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'alert-link');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+AlertLink.displayName = 'AlertLink';
+var _default = exports.default = AlertLink;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Fade.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34073,14 +34134,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Transition = require("react-transition-group/Transition");
 var _transitionEndListener = _interopRequireDefault(require("./transitionEndListener"));
 var _triggerBrowserReflow = _interopRequireDefault(require("./triggerBrowserReflow"));
 var _TransitionWrapper = _interopRequireDefault(require("./TransitionWrapper"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const fadeStyles = {
   [_Transition.ENTERING]: 'show',
@@ -34101,7 +34163,7 @@ const Fade = /*#__PURE__*/React.forwardRef(({
     appear: false,
     ...rest
   };
-  const handleEnter = (0, React.useCallback)((node, isAppearing) => {
+  const handleEnter = (0, _react.useCallback)((node, isAppearing) => {
     (0, _triggerBrowserReflow.default)(node);
     onEnter == null ? void 0 : onEnter(node, isAppearing);
   }, [onEnter]);
@@ -34118,8 +34180,7 @@ const Fade = /*#__PURE__*/React.forwardRef(({
   });
 });
 Fade.displayName = 'Fade';
-var _default = Fade;
-exports.default = _default;
+var _default = exports.default = Fade;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","react-transition-group/Transition":"../node_modules/react-transition-group/esm/Transition.js","./transitionEndListener":"../node_modules/react-bootstrap/esm/transitionEndListener.js","./triggerBrowserReflow":"../node_modules/react-bootstrap/esm/triggerBrowserReflow.js","./TransitionWrapper":"../node_modules/react-bootstrap/esm/TransitionWrapper.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CloseButton.js":[function(require,module,exports) {
 "use strict";
 
@@ -34131,8 +34192,8 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 var React = _interopRequireWildcard(require("react"));
 var _classnames = _interopRequireDefault(require("classnames"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const propTypes = {
   /** An accessible label indicating the relevant information about the Close Button. */
@@ -34160,84 +34221,10 @@ const CloseButton = /*#__PURE__*/React.forwardRef(({
 }));
 CloseButton.displayName = 'CloseButton';
 CloseButton.propTypes = propTypes;
-var _default = CloseButton;
-exports.default = _default;
-},{"prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/divWithClassName.js":[function(require,module,exports) {
+var _default = exports.default = CloseButton;
+},{"prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Alert.js":[function(require,module,exports) {
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var React = _interopRequireWildcard(require("react"));
-var _classnames = _interopRequireDefault(require("classnames"));
-var _jsxRuntime = require("react/jsx-runtime");
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-var _default = className => /*#__PURE__*/React.forwardRef((p, ref) => /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
-  ...p,
-  ref: ref,
-  className: (0, _classnames.default)(p.className, className)
-}));
-exports.default = _default;
-},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/dom-helpers/esm/camelize.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = camelize;
-var rHyphen = /-(.)/g;
-function camelize(string) {
-  return string.replace(rHyphen, function (_, chr) {
-    return chr.toUpperCase();
-  });
-}
-},{}],"../node_modules/react-bootstrap/esm/createWithBsPrefix.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = createWithBsPrefix;
-var _classnames = _interopRequireDefault(require("classnames"));
-var _camelize = _interopRequireDefault(require("dom-helpers/camelize"));
-var React = _interopRequireWildcard(require("react"));
-var _ThemeProvider = require("./ThemeProvider");
-var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const pascalCase = str => str[0].toUpperCase() + (0, _camelize.default)(str).slice(1);
-// TODO: emstricten & fix the typing here! `createWithBsPrefix<TElementType>...`
-function createWithBsPrefix(prefix, {
-  displayName = pascalCase(prefix),
-  Component,
-  defaultProps
-} = {}) {
-  const BsComponent = /*#__PURE__*/React.forwardRef(({
-    className,
-    bsPrefix,
-    as: Tag = Component || 'div',
-    ...props
-  }, ref) => {
-    const componentProps = {
-      ...defaultProps,
-      ...props
-    };
-    const resolvedPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, prefix);
-    return /*#__PURE__*/(0, _jsxRuntime.jsx)(Tag, {
-      ref: ref,
-      className: (0, _classnames.default)(className, resolvedPrefix),
-      ...componentProps
-    });
-  });
-  BsComponent.displayName = displayName;
-  return BsComponent;
-}
-},{"classnames":"../node_modules/classnames/index.js","dom-helpers/camelize":"../node_modules/dom-helpers/esm/camelize.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Alert.js":[function(require,module,exports) {
-"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34247,24 +34234,15 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _uncontrollable = require("uncontrollable");
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
-var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
 var _ThemeProvider = require("./ThemeProvider");
+var _AlertHeading = _interopRequireDefault(require("./AlertHeading"));
+var _AlertLink = _interopRequireDefault(require("./AlertLink"));
 var _Fade = _interopRequireDefault(require("./Fade"));
 var _CloseButton = _interopRequireDefault(require("./CloseButton"));
-var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const DivStyledAsH4 = (0, _divWithClassName.default)('h4');
-DivStyledAsH4.displayName = 'DivStyledAsH4';
-const AlertHeading = (0, _createWithBsPrefix.default)('alert-heading', {
-  Component: DivStyledAsH4
-});
-const AlertLink = (0, _createWithBsPrefix.default)('alert-link', {
-  Component: _Anchor.default
-});
 const Alert = /*#__PURE__*/React.forwardRef((uncontrolledProps, ref) => {
   const {
     bsPrefix,
@@ -34309,12 +34287,11 @@ const Alert = /*#__PURE__*/React.forwardRef((uncontrolledProps, ref) => {
   });
 });
 Alert.displayName = 'Alert';
-var _default = Object.assign(Alert, {
-  Link: AlertLink,
-  Heading: AlertHeading
+var _default = exports.default = Object.assign(Alert, {
+  Link: _AlertLink.default,
+  Heading: _AlertHeading.default
 });
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./CloseButton":"../node_modules/react-bootstrap/esm/CloseButton.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Anchor.js":[function(require,module,exports) {
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AlertHeading":"../node_modules/react-bootstrap/esm/AlertHeading.js","./AlertLink":"../node_modules/react-bootstrap/esm/AlertLink.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./CloseButton":"../node_modules/react-bootstrap/esm/CloseButton.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Anchor.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34323,10 +34300,10 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = _Anchor.default;
-exports.default = _default;
+var _default = exports.default = _Anchor.default;
 },{"@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js"}],"../node_modules/react-bootstrap/esm/Badge.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34336,8 +34313,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Badge = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -34356,10 +34333,10 @@ const Badge = /*#__PURE__*/React.forwardRef(({
   });
 });
 Badge.displayName = 'Badge';
-var _default = Badge;
-exports.default = _default;
+var _default = exports.default = Badge;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/BreadcrumbItem.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34370,8 +34347,8 @@ var React = _interopRequireWildcard(require("react"));
 var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const BreadcrumbItem = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -34405,10 +34382,10 @@ const BreadcrumbItem = /*#__PURE__*/React.forwardRef(({
   });
 });
 BreadcrumbItem.displayName = 'BreadcrumbItem';
-var _default = BreadcrumbItem;
-exports.default = _default;
+var _default = exports.default = BreadcrumbItem;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Breadcrumb.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34419,8 +34396,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _BreadcrumbItem = _interopRequireDefault(require("./BreadcrumbItem"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Breadcrumb = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -34446,12 +34423,12 @@ const Breadcrumb = /*#__PURE__*/React.forwardRef(({
   });
 });
 Breadcrumb.displayName = 'Breadcrumb';
-var _default = Object.assign(Breadcrumb, {
+var _default = exports.default = Object.assign(Breadcrumb, {
   Item: _BreadcrumbItem.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./BreadcrumbItem":"../node_modules/react-bootstrap/esm/BreadcrumbItem.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Button.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34462,8 +34439,8 @@ var React = _interopRequireWildcard(require("react"));
 var _Button = require("@restart/ui/Button");
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Button = /*#__PURE__*/React.forwardRef(({
   as,
@@ -34493,10 +34470,10 @@ const Button = /*#__PURE__*/React.forwardRef(({
   });
 });
 Button.displayName = 'Button';
-var _default = Button;
-exports.default = _default;
+var _default = exports.default = Button;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/Button":"../node_modules/@restart/ui/esm/Button.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ButtonGroup.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34506,8 +34483,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ButtonGroup = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -34530,10 +34507,10 @@ const ButtonGroup = /*#__PURE__*/React.forwardRef(({
   });
 });
 ButtonGroup.displayName = 'ButtonGroup';
-var _default = ButtonGroup;
-exports.default = _default;
+var _default = exports.default = ButtonGroup;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ButtonToolbar.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34543,8 +34520,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ButtonToolbar = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -34561,10 +34538,123 @@ const ButtonToolbar = /*#__PURE__*/React.forwardRef(({
   });
 });
 ButtonToolbar.displayName = 'ButtonToolbar';
-var _default = ButtonToolbar;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardImg.js":[function(require,module,exports) {
+var _default = exports.default = ButtonToolbar;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardBody.js":[function(require,module,exports) {
 "use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CardBody = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-body');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardBody.displayName = 'CardBody';
+var _default = exports.default = CardBody;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardFooter.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CardFooter = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-footer');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardFooter.displayName = 'CardFooter';
+var _default = exports.default = CardFooter;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardHeaderContext.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const context = /*#__PURE__*/React.createContext(null);
+context.displayName = 'CardHeaderContext';
+var _default = exports.default = context;
+},{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/CardHeader.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
+var _ThemeProvider = require("./ThemeProvider");
+var _CardHeaderContext = _interopRequireDefault(require("./CardHeaderContext"));
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+const CardHeader = /*#__PURE__*/React.forwardRef(({
+  bsPrefix,
+  className,
+  // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-header');
+  const contextValue = (0, _react.useMemo)(() => ({
+    cardHeaderBsPrefix: prefix
+  }), [prefix]);
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_CardHeaderContext.default.Provider, {
+    value: contextValue,
+    children: /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+      ref: ref,
+      ...props,
+      className: (0, _classnames.default)(className, prefix)
+    })
+  });
+});
+CardHeader.displayName = 'CardHeader';
+var _default = exports.default = CardHeader;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./CardHeaderContext":"../node_modules/react-bootstrap/esm/CardHeaderContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardImg.js":[function(require,module,exports) {
+"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34574,8 +34664,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const CardImg = /*#__PURE__*/React.forwardRef(
 // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -34594,62 +34684,164 @@ const CardImg = /*#__PURE__*/React.forwardRef(
   });
 });
 CardImg.displayName = 'CardImg';
-var _default = CardImg;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardHeaderContext.js":[function(require,module,exports) {
+var _default = exports.default = CardImg;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardImgOverlay.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-const context = /*#__PURE__*/React.createContext(null);
-context.displayName = 'CardHeaderContext';
-var _default = context;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/CardHeader.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
-var _CardHeaderContext = _interopRequireDefault(require("./CardHeaderContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const CardHeader = /*#__PURE__*/React.forwardRef(({
-  bsPrefix,
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CardImgOverlay = /*#__PURE__*/React.forwardRef(({
   className,
-  // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+  bsPrefix,
   as: Component = 'div',
   ...props
 }, ref) => {
-  const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-header');
-  const contextValue = (0, React.useMemo)(() => ({
-    cardHeaderBsPrefix: prefix
-  }), [prefix]);
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_CardHeaderContext.default.Provider, {
-    value: contextValue,
-    children: /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
-      ref: ref,
-      ...props,
-      className: (0, _classnames.default)(className, prefix)
-    })
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-img-overlay');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
   });
 });
-CardHeader.displayName = 'CardHeader';
-var _default = CardHeader;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./CardHeaderContext":"../node_modules/react-bootstrap/esm/CardHeaderContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Card.js":[function(require,module,exports) {
+CardImgOverlay.displayName = 'CardImgOverlay';
+var _default = exports.default = CardImgOverlay;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardLink.js":[function(require,module,exports) {
 "use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CardLink = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'a',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-link');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardLink.displayName = 'CardLink';
+var _default = exports.default = CardLink;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardSubtitle.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DivStyledAsH6 = (0, _divWithClassName.default)('h6');
+const CardSubtitle = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = DivStyledAsH6,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-subtitle');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardSubtitle.displayName = 'CardSubtitle';
+var _default = exports.default = CardSubtitle;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardText.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CardText = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'p',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-text');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardText.displayName = 'CardText';
+var _default = exports.default = CardText;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardTitle.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DivStyledAsH5 = (0, _divWithClassName.default)('h5');
+const CardTitle = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = DivStyledAsH5,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-title');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardTitle.displayName = 'CardTitle';
+var _default = exports.default = CardTitle;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Card.js":[function(require,module,exports) {
+"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34658,31 +34850,19 @@ exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
-var _CardImg = _interopRequireDefault(require("./CardImg"));
+var _CardBody = _interopRequireDefault(require("./CardBody"));
+var _CardFooter = _interopRequireDefault(require("./CardFooter"));
 var _CardHeader = _interopRequireDefault(require("./CardHeader"));
+var _CardImg = _interopRequireDefault(require("./CardImg"));
+var _CardImgOverlay = _interopRequireDefault(require("./CardImgOverlay"));
+var _CardLink = _interopRequireDefault(require("./CardLink"));
+var _CardSubtitle = _interopRequireDefault(require("./CardSubtitle"));
+var _CardText = _interopRequireDefault(require("./CardText"));
+var _CardTitle = _interopRequireDefault(require("./CardTitle"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const DivStyledAsH5 = (0, _divWithClassName.default)('h5');
-const DivStyledAsH6 = (0, _divWithClassName.default)('h6');
-const CardBody = (0, _createWithBsPrefix.default)('card-body');
-const CardTitle = (0, _createWithBsPrefix.default)('card-title', {
-  Component: DivStyledAsH5
-});
-const CardSubtitle = (0, _createWithBsPrefix.default)('card-subtitle', {
-  Component: DivStyledAsH6
-});
-const CardLink = (0, _createWithBsPrefix.default)('card-link', {
-  Component: 'a'
-});
-const CardText = (0, _createWithBsPrefix.default)('card-text', {
-  Component: 'p'
-});
-const CardFooter = (0, _createWithBsPrefix.default)('card-footer');
-const CardImgOverlay = (0, _createWithBsPrefix.default)('card-img-overlay');
 const Card = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
   className,
@@ -34700,36 +34880,54 @@ const Card = /*#__PURE__*/React.forwardRef(({
     ref: ref,
     ...props,
     className: (0, _classnames.default)(className, prefix, bg && `bg-${bg}`, text && `text-${text}`, border && `border-${border}`),
-    children: body ? /*#__PURE__*/(0, _jsxRuntime.jsx)(CardBody, {
+    children: body ? /*#__PURE__*/(0, _jsxRuntime.jsx)(_CardBody.default, {
       children: children
     }) : children
   });
 });
 Card.displayName = 'Card';
-var _default = Object.assign(Card, {
+var _default = exports.default = Object.assign(Card, {
   Img: _CardImg.default,
-  Title: CardTitle,
-  Subtitle: CardSubtitle,
-  Body: CardBody,
-  Link: CardLink,
-  Text: CardText,
+  Title: _CardTitle.default,
+  Subtitle: _CardSubtitle.default,
+  Body: _CardBody.default,
+  Link: _CardLink.default,
+  Text: _CardText.default,
   Header: _CardHeader.default,
-  Footer: CardFooter,
-  ImgOverlay: CardImgOverlay
+  Footer: _CardFooter.default,
+  ImgOverlay: _CardImgOverlay.default
 });
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","./CardImg":"../node_modules/react-bootstrap/esm/CardImg.js","./CardHeader":"../node_modules/react-bootstrap/esm/CardHeader.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardGroup.js":[function(require,module,exports) {
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./CardBody":"../node_modules/react-bootstrap/esm/CardBody.js","./CardFooter":"../node_modules/react-bootstrap/esm/CardFooter.js","./CardHeader":"../node_modules/react-bootstrap/esm/CardHeader.js","./CardImg":"../node_modules/react-bootstrap/esm/CardImg.js","./CardImgOverlay":"../node_modules/react-bootstrap/esm/CardImgOverlay.js","./CardLink":"../node_modules/react-bootstrap/esm/CardLink.js","./CardSubtitle":"../node_modules/react-bootstrap/esm/CardSubtitle.js","./CardText":"../node_modules/react-bootstrap/esm/CardText.js","./CardTitle":"../node_modules/react-bootstrap/esm/CardTitle.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CardGroup.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('card-group');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/@restart/hooks/esm/useUpdateEffect.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CardGroup = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'card-group');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CardGroup.displayName = 'CardGroup';
+var _default = exports.default = CardGroup;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/hooks/esm/useUpdateEffect.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34767,8 +34965,7 @@ function useUpdateEffect(fn, deps) {
     return fn();
   }, deps);
 }
-var _default = useUpdateEffect;
-exports.default = _default;
+var _default = exports.default = useUpdateEffect;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/hooks/esm/useUpdatedRef.js":[function(require,module,exports) {
 "use strict";
 
@@ -34877,17 +35074,37 @@ function useTimeout() {
 }
 },{"react":"../node_modules/react/index.js","./useMounted":"../node_modules/@restart/hooks/esm/useMounted.js","./useWillUnmount":"../node_modules/@restart/hooks/esm/useWillUnmount.js"}],"../node_modules/react-bootstrap/esm/CarouselCaption.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('carousel-caption');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/CarouselItem.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const CarouselCaption = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'carousel-caption');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+CarouselCaption.displayName = 'CarouselCaption';
+var _default = exports.default = CarouselCaption;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/CarouselItem.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34897,8 +35114,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const CarouselItem = /*#__PURE__*/React.forwardRef(({
   // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -34915,8 +35132,7 @@ const CarouselItem = /*#__PURE__*/React.forwardRef(({
   });
 });
 CarouselItem.displayName = 'CarouselItem';
-var _default = CarouselItem;
-exports.default = _default;
+var _default = exports.default = CarouselItem;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ElementChildren.js":[function(require,module,exports) {
 "use strict";
 
@@ -34927,8 +35143,8 @@ exports.forEach = forEach;
 exports.hasChildOfType = hasChildOfType;
 exports.map = map;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 /**
  * Iterates through children that are typically specified as `props.children`,
  * but only maps over children that are "valid elements".
@@ -34964,6 +35180,7 @@ function hasChildOfType(children, type) {
 }
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/Carousel.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -34975,7 +35192,8 @@ var _useCommittedRef = _interopRequireDefault(require("@restart/hooks/useCommitt
 var _useTimeout = _interopRequireDefault(require("@restart/hooks/useTimeout"));
 var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _uncontrollable = require("uncontrollable");
 var _CarouselCaption = _interopRequireDefault(require("./CarouselCaption"));
 var _CarouselItem = _interopRequireDefault(require("./CarouselItem"));
@@ -34985,8 +35203,8 @@ var _transitionEndListener = _interopRequireDefault(require("./transitionEndList
 var _triggerBrowserReflow = _interopRequireDefault(require("./triggerBrowserReflow"));
 var _TransitionWrapper = _interopRequireDefault(require("./TransitionWrapper"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const SWIPE_THRESHOLD = 40;
 function isVisible(element) {
@@ -35046,12 +35264,12 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
   });
   const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'carousel');
   const isRTL = (0, _ThemeProvider.useIsRTL)();
-  const nextDirectionRef = (0, React.useRef)(null);
-  const [direction, setDirection] = (0, React.useState)('next');
-  const [paused, setPaused] = (0, React.useState)(false);
-  const [isSliding, setIsSliding] = (0, React.useState)(false);
-  const [renderedActiveIndex, setRenderedActiveIndex] = (0, React.useState)(activeIndex || 0);
-  (0, React.useEffect)(() => {
+  const nextDirectionRef = (0, _react.useRef)(null);
+  const [direction, setDirection] = (0, _react.useState)('next');
+  const [paused, setPaused] = (0, _react.useState)(false);
+  const [isSliding, setIsSliding] = (0, _react.useState)(false);
+  const [renderedActiveIndex, setRenderedActiveIndex] = (0, _react.useState)(activeIndex || 0);
+  (0, _react.useEffect)(() => {
     if (!isSliding && activeIndex !== renderedActiveIndex) {
       if (nextDirectionRef.current) {
         setDirection(nextDirectionRef.current);
@@ -35064,7 +35282,7 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
       setRenderedActiveIndex(activeIndex || 0);
     }
   }, [activeIndex, isSliding, renderedActiveIndex, slide]);
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     if (nextDirectionRef.current) {
       nextDirectionRef.current = null;
     }
@@ -35081,7 +35299,7 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
     }
   });
   const activeChildIntervalRef = (0, _useCommittedRef.default)(activeChildInterval);
-  const prev = (0, React.useCallback)(event => {
+  const prev = (0, _react.useCallback)(event => {
     if (isSliding) {
       return;
     }
@@ -35111,8 +35329,8 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
     nextDirectionRef.current = 'next';
     onSelect == null ? void 0 : onSelect(nextActiveIndex, event);
   });
-  const elementRef = (0, React.useRef)();
-  (0, React.useImperativeHandle)(ref, () => ({
+  const elementRef = (0, _react.useRef)();
+  (0, _react.useImperativeHandle)(ref, () => ({
     element: elementRef.current,
     prev,
     next
@@ -35139,15 +35357,15 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
   }, [renderedActiveIndex]);
   const orderClassName = `${prefix}-item-${direction}`;
   const directionalClassName = `${prefix}-item-${slideDirection}`;
-  const handleEnter = (0, React.useCallback)(node => {
+  const handleEnter = (0, _react.useCallback)(node => {
     (0, _triggerBrowserReflow.default)(node);
     onSlide == null ? void 0 : onSlide(renderedActiveIndex, slideDirection);
   }, [onSlide, renderedActiveIndex, slideDirection]);
-  const handleEntered = (0, React.useCallback)(() => {
+  const handleEntered = (0, _react.useCallback)(() => {
     setIsSliding(false);
     onSlid == null ? void 0 : onSlid(renderedActiveIndex, slideDirection);
   }, [onSlid, renderedActiveIndex, slideDirection]);
-  const handleKeyDown = (0, React.useCallback)(event => {
+  const handleKeyDown = (0, _react.useCallback)(event => {
     if (keyboard && !/input|textarea/i.test(event.target.tagName)) {
       switch (event.key) {
         case 'ArrowLeft':
@@ -35171,20 +35389,20 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
     }
     onKeyDown == null ? void 0 : onKeyDown(event);
   }, [keyboard, onKeyDown, prev, next, isRTL]);
-  const handleMouseOver = (0, React.useCallback)(event => {
+  const handleMouseOver = (0, _react.useCallback)(event => {
     if (pause === 'hover') {
       setPaused(true);
     }
     onMouseOver == null ? void 0 : onMouseOver(event);
   }, [pause, onMouseOver]);
-  const handleMouseOut = (0, React.useCallback)(event => {
+  const handleMouseOut = (0, _react.useCallback)(event => {
     setPaused(false);
     onMouseOut == null ? void 0 : onMouseOut(event);
   }, [onMouseOut]);
-  const touchStartXRef = (0, React.useRef)(0);
-  const touchDeltaXRef = (0, React.useRef)(0);
+  const touchStartXRef = (0, _react.useRef)(0);
+  const touchDeltaXRef = (0, _react.useRef)(0);
   const touchUnpauseTimeout = (0, _useTimeout.default)();
-  const handleTouchStart = (0, React.useCallback)(event => {
+  const handleTouchStart = (0, _react.useCallback)(event => {
     touchStartXRef.current = event.touches[0].clientX;
     touchDeltaXRef.current = 0;
     if (pause === 'hover') {
@@ -35192,7 +35410,7 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
     }
     onTouchStart == null ? void 0 : onTouchStart(event);
   }, [pause, onTouchStart]);
-  const handleTouchMove = (0, React.useCallback)(event => {
+  const handleTouchMove = (0, _react.useCallback)(event => {
     if (event.touches && event.touches.length > 1) {
       touchDeltaXRef.current = 0;
     } else {
@@ -35200,7 +35418,7 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
     }
     onTouchMove == null ? void 0 : onTouchMove(event);
   }, [onTouchMove]);
-  const handleTouchEnd = (0, React.useCallback)(event => {
+  const handleTouchEnd = (0, _react.useCallback)(event => {
     if (touch) {
       const touchDeltaX = touchDeltaXRef.current;
       if (Math.abs(touchDeltaX) > SWIPE_THRESHOLD) {
@@ -35219,8 +35437,8 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
     onTouchEnd == null ? void 0 : onTouchEnd(event);
   }, [touch, pause, prev, next, touchUnpauseTimeout, interval, onTouchEnd]);
   const shouldPlay = interval != null && !paused && !isSliding;
-  const intervalHandleRef = (0, React.useRef)();
-  (0, React.useEffect)(() => {
+  const intervalHandleRef = (0, _react.useRef)();
+  (0, _react.useEffect)(() => {
     var _ref, _activeChildIntervalR;
     if (!shouldPlay) {
       return undefined;
@@ -35233,7 +35451,7 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
       }
     };
   }, [shouldPlay, prev, next, activeChildIntervalRef, interval, nextWhenVisible, isRTL]);
-  const indicatorOnClicks = (0, React.useMemo)(() => indicators && Array.from({
+  const indicatorOnClicks = (0, _react.useMemo)(() => indicators && Array.from({
     length: numChildren
   }, (_, index) => event => {
     onSelect == null ? void 0 : onSelect(index, event);
@@ -35297,13 +35515,13 @@ const Carousel = /*#__PURE__*/React.forwardRef(({
   });
 });
 Carousel.displayName = 'Carousel';
-var _default = Object.assign(Carousel, {
+var _default = exports.default = Object.assign(Carousel, {
   Caption: _CarouselCaption.default,
   Item: _CarouselItem.default
 });
-exports.default = _default;
 },{"@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","@restart/hooks/useUpdateEffect":"../node_modules/@restart/hooks/esm/useUpdateEffect.js","@restart/hooks/useCommittedRef":"../node_modules/@restart/hooks/esm/useCommittedRef.js","@restart/hooks/useTimeout":"../node_modules/@restart/hooks/esm/useTimeout.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","./CarouselCaption":"../node_modules/react-bootstrap/esm/CarouselCaption.js","./CarouselItem":"../node_modules/react-bootstrap/esm/CarouselItem.js","./ElementChildren":"../node_modules/react-bootstrap/esm/ElementChildren.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./transitionEndListener":"../node_modules/react-bootstrap/esm/transitionEndListener.js","./triggerBrowserReflow":"../node_modules/react-bootstrap/esm/triggerBrowserReflow.js","./TransitionWrapper":"../node_modules/react-bootstrap/esm/TransitionWrapper.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Col.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -35314,8 +35532,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function useCol({
   as,
@@ -35375,8 +35593,40 @@ const Col = /*#__PURE__*/React.forwardRef(
   });
 });
 Col.displayName = 'Col';
-var _default = Col;
-exports.default = _default;
+var _default = exports.default = Col;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Container.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+const Container = /*#__PURE__*/React.forwardRef(({
+  bsPrefix,
+  fluid = false,
+  // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+  as: Component = 'div',
+  className,
+  ...props
+}, ref) => {
+  const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'container');
+  const suffix = typeof fluid === 'string' ? `-${fluid}` : '-fluid';
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    ...props,
+    className: (0, _classnames.default)(className, fluid ? `${prefix}${suffix}` : prefix)
+  });
+});
+Container.displayName = 'Container';
+var _default = exports.default = Container;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/dom-helpers/esm/querySelectorAll.js":[function(require,module,exports) {
 "use strict";
 
@@ -35510,11 +35760,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const DropdownContext = /*#__PURE__*/React.createContext(null);
-var _default = DropdownContext;
-exports.default = _default;
+var _default = exports.default = DropdownContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/dequal/dist/index.mjs":[function(require,module,exports) {
 "use strict";
 
@@ -35522,7 +35771,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.dequal = dequal;
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 var has = Object.prototype.hasOwnProperty;
 function find(iter, tar, key) {
   for (key of iter.keys()) {
@@ -35626,8 +35875,7 @@ function useSafeState(state) {
     return state[1](nextState);
   }, [isMounted, state[1]])];
 }
-var _default = useSafeState;
-exports.default = _default;
+var _default = exports.default = useSafeState;
 },{"react":"../node_modules/react/index.js","./useMounted":"../node_modules/@restart/hooks/esm/useMounted.js"}],"../node_modules/@popperjs/core/lib/enums.js":[function(require,module,exports) {
 "use strict";
 
@@ -35635,58 +35883,37 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.write = exports.viewport = exports.variationPlacements = exports.top = exports.start = exports.right = exports.reference = exports.read = exports.popper = exports.placements = exports.modifierPhases = exports.main = exports.left = exports.end = exports.clippingParents = exports.bottom = exports.beforeWrite = exports.beforeRead = exports.beforeMain = exports.basePlacements = exports.auto = exports.afterWrite = exports.afterRead = exports.afterMain = void 0;
-var top = 'top';
-exports.top = top;
-var bottom = 'bottom';
-exports.bottom = bottom;
-var right = 'right';
-exports.right = right;
-var left = 'left';
-exports.left = left;
-var auto = 'auto';
-exports.auto = auto;
-var basePlacements = [top, bottom, right, left];
-exports.basePlacements = basePlacements;
-var start = 'start';
-exports.start = start;
-var end = 'end';
-exports.end = end;
-var clippingParents = 'clippingParents';
-exports.clippingParents = clippingParents;
-var viewport = 'viewport';
-exports.viewport = viewport;
-var popper = 'popper';
-exports.popper = popper;
-var reference = 'reference';
-exports.reference = reference;
-var variationPlacements = /*#__PURE__*/basePlacements.reduce(function (acc, placement) {
+var top = exports.top = 'top';
+var bottom = exports.bottom = 'bottom';
+var right = exports.right = 'right';
+var left = exports.left = 'left';
+var auto = exports.auto = 'auto';
+var basePlacements = exports.basePlacements = [top, bottom, right, left];
+var start = exports.start = 'start';
+var end = exports.end = 'end';
+var clippingParents = exports.clippingParents = 'clippingParents';
+var viewport = exports.viewport = 'viewport';
+var popper = exports.popper = 'popper';
+var reference = exports.reference = 'reference';
+var variationPlacements = exports.variationPlacements = /*#__PURE__*/basePlacements.reduce(function (acc, placement) {
   return acc.concat([placement + "-" + start, placement + "-" + end]);
 }, []);
-exports.variationPlacements = variationPlacements;
-var placements = /*#__PURE__*/[].concat(basePlacements, [auto]).reduce(function (acc, placement) {
+var placements = exports.placements = /*#__PURE__*/[].concat(basePlacements, [auto]).reduce(function (acc, placement) {
   return acc.concat([placement, placement + "-" + start, placement + "-" + end]);
 }, []); // modifiers that need to read the DOM
-exports.placements = placements;
-var beforeRead = 'beforeRead';
-exports.beforeRead = beforeRead;
-var read = 'read';
-exports.read = read;
-var afterRead = 'afterRead'; // pure-logic modifiers
-exports.afterRead = afterRead;
-var beforeMain = 'beforeMain';
-exports.beforeMain = beforeMain;
-var main = 'main';
-exports.main = main;
-var afterMain = 'afterMain'; // modifier with the purpose to write to the DOM (or write into a framework state)
-exports.afterMain = afterMain;
-var beforeWrite = 'beforeWrite';
-exports.beforeWrite = beforeWrite;
-var write = 'write';
-exports.write = write;
-var afterWrite = 'afterWrite';
-exports.afterWrite = afterWrite;
-var modifierPhases = [beforeRead, read, afterRead, beforeMain, main, afterMain, beforeWrite, write, afterWrite];
-exports.modifierPhases = modifierPhases;
+
+var beforeRead = exports.beforeRead = 'beforeRead';
+var read = exports.read = 'read';
+var afterRead = exports.afterRead = 'afterRead'; // pure-logic modifiers
+
+var beforeMain = exports.beforeMain = 'beforeMain';
+var main = exports.main = 'main';
+var afterMain = exports.afterMain = 'afterMain'; // modifier with the purpose to write to the DOM (or write into a framework state)
+
+var beforeWrite = exports.beforeWrite = 'beforeWrite';
+var write = exports.write = 'write';
+var afterWrite = exports.afterWrite = 'afterWrite';
+var modifierPhases = exports.modifierPhases = [beforeRead, read, afterRead, beforeMain, main, afterMain, beforeWrite, write, afterWrite];
 },{}],"../node_modules/@popperjs/core/lib/utils/getBasePlacement.js":[function(require,module,exports) {
 "use strict";
 
@@ -35749,12 +35976,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.round = exports.min = exports.max = void 0;
-var max = Math.max;
-exports.max = max;
-var min = Math.min;
-exports.min = min;
-var round = Math.round;
-exports.round = round;
+var max = exports.max = Math.max;
+var min = exports.min = Math.min;
+var round = exports.round = Math.round;
 },{}],"../node_modules/@popperjs/core/lib/utils/userAgent.js":[function(require,module,exports) {
 "use strict";
 
@@ -36170,7 +36394,7 @@ function effect(_ref2) {
   }
   state.elements.arrow = arrowElement;
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'arrow',
   enabled: true,
   phase: 'main',
@@ -36179,7 +36403,6 @@ var _default = {
   requires: ['popperOffsets'],
   requiresIfExists: ['preventOverflow']
 };
-exports.default = _default;
 },{"../utils/getBasePlacement.js":"../node_modules/@popperjs/core/lib/utils/getBasePlacement.js","../dom-utils/getLayoutRect.js":"../node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js","../dom-utils/contains.js":"../node_modules/@popperjs/core/lib/dom-utils/contains.js","../dom-utils/getOffsetParent.js":"../node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js","../utils/getMainAxisFromPlacement.js":"../node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js","../utils/within.js":"../node_modules/@popperjs/core/lib/utils/within.js","../utils/mergePaddingObject.js":"../node_modules/@popperjs/core/lib/utils/mergePaddingObject.js","../utils/expandToHashMap.js":"../node_modules/@popperjs/core/lib/utils/expandToHashMap.js","../enums.js":"../node_modules/@popperjs/core/lib/enums.js"}],"../node_modules/@popperjs/core/lib/utils/getVariation.js":[function(require,module,exports) {
 "use strict";
 
@@ -36342,14 +36565,13 @@ function computeStyles(_ref5) {
     'data-popper-placement': state.placement
   });
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'computeStyles',
   enabled: true,
   phase: 'beforeWrite',
   fn: computeStyles,
   data: {}
 };
-exports.default = _default;
 },{"../enums.js":"../node_modules/@popperjs/core/lib/enums.js","../dom-utils/getOffsetParent.js":"../node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js","../dom-utils/getWindow.js":"../node_modules/@popperjs/core/lib/dom-utils/getWindow.js","../dom-utils/getDocumentElement.js":"../node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js","../dom-utils/getComputedStyle.js":"../node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js","../utils/getBasePlacement.js":"../node_modules/@popperjs/core/lib/utils/getBasePlacement.js","../utils/getVariation.js":"../node_modules/@popperjs/core/lib/utils/getVariation.js","../utils/math.js":"../node_modules/@popperjs/core/lib/utils/math.js"}],"../node_modules/@popperjs/core/lib/modifiers/eventListeners.js":[function(require,module,exports) {
 "use strict";
 
@@ -36393,7 +36615,7 @@ function effect(_ref) {
     }
   };
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'eventListeners',
   enabled: true,
   phase: 'write',
@@ -36401,7 +36623,6 @@ var _default = {
   effect: effect,
   data: {}
 };
-exports.default = _default;
 },{"../dom-utils/getWindow.js":"../node_modules/@popperjs/core/lib/dom-utils/getWindow.js"}],"../node_modules/@popperjs/core/lib/utils/getOppositePlacement.js":[function(require,module,exports) {
 "use strict";
 
@@ -37015,7 +37236,7 @@ function flip(_ref) {
     state.reset = true;
   }
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'flip',
   enabled: true,
   phase: 'main',
@@ -37025,7 +37246,6 @@ var _default = {
     _skip: false
   }
 };
-exports.default = _default;
 },{"../utils/getOppositePlacement.js":"../node_modules/@popperjs/core/lib/utils/getOppositePlacement.js","../utils/getBasePlacement.js":"../node_modules/@popperjs/core/lib/utils/getBasePlacement.js","../utils/getOppositeVariationPlacement.js":"../node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js","../utils/detectOverflow.js":"../node_modules/@popperjs/core/lib/utils/detectOverflow.js","../utils/computeAutoPlacement.js":"../node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js","../enums.js":"../node_modules/@popperjs/core/lib/enums.js","../utils/getVariation.js":"../node_modules/@popperjs/core/lib/utils/getVariation.js"}],"../node_modules/@popperjs/core/lib/modifiers/hide.js":[function(require,module,exports) {
 "use strict";
 
@@ -37082,14 +37302,13 @@ function hide(_ref) {
     'data-popper-escaped': hasPopperEscaped
   });
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'hide',
   enabled: true,
   phase: 'main',
   requiresIfExists: ['preventOverflow'],
   fn: hide
 };
-exports.default = _default;
 },{"../enums.js":"../node_modules/@popperjs/core/lib/enums.js","../utils/detectOverflow.js":"../node_modules/@popperjs/core/lib/utils/detectOverflow.js"}],"../node_modules/@popperjs/core/lib/modifiers/offset.js":[function(require,module,exports) {
 "use strict";
 
@@ -37140,14 +37359,13 @@ function offset(_ref2) {
   }
   state.modifiersData[name] = data;
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'offset',
   enabled: true,
   phase: 'main',
   requires: ['popperOffsets'],
   fn: offset
 };
-exports.default = _default;
 },{"../utils/getBasePlacement.js":"../node_modules/@popperjs/core/lib/utils/getBasePlacement.js","../enums.js":"../node_modules/@popperjs/core/lib/enums.js"}],"../node_modules/@popperjs/core/lib/modifiers/popperOffsets.js":[function(require,module,exports) {
 "use strict";
 
@@ -37171,14 +37389,13 @@ function popperOffsets(_ref) {
     placement: state.placement
   });
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'popperOffsets',
   enabled: true,
   phase: 'read',
   fn: popperOffsets,
   data: {}
 };
-exports.default = _default;
 },{"../utils/computeOffsets.js":"../node_modules/@popperjs/core/lib/utils/computeOffsets.js"}],"../node_modules/@popperjs/core/lib/utils/getAltAxis.js":[function(require,module,exports) {
 "use strict";
 
@@ -37312,14 +37529,13 @@ function preventOverflow(_ref) {
   }
   state.modifiersData[name] = data;
 } // eslint-disable-next-line import/no-unused-modules
-var _default = {
+var _default = exports.default = {
   name: 'preventOverflow',
   enabled: true,
   phase: 'main',
   fn: preventOverflow,
   requiresIfExists: ['offset']
 };
-exports.default = _default;
 },{"../enums.js":"../node_modules/@popperjs/core/lib/enums.js","../utils/getBasePlacement.js":"../node_modules/@popperjs/core/lib/utils/getBasePlacement.js","../utils/getMainAxisFromPlacement.js":"../node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js","../utils/getAltAxis.js":"../node_modules/@popperjs/core/lib/utils/getAltAxis.js","../utils/within.js":"../node_modules/@popperjs/core/lib/utils/within.js","../dom-utils/getLayoutRect.js":"../node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js","../dom-utils/getOffsetParent.js":"../node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js","../utils/detectOverflow.js":"../node_modules/@popperjs/core/lib/utils/detectOverflow.js","../utils/getVariation.js":"../node_modules/@popperjs/core/lib/utils/getVariation.js","../utils/getFreshSideObject.js":"../node_modules/@popperjs/core/lib/utils/getFreshSideObject.js","../utils/math.js":"../node_modules/@popperjs/core/lib/utils/math.js"}],"../node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js":[function(require,module,exports) {
 "use strict";
 
@@ -37698,8 +37914,7 @@ function popperGenerator(generatorOptions) {
     return instance;
   };
 }
-var createPopper = /*#__PURE__*/popperGenerator(); // eslint-disable-next-line import/no-unused-modules
-exports.createPopper = createPopper;
+var createPopper = exports.createPopper = /*#__PURE__*/popperGenerator(); // eslint-disable-next-line import/no-unused-modules
 },{"./dom-utils/getCompositeRect.js":"../node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js","./dom-utils/getLayoutRect.js":"../node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js","./dom-utils/listScrollParents.js":"../node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js","./dom-utils/getOffsetParent.js":"../node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js","./utils/orderModifiers.js":"../node_modules/@popperjs/core/lib/utils/orderModifiers.js","./utils/debounce.js":"../node_modules/@popperjs/core/lib/utils/debounce.js","./utils/mergeByName.js":"../node_modules/@popperjs/core/lib/utils/mergeByName.js","./utils/detectOverflow.js":"../node_modules/@popperjs/core/lib/utils/detectOverflow.js","./dom-utils/instanceOf.js":"../node_modules/@popperjs/core/lib/dom-utils/instanceOf.js"}],"../node_modules/@popperjs/core/lib/popper-base.js":[function(require,module,exports) {
 "use strict";
 
@@ -37751,10 +37966,9 @@ var _popperBase = require("@popperjs/core/lib/popper-base");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // For the common JS build we will turn this file into a bundle with no imports.
 // This is b/c the Popper lib is all esm files, and would break in a common js only environment
-const createPopper = (0, _popperBase.popperGenerator)({
+const createPopper = exports.createPopper = (0, _popperBase.popperGenerator)({
   defaultModifiers: [_hide.default, _popperOffsets.default, _computeStyles.default, _eventListeners.default, _offset.default, _flip.default, _preventOverflow.default, _arrow.default]
 });
-exports.createPopper = createPopper;
 },{"@popperjs/core/lib/modifiers/arrow":"../node_modules/@popperjs/core/lib/modifiers/arrow.js","@popperjs/core/lib/modifiers/computeStyles":"../node_modules/@popperjs/core/lib/modifiers/computeStyles.js","@popperjs/core/lib/modifiers/eventListeners":"../node_modules/@popperjs/core/lib/modifiers/eventListeners.js","@popperjs/core/lib/modifiers/flip":"../node_modules/@popperjs/core/lib/modifiers/flip.js","@popperjs/core/lib/modifiers/hide":"../node_modules/@popperjs/core/lib/modifiers/hide.js","@popperjs/core/lib/modifiers/offset":"../node_modules/@popperjs/core/lib/modifiers/offset.js","@popperjs/core/lib/modifiers/popperOffsets":"../node_modules/@popperjs/core/lib/modifiers/popperOffsets.js","@popperjs/core/lib/modifiers/preventOverflow":"../node_modules/@popperjs/core/lib/modifiers/preventOverflow.js","@popperjs/core/lib/enums":"../node_modules/@popperjs/core/lib/enums.js","@popperjs/core/lib/popper-base":"../node_modules/@popperjs/core/lib/popper-base.js"}],"../node_modules/@restart/ui/esm/usePopper.js":[function(require,module,exports) {
 "use strict";
 
@@ -37931,8 +38145,7 @@ function usePopper(referenceElement, popperElement, _ref = {}) {
   }, [enabled, referenceElement, popperElement]);
   return popperState;
 }
-var _default = usePopper;
-exports.default = _default;
+var _default = exports.default = usePopper;
 },{"react":"../node_modules/react/index.js","dequal":"../node_modules/dequal/dist/index.mjs","@restart/hooks/useSafeState":"../node_modules/@restart/hooks/esm/useSafeState.js","./popper":"../node_modules/@restart/ui/esm/popper.js"}],"../node_modules/dom-helpers/esm/contains.js":[function(require,module,exports) {
 "use strict";
 
@@ -38110,8 +38323,7 @@ function useClickOutside(ref, onClickOutside = noop, {
     };
   }, [ref, disabled, clickTrigger, handleMouseCapture, handleInitialMouse, handleMouse]);
 }
-var _default = useClickOutside;
-exports.default = _default;
+var _default = exports.default = useClickOutside;
 },{"dom-helpers/contains":"../node_modules/dom-helpers/esm/contains.js","dom-helpers/listen":"../node_modules/dom-helpers/esm/listen.js","dom-helpers/ownerDocument":"../node_modules/dom-helpers/esm/ownerDocument.js","react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","warning":"../node_modules/warning/warning.js"}],"../node_modules/@restart/ui/esm/mergeOptionsWithPopperConfig.js":[function(require,module,exports) {
 "use strict";
 
@@ -38192,7 +38404,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 exports.useDropdownMenu = useDropdownMenu;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useCallbackRef = _interopRequireDefault(require("@restart/hooks/useCallbackRef"));
 var _DropdownContext = _interopRequireDefault(require("./DropdownContext"));
 var _usePopper = _interopRequireDefault(require("./usePopper"));
@@ -38200,8 +38413,8 @@ var _useClickOutside = _interopRequireDefault(require("./useClickOutside"));
 var _mergeOptionsWithPopperConfig = _interopRequireDefault(require("./mergeOptionsWithPopperConfig"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const _excluded = ["children"];
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -38228,9 +38441,9 @@ const noop = () => {};
  * @param {object}  options.popperConfig Options passed to the [`usePopper`](/api/usePopper) hook.
  */
 function useDropdownMenu(options = {}) {
-  const context = (0, React.useContext)(_DropdownContext.default);
+  const context = (0, _react.useContext)(_DropdownContext.default);
   const [arrowElement, attachArrowRef] = (0, _useCallbackRef.default)();
-  const hasShownRef = (0, React.useRef)(false);
+  const hasShownRef = (0, _react.useRef)(false);
   const {
     flip,
     offset,
@@ -38311,8 +38524,7 @@ DropdownMenu.displayName = 'DropdownMenu';
 DropdownMenu.defaultProps = defaultProps;
 
 /** @component */
-var _default = DropdownMenu;
-exports.default = _default;
+var _default = exports.default = DropdownMenu;
 },{"react":"../node_modules/react/index.js","@restart/hooks/useCallbackRef":"../node_modules/@restart/hooks/esm/useCallbackRef.js","./DropdownContext":"../node_modules/@restart/ui/esm/DropdownContext.js","./usePopper":"../node_modules/@restart/ui/esm/usePopper.js","./useClickOutside":"../node_modules/@restart/ui/esm/useClickOutside.js","./mergeOptionsWithPopperConfig":"../node_modules/@restart/ui/esm/mergeOptionsWithPopperConfig.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@react-aria/ssr/dist/module.js":[function(require,module,exports) {
 "use strict";
 
@@ -38323,13 +38535,13 @@ exports.SSRProvider = $b5e257d569688ac6$export$9f8ac96af4b1b2ae;
 exports.useIsSSR = $b5e257d569688ac6$export$535bd6ca7f90a273;
 exports.useSSRSafeId = void 0;
 var _react = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 /*
  * Copyright 2020 Adobe. All rights reserved.
@@ -38362,10 +38574,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 // SSR case multiple copies of React Aria is not supported.
 var $b5e257d569688ac6$var$defaultContext = {
   prefix: String(Math.round(Math.random() * 10000000000)),
-  current: 0,
-  isSSR: false
+  current: 0
 };
 var $b5e257d569688ac6$var$SSRContext = /*#__PURE__*/(0, _react.default).createContext($b5e257d569688ac6$var$defaultContext);
+var $b5e257d569688ac6$var$IsSSRContext = /*#__PURE__*/(0, _react.default).createContext(false);
 // This is only used in React < 18.
 function $b5e257d569688ac6$var$LegacySSRProvider(props) {
   var cur = (0, _react.useContext)($b5e257d569688ac6$var$SSRContext);
@@ -38379,10 +38591,9 @@ function $b5e257d569688ac6$var$LegacySSRProvider(props) {
       // If this is the first SSRProvider, start with an empty string prefix, otherwise
       // append and increment the counter.
       prefix: cur === $b5e257d569688ac6$var$defaultContext ? "" : "".concat(cur.prefix, "-").concat(counter),
-      current: 0,
-      isSSR: isSSR
+      current: 0
     };
-  }, [cur, counter, isSSR]);
+  }, [cur, counter]);
   // If on the client, and the component was initially server rendered,
   // then schedule a layout effect to update the component after hydration.
   if (typeof document !== "undefined")
@@ -38394,7 +38605,9 @@ function $b5e257d569688ac6$var$LegacySSRProvider(props) {
     }, []);
   return /*#__PURE__*/(0, _react.default).createElement($b5e257d569688ac6$var$SSRContext.Provider, {
     value: value
-  }, props.children);
+  }, /*#__PURE__*/(0, _react.default).createElement($b5e257d569688ac6$var$IsSSRContext.Provider, {
+    value: isSSR
+  }, props.children));
 }
 var $b5e257d569688ac6$var$warnedAboutSSRProvider = false;
 function $b5e257d569688ac6$export$9f8ac96af4b1b2ae(props) {
@@ -38415,7 +38628,7 @@ function $b5e257d569688ac6$var$useCounter() {
   var ref = (0, _react.useRef)(null);
   // eslint-disable-next-line rulesdir/pure-render
   if (ref.current === null && !isDisabled) {
-    var _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_ReactCurrentOwner;
+    var _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED_ReactCurrentOwner, _React___SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     // In strict mode, React renders components twice, and the ref will be reset to null on the second render.
     // This means our id counter will be incremented twice instead of once. This is a problem because on the
     // server, components are only rendered once and so ids generated on the server won't match the client.
@@ -38466,8 +38679,7 @@ function $b5e257d569688ac6$var$useModernSSRSafeId(defaultId) {
   var prefix = didSSR || "development" === "test" ? "react-aria" : "react-aria".concat($b5e257d569688ac6$var$defaultContext.prefix);
   return defaultId || "".concat(prefix, "-").concat(id);
 }
-var $b5e257d569688ac6$export$619500959fc48b26 = typeof (0, _react.default)["useId"] === "function" ? $b5e257d569688ac6$var$useModernSSRSafeId : $b5e257d569688ac6$var$useLegacySSRSafeId;
-exports.useSSRSafeId = $b5e257d569688ac6$export$619500959fc48b26;
+var $b5e257d569688ac6$export$619500959fc48b26 = exports.useSSRSafeId = typeof (0, _react.default)["useId"] === "function" ? $b5e257d569688ac6$var$useModernSSRSafeId : $b5e257d569688ac6$var$useLegacySSRSafeId;
 function $b5e257d569688ac6$var$getSnapshot() {
   return false;
 }
@@ -38483,8 +38695,7 @@ function $b5e257d569688ac6$export$535bd6ca7f90a273() {
   // In React 18, we can use useSyncExternalStore to detect if we're server rendering or hydrating.
   if (typeof (0, _react.default)["useSyncExternalStore"] === "function") return (0, _react.default)["useSyncExternalStore"]($b5e257d569688ac6$var$subscribe, $b5e257d569688ac6$var$getSnapshot, $b5e257d569688ac6$var$getServerSnapshot);
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  var cur = (0, _react.useContext)($b5e257d569688ac6$var$SSRContext);
-  return cur.isSSR;
+  return (0, _react.useContext)($b5e257d569688ac6$var$IsSSRContext);
 }
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/ui/esm/ssr.js":[function(require,module,exports) {
 "use strict";
@@ -38519,13 +38730,14 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.isRoleMenu = exports.default = void 0;
 exports.useDropdownToggle = useDropdownToggle;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ssr = require("./ssr");
 var _DropdownContext = _interopRequireDefault(require("./DropdownContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const isRoleMenu = el => {
   var _el$getAttribute;
   return ((_el$getAttribute = el.getAttribute('role')) == null ? void 0 : _el$getAttribute.toLowerCase()) === 'menu';
@@ -38546,8 +38758,8 @@ function useDropdownToggle() {
     toggle = noop,
     setToggle,
     menuElement
-  } = (0, React.useContext)(_DropdownContext.default) || {};
-  const handleClick = (0, React.useCallback)(e => {
+  } = (0, _react.useContext)(_DropdownContext.default) || {};
+  const handleClick = (0, _react.useCallback)(e => {
     toggle(!show, e);
   }, [show, toggle]);
   const props = {
@@ -38585,8 +38797,7 @@ function DropdownToggle({
 DropdownToggle.displayName = 'DropdownToggle';
 
 /** @component */
-var _default = DropdownToggle;
-exports.default = _default;
+var _default = exports.default = DropdownToggle;
 },{"react":"../node_modules/react/index.js","./ssr":"../node_modules/@restart/ui/esm/ssr.js","./DropdownContext":"../node_modules/@restart/ui/esm/DropdownContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/SelectableContext.js":[function(require,module,exports) {
 "use strict";
 
@@ -38595,16 +38806,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.makeEventKey = exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const SelectableContext = /*#__PURE__*/React.createContext(null);
 const makeEventKey = (eventKey, href = null) => {
   if (eventKey != null) return String(eventKey);
   return href || null;
 };
 exports.makeEventKey = makeEventKey;
-var _default = SelectableContext;
-exports.default = _default;
+var _default = exports.default = SelectableContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/ui/esm/NavContext.js":[function(require,module,exports) {
 "use strict";
 
@@ -38613,12 +38823,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const NavContext = /*#__PURE__*/React.createContext(null);
 NavContext.displayName = 'NavContext';
-var _default = NavContext;
-exports.default = _default;
+var _default = exports.default = NavContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/ui/esm/DataKey.js":[function(require,module,exports) {
 "use strict";
 
@@ -38628,10 +38837,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.PROPERTY_PREFIX = exports.ATTRIBUTE_PREFIX = void 0;
 exports.dataAttr = dataAttr;
 exports.dataProp = dataProp;
-const ATTRIBUTE_PREFIX = `data-rr-ui-`;
-exports.ATTRIBUTE_PREFIX = ATTRIBUTE_PREFIX;
-const PROPERTY_PREFIX = `rrUi`;
-exports.PROPERTY_PREFIX = PROPERTY_PREFIX;
+const ATTRIBUTE_PREFIX = exports.ATTRIBUTE_PREFIX = `data-rr-ui-`;
+const PROPERTY_PREFIX = exports.PROPERTY_PREFIX = `rrUi`;
 function dataAttr(property) {
   return `${ATTRIBUTE_PREFIX}${property}`;
 }
@@ -38646,7 +38853,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 exports.useDropdownItem = useDropdownItem;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _SelectableContext = _interopRequireWildcard(require("./SelectableContext"));
 var _NavContext = _interopRequireDefault(require("./NavContext"));
@@ -38654,8 +38862,8 @@ var _Button = _interopRequireDefault(require("./Button"));
 var _DataKey = require("./DataKey");
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const _excluded = ["eventKey", "disabled", "onClick", "active", "as"];
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -38680,8 +38888,8 @@ function useDropdownItem({
   disabled,
   onClick
 }) {
-  const onSelectCtx = (0, React.useContext)(_SelectableContext.default);
-  const navContext = (0, React.useContext)(_NavContext.default);
+  const onSelectCtx = (0, _react.useContext)(_SelectableContext.default);
+  const navContext = (0, _react.useContext)(_NavContext.default);
   const {
     activeKey
   } = navContext || {};
@@ -38724,8 +38932,7 @@ const DropdownItem = /*#__PURE__*/React.forwardRef((_ref, ref) => {
   }, dropdownItemProps));
 });
 DropdownItem.displayName = 'DropdownItem';
-var _default = DropdownItem;
-exports.default = _default;
+var _default = exports.default = DropdownItem;
 },{"react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./NavContext":"../node_modules/@restart/ui/esm/NavContext.js","./Button":"../node_modules/@restart/ui/esm/Button.js","./DataKey":"../node_modules/@restart/ui/esm/DataKey.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/useWindow.js":[function(require,module,exports) {
 "use strict";
 
@@ -38738,7 +38945,7 @@ var _react = require("react");
 var _canUseDOM = _interopRequireDefault(require("dom-helpers/canUseDOM"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Context = /*#__PURE__*/(0, _react.createContext)(_canUseDOM.default ? window : undefined);
-const WindowProvider = Context.Provider;
+const WindowProvider = exports.WindowProvider = Context.Provider;
 
 /**
  * The document "window" placed in React context. Helpful for determining
@@ -38746,7 +38953,6 @@ const WindowProvider = Context.Provider;
  *
  * @returns the current window
  */
-exports.WindowProvider = WindowProvider;
 function useWindow() {
   return (0, _react.useContext)(Context);
 }
@@ -38759,7 +38965,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _querySelectorAll = _interopRequireDefault(require("dom-helpers/querySelectorAll"));
 var _addEventListener = _interopRequireDefault(require("dom-helpers/addEventListener"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _uncontrollable = require("uncontrollable");
 var _usePrevious = _interopRequireDefault(require("@restart/hooks/usePrevious"));
 var _useForceUpdate = _interopRequireDefault(require("@restart/hooks/useForceUpdate"));
@@ -38773,13 +38980,13 @@ var _SelectableContext = _interopRequireDefault(require("./SelectableContext"));
 var _DataKey = require("./DataKey");
 var _useWindow = _interopRequireDefault(require("./useWindow"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function useRefWithUpdate() {
   const forceUpdate = (0, _useForceUpdate.default)();
-  const ref = (0, React.useRef)(null);
-  const attachRef = (0, React.useCallback)(element => {
+  const ref = (0, _react.useRef)(null);
+  const attachRef = (0, _react.useCallback)(element => {
     ref.current = element;
     // ensure that a menu set triggers an update for consumers
     forceUpdate();
@@ -38812,10 +39019,10 @@ function Dropdown({
   const [toggleRef, setToggle] = useRefWithUpdate();
   const toggleElement = toggleRef.current;
   const lastShow = (0, _usePrevious.default)(show);
-  const lastSourceEvent = (0, React.useRef)(null);
-  const focusInDropdown = (0, React.useRef)(false);
-  const onSelectCtx = (0, React.useContext)(_SelectableContext.default);
-  const toggle = (0, React.useCallback)((nextShow, event, source = event == null ? void 0 : event.type) => {
+  const lastSourceEvent = (0, _react.useRef)(null);
+  const focusInDropdown = (0, _react.useRef)(false);
+  const onSelectCtx = (0, _react.useContext)(_SelectableContext.default);
+  const toggle = (0, _react.useCallback)((nextShow, event, source = event == null ? void 0 : event.type) => {
     onToggle(nextShow, {
       originalEvent: event,
       source
@@ -38828,7 +39035,7 @@ function Dropdown({
       onSelectCtx == null ? void 0 : onSelectCtx(key, event);
     }
   });
-  const context = (0, React.useMemo)(() => ({
+  const context = (0, _react.useMemo)(() => ({
     toggle,
     placement,
     show,
@@ -38857,14 +39064,14 @@ function Dropdown({
     const first = (0, _querySelectorAll.default)(menuRef.current, itemSelector)[0];
     if (first && first.focus) first.focus();
   });
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     if (show) maybeFocusFirst();else if (focusInDropdown.current) {
       focusInDropdown.current = false;
       focusToggle();
     }
     // only `show` should be changing
   }, [show, focusInDropdown, focusToggle, maybeFocusFirst]);
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     lastSourceEvent.current = null;
   });
   const getNextFocusedChild = (current, offset) => {
@@ -38874,7 +39081,7 @@ function Dropdown({
     index = Math.max(0, Math.min(index, items.length));
     return items[index];
   };
-  (0, _useEventListener.default)((0, React.useCallback)(() => window.document, [window]), 'keydown', event => {
+  (0, _useEventListener.default)((0, _react.useCallback)(() => window.document, [window]), 'keydown', event => {
     var _menuRef$current, _toggleRef$current;
     const {
       key
@@ -38953,24 +39160,88 @@ Dropdown.displayName = 'Dropdown';
 Dropdown.Menu = _DropdownMenu.default;
 Dropdown.Toggle = _DropdownToggle.default;
 Dropdown.Item = _DropdownItem.default;
-var _default = Dropdown;
-exports.default = _default;
+var _default = exports.default = Dropdown;
 },{"dom-helpers/querySelectorAll":"../node_modules/dom-helpers/esm/querySelectorAll.js","dom-helpers/addEventListener":"../node_modules/dom-helpers/esm/addEventListener.js","react":"../node_modules/react/index.js","uncontrollable":"../node_modules/@restart/ui/node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/usePrevious":"../node_modules/@restart/hooks/esm/usePrevious.js","@restart/hooks/useForceUpdate":"../node_modules/@restart/hooks/esm/useForceUpdate.js","@restart/hooks/useEventListener":"../node_modules/@restart/hooks/esm/useEventListener.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./DropdownContext":"../node_modules/@restart/ui/esm/DropdownContext.js","./DropdownMenu":"../node_modules/@restart/ui/esm/DropdownMenu.js","./DropdownToggle":"../node_modules/@restart/ui/esm/DropdownToggle.js","./DropdownItem":"../node_modules/@restart/ui/esm/DropdownItem.js","./SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./DataKey":"../node_modules/@restart/ui/esm/DataKey.js","./useWindow":"../node_modules/@restart/ui/esm/useWindow.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownContext.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const DropdownContext = /*#__PURE__*/React.createContext({});
 DropdownContext.displayName = 'DropdownContext';
-var _default = DropdownContext;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/DropdownItem.js":[function(require,module,exports) {
+var _default = exports.default = DropdownContext;
+},{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/DropdownDivider.js":[function(require,module,exports) {
 "use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DropdownDivider = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'hr',
+  role = 'separator',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'dropdown-divider');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    role: role,
+    ...props
+  });
+});
+DropdownDivider.displayName = 'DropdownDivider';
+var _default = exports.default = DropdownDivider;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownHeader.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DropdownHeader = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  role = 'heading',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'dropdown-header');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    role: role,
+    ...props
+  });
+});
+DropdownHeader.displayName = 'DropdownHeader';
+var _default = exports.default = DropdownHeader;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownItem.js":[function(require,module,exports) {
+"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -38982,8 +39253,8 @@ var _DropdownItem = require("@restart/ui/DropdownItem");
 var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const DropdownItem = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -39011,38 +39282,67 @@ const DropdownItem = /*#__PURE__*/React.forwardRef(({
   });
 });
 DropdownItem.displayName = 'DropdownItem';
-var _default = DropdownItem;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/DropdownItem":"../node_modules/@restart/ui/esm/DropdownItem.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/InputGroupContext.js":[function(require,module,exports) {
+var _default = exports.default = DropdownItem;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/DropdownItem":"../node_modules/@restart/ui/esm/DropdownItem.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownItemText.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const DropdownItemText = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'span',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'dropdown-item-text');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+DropdownItemText.displayName = 'DropdownItemText';
+var _default = exports.default = DropdownItemText;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/InputGroupContext.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const context = /*#__PURE__*/React.createContext(null);
 context.displayName = 'InputGroupContext';
-var _default = context;
-exports.default = _default;
+var _default = exports.default = context;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/NavbarContext.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 // TODO: check
 
 const context = /*#__PURE__*/React.createContext(null);
 context.displayName = 'NavbarContext';
-var _default = context;
-exports.default = _default;
+var _default = exports.default = context;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/useWrappedRefWithWarning.js":[function(require,module,exports) {
 "use strict";
 
@@ -39075,7 +39375,7 @@ exports.alignPropType = void 0;
 var _propTypes = _interopRequireDefault(require("prop-types"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const alignDirection = _propTypes.default.oneOf(['start', 'end']);
-const alignPropType = _propTypes.default.oneOfType([alignDirection, _propTypes.default.shape({
+const alignPropType = exports.alignPropType = _propTypes.default.oneOfType([alignDirection, _propTypes.default.shape({
   sm: alignDirection
 }), _propTypes.default.shape({
   md: alignDirection
@@ -39086,9 +39386,9 @@ const alignPropType = _propTypes.default.oneOfType([alignDirection, _propTypes.d
 }), _propTypes.default.shape({
   xxl: alignDirection
 }), _propTypes.default.object]);
-exports.alignPropType = alignPropType;
 },{"prop-types":"../node_modules/prop-types/index.js"}],"../node_modules/react-bootstrap/esm/DropdownMenu.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -39096,7 +39396,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 exports.getDropdownMenuPlacement = getDropdownMenuPlacement;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _DropdownMenu = require("@restart/ui/DropdownMenu");
 var _useIsomorphicEffect = _interopRequireDefault(require("@restart/hooks/useIsomorphicEffect"));
 var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRefs"));
@@ -39108,8 +39409,8 @@ var _ThemeProvider = require("./ThemeProvider");
 var _useWrappedRefWithWarning = _interopRequireDefault(require("./useWrappedRefWithWarning"));
 var _types = require("./types");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function getDropdownMenuPlacement(alignEnd, dropDirection, isRTL) {
   const topStart = isRTL ? 'top-end' : 'top-start';
@@ -39139,15 +39440,15 @@ const DropdownMenu = /*#__PURE__*/React.forwardRef(({
   ...props
 }, ref) => {
   let alignEnd = false;
-  const isNavbar = (0, React.useContext)(_NavbarContext.default);
+  const isNavbar = (0, _react.useContext)(_NavbarContext.default);
   const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'dropdown-menu');
   const {
     align: contextAlign,
     drop,
     isRTL
-  } = (0, React.useContext)(_DropdownContext.default);
+  } = (0, _react.useContext)(_DropdownContext.default);
   align = align || contextAlign;
-  const isInputGroup = (0, React.useContext)(_InputGroupContext.default);
+  const isInputGroup = (0, _react.useContext)(_InputGroupContext.default);
   const alignClasses = [];
   if (align) {
     if (typeof align === 'object') {
@@ -39219,10 +39520,10 @@ const DropdownMenu = /*#__PURE__*/React.forwardRef(({
   });
 });
 DropdownMenu.displayName = 'DropdownMenu';
-var _default = DropdownMenu;
-exports.default = _default;
+var _default = exports.default = DropdownMenu;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/DropdownMenu":"../node_modules/@restart/ui/esm/DropdownMenu.js","@restart/hooks/useIsomorphicEffect":"../node_modules/@restart/hooks/esm/useIsomorphicEffect.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","warning":"../node_modules/warning/warning.js","./DropdownContext":"../node_modules/react-bootstrap/esm/DropdownContext.js","./InputGroupContext":"../node_modules/react-bootstrap/esm/InputGroupContext.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./useWrappedRefWithWarning":"../node_modules/react-bootstrap/esm/useWrappedRefWithWarning.js","./types":"../node_modules/react-bootstrap/esm/types.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownToggle.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -39232,13 +39533,14 @@ var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRef
 var _DropdownContext = _interopRequireDefault(require("@restart/ui/DropdownContext"));
 var _DropdownToggle = require("@restart/ui/DropdownToggle");
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Button = _interopRequireDefault(require("./Button"));
 var _ThemeProvider = require("./ThemeProvider");
 var _useWrappedRefWithWarning = _interopRequireDefault(require("./useWrappedRefWithWarning"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const DropdownToggle = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -39250,7 +39552,7 @@ const DropdownToggle = /*#__PURE__*/React.forwardRef(({
   ...props
 }, ref) => {
   const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'dropdown-toggle');
-  const dropdownContext = (0, React.useContext)(_DropdownContext.default);
+  const dropdownContext = (0, _react.useContext)(_DropdownContext.default);
   if (childBsPrefix !== undefined) {
     props.bsPrefix = childBsPrefix;
   }
@@ -39266,46 +39568,35 @@ const DropdownToggle = /*#__PURE__*/React.forwardRef(({
   });
 });
 DropdownToggle.displayName = 'DropdownToggle';
-var _default = DropdownToggle;
-exports.default = _default;
+var _default = exports.default = DropdownToggle;
 },{"@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","@restart/ui/DropdownContext":"../node_modules/@restart/ui/esm/DropdownContext.js","@restart/ui/DropdownToggle":"../node_modules/@restart/ui/esm/DropdownToggle.js","classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./Button":"../node_modules/react-bootstrap/esm/Button.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./useWrappedRefWithWarning":"../node_modules/react-bootstrap/esm/useWrappedRefWithWarning.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Dropdown.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Dropdown = _interopRequireDefault(require("@restart/ui/Dropdown"));
 var _uncontrollable = require("uncontrollable");
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _DropdownContext = _interopRequireDefault(require("./DropdownContext"));
+var _DropdownDivider = _interopRequireDefault(require("./DropdownDivider"));
+var _DropdownHeader = _interopRequireDefault(require("./DropdownHeader"));
 var _DropdownItem = _interopRequireDefault(require("./DropdownItem"));
+var _DropdownItemText = _interopRequireDefault(require("./DropdownItemText"));
 var _DropdownMenu = _interopRequireWildcard(require("./DropdownMenu"));
 var _DropdownToggle = _interopRequireDefault(require("./DropdownToggle"));
 var _InputGroupContext = _interopRequireDefault(require("./InputGroupContext"));
 var _ThemeProvider = require("./ThemeProvider");
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
 var _types = require("./types");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const DropdownHeader = (0, _createWithBsPrefix.default)('dropdown-header', {
-  defaultProps: {
-    role: 'heading'
-  }
-});
-const DropdownDivider = (0, _createWithBsPrefix.default)('dropdown-divider', {
-  Component: 'hr',
-  defaultProps: {
-    role: 'separator'
-  }
-});
-const DropdownItemText = (0, _createWithBsPrefix.default)('dropdown-item-text', {
-  Component: 'span'
-});
 const Dropdown = /*#__PURE__*/React.forwardRef((pProps, ref) => {
   const {
     bsPrefix,
@@ -39324,7 +39615,7 @@ const Dropdown = /*#__PURE__*/React.forwardRef((pProps, ref) => {
   } = (0, _uncontrollable.useUncontrolled)(pProps, {
     show: 'onToggle'
   });
-  const isInputGroup = (0, React.useContext)(_InputGroupContext.default);
+  const isInputGroup = (0, _react.useContext)(_InputGroupContext.default);
   const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'dropdown');
   const isRTL = (0, _ThemeProvider.useIsRTL)();
   const isClosingPermitted = source => {
@@ -39344,7 +39635,7 @@ const Dropdown = /*#__PURE__*/React.forwardRef((pProps, ref) => {
   });
   const alignEnd = align === 'end';
   const placement = (0, _DropdownMenu.getDropdownMenuPlacement)(alignEnd, drop, isRTL);
-  const contextValue = (0, React.useMemo)(() => ({
+  const contextValue = (0, _react.useMemo)(() => ({
     align,
     drop,
     isRTL
@@ -39375,16 +39666,15 @@ const Dropdown = /*#__PURE__*/React.forwardRef((pProps, ref) => {
   });
 });
 Dropdown.displayName = 'Dropdown';
-var _default = Object.assign(Dropdown, {
+var _default = exports.default = Object.assign(Dropdown, {
   Toggle: _DropdownToggle.default,
   Menu: _DropdownMenu.default,
   Item: _DropdownItem.default,
-  ItemText: DropdownItemText,
-  Divider: DropdownDivider,
-  Header: DropdownHeader
+  ItemText: _DropdownItemText.default,
+  Divider: _DropdownDivider.default,
+  Header: _DropdownHeader.default
 });
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/Dropdown":"../node_modules/@restart/ui/esm/Dropdown.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./DropdownContext":"../node_modules/react-bootstrap/esm/DropdownContext.js","./DropdownItem":"../node_modules/react-bootstrap/esm/DropdownItem.js","./DropdownMenu":"../node_modules/react-bootstrap/esm/DropdownMenu.js","./DropdownToggle":"../node_modules/react-bootstrap/esm/DropdownToggle.js","./InputGroupContext":"../node_modules/react-bootstrap/esm/InputGroupContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./types":"../node_modules/react-bootstrap/esm/types.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownButton.js":[function(require,module,exports) {
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/Dropdown":"../node_modules/@restart/ui/esm/Dropdown.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./DropdownContext":"../node_modules/react-bootstrap/esm/DropdownContext.js","./DropdownDivider":"../node_modules/react-bootstrap/esm/DropdownDivider.js","./DropdownHeader":"../node_modules/react-bootstrap/esm/DropdownHeader.js","./DropdownItem":"../node_modules/react-bootstrap/esm/DropdownItem.js","./DropdownItemText":"../node_modules/react-bootstrap/esm/DropdownItemText.js","./DropdownMenu":"../node_modules/react-bootstrap/esm/DropdownMenu.js","./DropdownToggle":"../node_modules/react-bootstrap/esm/DropdownToggle.js","./InputGroupContext":"../node_modules/react-bootstrap/esm/InputGroupContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./types":"../node_modules/react-bootstrap/esm/types.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/DropdownButton.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39399,8 +39689,8 @@ var _DropdownMenu = _interopRequireDefault(require("./DropdownMenu"));
 var _types = require("./types");
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const propTypes = {
   /**
    * An html id attribute for the Toggle button, necessary for assistive technologies, such as screen readers.
@@ -39499,9 +39789,157 @@ const DropdownButton = /*#__PURE__*/React.forwardRef(({
 }));
 DropdownButton.displayName = 'DropdownButton';
 DropdownButton.propTypes = propTypes;
-var _default = DropdownButton;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","./Dropdown":"../node_modules/react-bootstrap/esm/Dropdown.js","./DropdownToggle":"../node_modules/react-bootstrap/esm/DropdownToggle.js","./DropdownMenu":"../node_modules/react-bootstrap/esm/DropdownMenu.js","./types":"../node_modules/react-bootstrap/esm/types.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Feedback.js":[function(require,module,exports) {
+var _default = exports.default = DropdownButton;
+},{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","./Dropdown":"../node_modules/react-bootstrap/esm/Dropdown.js","./DropdownToggle":"../node_modules/react-bootstrap/esm/DropdownToggle.js","./DropdownMenu":"../node_modules/react-bootstrap/esm/DropdownMenu.js","./types":"../node_modules/react-bootstrap/esm/types.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Image.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.propTypes = exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+const propTypes = exports.propTypes = {
+  /**
+   * @default 'img'
+   */
+  bsPrefix: _propTypes.default.string,
+  /**
+   * Sets image as fluid image.
+   */
+  fluid: _propTypes.default.bool,
+  /**
+   * Sets image shape as rounded.
+   */
+  rounded: _propTypes.default.bool,
+  /**
+   * Sets image shape as circle.
+   */
+  roundedCircle: _propTypes.default.bool,
+  /**
+   * Sets image shape as thumbnail.
+   */
+  thumbnail: _propTypes.default.bool
+};
+const Image = /*#__PURE__*/React.forwardRef(({
+  bsPrefix,
+  className,
+  fluid = false,
+  rounded = false,
+  roundedCircle = false,
+  thumbnail = false,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'img');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)("img", {
+    // eslint-disable-line jsx-a11y/alt-text
+    ref: ref,
+    ...props,
+    className: (0, _classnames.default)(className, fluid && `${bsPrefix}-fluid`, rounded && `rounded`, roundedCircle && `rounded-circle`, thumbnail && `${bsPrefix}-thumbnail`)
+  });
+});
+Image.displayName = 'Image';
+var _default = exports.default = Image;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FigureImage.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _classnames = _interopRequireDefault(require("classnames"));
+var React = _interopRequireWildcard(require("react"));
+var _Image = _interopRequireWildcard(require("./Image"));
+var _jsxRuntime = require("react/jsx-runtime");
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+const FigureImage = /*#__PURE__*/React.forwardRef(({
+  className,
+  fluid = true,
+  ...props
+}, ref) => /*#__PURE__*/(0, _jsxRuntime.jsx)(_Image.default, {
+  ref: ref,
+  ...props,
+  fluid: fluid,
+  className: (0, _classnames.default)(className, 'figure-img')
+}));
+FigureImage.displayName = 'FigureImage';
+FigureImage.propTypes = _Image.propTypes;
+var _default = exports.default = FigureImage;
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./Image":"../node_modules/react-bootstrap/esm/Image.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FigureCaption.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const FigureCaption = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'figcaption',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'figure-caption');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+FigureCaption.displayName = 'FigureCaption';
+var _default = exports.default = FigureCaption;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Figure.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _FigureImage = _interopRequireDefault(require("./FigureImage"));
+var _FigureCaption = _interopRequireDefault(require("./FigureCaption"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const Figure = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'figure',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'figure');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+Figure.displayName = 'Figure';
+var _default = exports.default = Object.assign(Figure, {
+  Image: _FigureImage.default,
+  Caption: _FigureCaption.default
+});
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./FigureImage":"../node_modules/react-bootstrap/esm/FigureImage.js","./FigureCaption":"../node_modules/react-bootstrap/esm/FigureCaption.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Feedback.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -39512,8 +39950,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _propTypes = _interopRequireDefault(require("prop-types"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const propTypes = {
   /**
@@ -39541,37 +39979,38 @@ const Feedback = /*#__PURE__*/React.forwardRef(
 }));
 Feedback.displayName = 'Feedback';
 Feedback.propTypes = propTypes;
-var _default = Feedback;
-exports.default = _default;
+var _default = exports.default = Feedback;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormContext.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 // TODO
 
 const FormContext = /*#__PURE__*/React.createContext({});
-var _default = FormContext;
-exports.default = _default;
+var _default = exports.default = FormContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/FormCheckInput.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormCheckInput = /*#__PURE__*/React.forwardRef(({
   id,
@@ -39586,7 +40025,7 @@ const FormCheckInput = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
+  } = (0, _react.useContext)(_FormContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-check-input');
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
     ...props,
@@ -39597,22 +40036,23 @@ const FormCheckInput = /*#__PURE__*/React.forwardRef(({
   });
 });
 FormCheckInput.displayName = 'FormCheckInput';
-var _default = FormCheckInput;
-exports.default = _default;
+var _default = exports.default = FormCheckInput;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormCheckLabel.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormCheckLabel = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -39622,7 +40062,7 @@ const FormCheckLabel = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
+  } = (0, _react.useContext)(_FormContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-check-label');
   return /*#__PURE__*/(0, _jsxRuntime.jsx)("label", {
     ...props,
@@ -39632,17 +40072,18 @@ const FormCheckLabel = /*#__PURE__*/React.forwardRef(({
   });
 });
 FormCheckLabel.displayName = 'FormCheckLabel';
-var _default = FormCheckLabel;
-exports.default = _default;
+var _default = exports.default = FormCheckLabel;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormCheck.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Feedback = _interopRequireDefault(require("./Feedback"));
 var _FormCheckInput = _interopRequireDefault(require("./FormCheckInput"));
 var _FormCheckLabel = _interopRequireDefault(require("./FormCheckLabel"));
@@ -39650,8 +40091,8 @@ var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _ThemeProvider = require("./ThemeProvider");
 var _ElementChildren = require("./ElementChildren");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormCheck = /*#__PURE__*/React.forwardRef(({
   id,
@@ -39679,8 +40120,8 @@ const FormCheck = /*#__PURE__*/React.forwardRef(({
   bsSwitchPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsSwitchPrefix, 'form-switch');
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
-  const innerFormContext = (0, React.useMemo)(() => ({
+  } = (0, _react.useContext)(_FormContext.default);
+  const innerFormContext = (0, _react.useMemo)(() => ({
     controlId: id || controlId
   }), [controlId, id]);
   const hasLabel = !children && label != null && label !== false || (0, _ElementChildren.hasChildOfType)(children, _FormCheckLabel.default);
@@ -39712,27 +40153,28 @@ const FormCheck = /*#__PURE__*/React.forwardRef(({
   });
 });
 FormCheck.displayName = 'FormCheck';
-var _default = Object.assign(FormCheck, {
+var _default = exports.default = Object.assign(FormCheck, {
   Input: _FormCheckInput.default,
   Label: _FormCheckLabel.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./Feedback":"../node_modules/react-bootstrap/esm/Feedback.js","./FormCheckInput":"../node_modules/react-bootstrap/esm/FormCheckInput.js","./FormCheckLabel":"../node_modules/react-bootstrap/esm/FormCheckLabel.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./ElementChildren":"../node_modules/react-bootstrap/esm/ElementChildren.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormControl.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _warning = _interopRequireDefault(require("warning"));
 var _Feedback = _interopRequireDefault(require("./Feedback"));
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormControl = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -39751,19 +40193,8 @@ const FormControl = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
+  } = (0, _react.useContext)(_FormContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-control');
-  let classes;
-  if (plaintext) {
-    classes = {
-      [`${bsPrefix}-plaintext`]: true
-    };
-  } else {
-    classes = {
-      [bsPrefix]: true,
-      [`${bsPrefix}-${size}`]: size
-    };
-  }
   "development" !== "production" ? (0, _warning.default)(controlId == null || !id, '`controlId` is ignored on `<FormControl>` when `id` is specified.') : void 0;
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
     ...props,
@@ -39772,45 +40203,64 @@ const FormControl = /*#__PURE__*/React.forwardRef(({
     ref: ref,
     readOnly: readOnly,
     id: id || controlId,
-    className: (0, _classnames.default)(className, classes, isValid && `is-valid`, isInvalid && `is-invalid`, type === 'color' && `${bsPrefix}-color`)
+    className: (0, _classnames.default)(className, plaintext ? `${bsPrefix}-plaintext` : bsPrefix, size && `${bsPrefix}-${size}`, type === 'color' && `${bsPrefix}-color`, isValid && 'is-valid', isInvalid && 'is-invalid')
   });
 });
 FormControl.displayName = 'FormControl';
-var _default = Object.assign(FormControl, {
+var _default = exports.default = Object.assign(FormControl, {
   Feedback: _Feedback.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","warning":"../node_modules/warning/warning.js","./Feedback":"../node_modules/react-bootstrap/esm/Feedback.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormFloating.js":[function(require,module,exports) {
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('form-floating');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/FormGroup.js":[function(require,module,exports) {
-"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const FormFloating = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-floating');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+FormFloating.displayName = 'FormFloating';
+var _default = exports.default = FormFloating;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormGroup.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const FormGroup = /*#__PURE__*/React.forwardRef(({
   controlId,
   // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
   as: Component = 'div',
   ...props
 }, ref) => {
-  const context = (0, React.useMemo)(() => ({
+  const context = (0, _react.useMemo)(() => ({
     controlId
   }), [controlId]);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_FormContext.default.Provider, {
@@ -39822,24 +40272,25 @@ const FormGroup = /*#__PURE__*/React.forwardRef(({
   });
 });
 FormGroup.displayName = 'FormGroup';
-var _default = FormGroup;
-exports.default = _default;
+var _default = exports.default = FormGroup;
 },{"react":"../node_modules/react/index.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormLabel.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _warning = _interopRequireDefault(require("warning"));
 var _Col = _interopRequireDefault(require("./Col"));
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormLabel = /*#__PURE__*/React.forwardRef(({
   // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -39853,7 +40304,7 @@ const FormLabel = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
+  } = (0, _react.useContext)(_FormContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-label');
   let columnClass = 'col-form-label';
   if (typeof column === 'string') columnClass = `${columnClass} ${columnClass}-${column}`;
@@ -39878,22 +40329,23 @@ const FormLabel = /*#__PURE__*/React.forwardRef(({
   );
 });
 FormLabel.displayName = 'FormLabel';
-var _default = FormLabel;
-exports.default = _default;
+var _default = exports.default = FormLabel;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","warning":"../node_modules/warning/warning.js","./Col":"../node_modules/react-bootstrap/esm/Col.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormRange.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormRange = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -39903,7 +40355,7 @@ const FormRange = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
+  } = (0, _react.useContext)(_FormContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-range');
   return /*#__PURE__*/(0, _jsxRuntime.jsx)("input", {
     ...props,
@@ -39914,22 +40366,23 @@ const FormRange = /*#__PURE__*/React.forwardRef(({
   });
 });
 FormRange.displayName = 'FormRange';
-var _default = FormRange;
-exports.default = _default;
+var _default = exports.default = FormRange;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormSelect.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _FormContext = _interopRequireDefault(require("./FormContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormSelect = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -39943,7 +40396,7 @@ const FormSelect = /*#__PURE__*/React.forwardRef(({
 }, ref) => {
   const {
     controlId
-  } = (0, React.useContext)(_FormContext.default);
+  } = (0, _react.useContext)(_FormContext.default);
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'form-select');
   return /*#__PURE__*/(0, _jsxRuntime.jsx)("select", {
     ...props,
@@ -39954,10 +40407,10 @@ const FormSelect = /*#__PURE__*/React.forwardRef(({
   });
 });
 FormSelect.displayName = 'FormSelect';
-var _default = FormSelect;
-exports.default = _default;
+var _default = exports.default = FormSelect;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./FormContext":"../node_modules/react-bootstrap/esm/FormContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FormText.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -39967,8 +40420,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FormText = /*#__PURE__*/React.forwardRef(
 // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
@@ -39987,8 +40440,7 @@ const FormText = /*#__PURE__*/React.forwardRef(
   });
 });
 FormText.displayName = 'FormText';
-var _default = FormText;
-exports.default = _default;
+var _default = exports.default = FormText;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Switch.js":[function(require,module,exports) {
 "use strict";
 
@@ -40000,21 +40452,21 @@ var React = _interopRequireWildcard(require("react"));
 var _FormCheck = _interopRequireDefault(require("./FormCheck"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const Switch = /*#__PURE__*/React.forwardRef((props, ref) => /*#__PURE__*/(0, _jsxRuntime.jsx)(_FormCheck.default, {
   ...props,
   ref: ref,
   type: "switch"
 }));
 Switch.displayName = 'Switch';
-var _default = Object.assign(Switch, {
+var _default = exports.default = Object.assign(Switch, {
   Input: _FormCheck.default.Input,
   Label: _FormCheck.default.Label
 });
-exports.default = _default;
 },{"react":"../node_modules/react/index.js","./FormCheck":"../node_modules/react-bootstrap/esm/FormCheck.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FloatingLabel.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -40025,8 +40477,8 @@ var React = _interopRequireWildcard(require("react"));
 var _FormGroup = _interopRequireDefault(require("./FormGroup"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const FloatingLabel = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -40049,8 +40501,7 @@ const FloatingLabel = /*#__PURE__*/React.forwardRef(({
   });
 });
 FloatingLabel.displayName = 'FloatingLabel';
-var _default = FloatingLabel;
-exports.default = _default;
+var _default = exports.default = FloatingLabel;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./FormGroup":"../node_modules/react-bootstrap/esm/FormGroup.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Form.js":[function(require,module,exports) {
 "use strict";
 
@@ -40072,8 +40523,8 @@ var _FormText = _interopRequireDefault(require("./FormText"));
 var _Switch = _interopRequireDefault(require("./Switch"));
 var _FloatingLabel = _interopRequireDefault(require("./FloatingLabel"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const propTypes = {
   /**
@@ -40105,7 +40556,7 @@ const Form = /*#__PURE__*/React.forwardRef(({
 }));
 Form.displayName = 'Form';
 Form.propTypes = propTypes;
-var _default = Object.assign(Form, {
+var _default = exports.default = Object.assign(Form, {
   Group: _FormGroup.default,
   Control: _FormControl.default,
   Floating: _FormFloating.default,
@@ -40117,186 +40568,62 @@ var _default = Object.assign(Form, {
   Select: _FormSelect.default,
   FloatingLabel: _FloatingLabel.default
 });
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","./FormCheck":"../node_modules/react-bootstrap/esm/FormCheck.js","./FormControl":"../node_modules/react-bootstrap/esm/FormControl.js","./FormFloating":"../node_modules/react-bootstrap/esm/FormFloating.js","./FormGroup":"../node_modules/react-bootstrap/esm/FormGroup.js","./FormLabel":"../node_modules/react-bootstrap/esm/FormLabel.js","./FormRange":"../node_modules/react-bootstrap/esm/FormRange.js","./FormSelect":"../node_modules/react-bootstrap/esm/FormSelect.js","./FormText":"../node_modules/react-bootstrap/esm/FormText.js","./Switch":"../node_modules/react-bootstrap/esm/Switch.js","./FloatingLabel":"../node_modules/react-bootstrap/esm/FloatingLabel.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Container.js":[function(require,module,exports) {
+},{"classnames":"../node_modules/classnames/index.js","prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","./FormCheck":"../node_modules/react-bootstrap/esm/FormCheck.js","./FormControl":"../node_modules/react-bootstrap/esm/FormControl.js","./FormFloating":"../node_modules/react-bootstrap/esm/FormFloating.js","./FormGroup":"../node_modules/react-bootstrap/esm/FormGroup.js","./FormLabel":"../node_modules/react-bootstrap/esm/FormLabel.js","./FormRange":"../node_modules/react-bootstrap/esm/FormRange.js","./FormSelect":"../node_modules/react-bootstrap/esm/FormSelect.js","./FormText":"../node_modules/react-bootstrap/esm/FormText.js","./Switch":"../node_modules/react-bootstrap/esm/Switch.js","./FloatingLabel":"../node_modules/react-bootstrap/esm/FloatingLabel.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/InputGroupText.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const Container = /*#__PURE__*/React.forwardRef(({
-  bsPrefix,
-  fluid = false,
-  // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-  as: Component = 'div',
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const InputGroupText = /*#__PURE__*/React.forwardRef(({
   className,
+  bsPrefix,
+  as: Component = 'span',
   ...props
 }, ref) => {
-  const prefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'container');
-  const suffix = typeof fluid === 'string' ? `-${fluid}` : '-fluid';
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'input-group-text');
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
     ref: ref,
-    ...props,
-    className: (0, _classnames.default)(className, fluid ? `${prefix}${suffix}` : prefix)
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
   });
 });
-Container.displayName = 'Container';
-var _default = Container;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Image.js":[function(require,module,exports) {
+InputGroupText.displayName = 'InputGroupText';
+var _default = exports.default = InputGroupText;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/InputGroup.js":[function(require,module,exports) {
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.propTypes = exports.default = void 0;
-var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
-var _propTypes = _interopRequireDefault(require("prop-types"));
-var _ThemeProvider = require("./ThemeProvider");
-var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const propTypes = {
-  /**
-   * @default 'img'
-   */
-  bsPrefix: _propTypes.default.string,
-  /**
-   * Sets image as fluid image.
-   */
-  fluid: _propTypes.default.bool,
-  /**
-   * Sets image shape as rounded.
-   */
-  rounded: _propTypes.default.bool,
-  /**
-   * Sets image shape as circle.
-   */
-  roundedCircle: _propTypes.default.bool,
-  /**
-   * Sets image shape as thumbnail.
-   */
-  thumbnail: _propTypes.default.bool
-};
-exports.propTypes = propTypes;
-const Image = /*#__PURE__*/React.forwardRef(({
-  bsPrefix,
-  className,
-  fluid = false,
-  rounded = false,
-  roundedCircle = false,
-  thumbnail = false,
-  ...props
-}, ref) => {
-  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'img');
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)("img", {
-    // eslint-disable-line jsx-a11y/alt-text
-    ref: ref,
-    ...props,
-    className: (0, _classnames.default)(className, fluid && `${bsPrefix}-fluid`, rounded && `rounded`, roundedCircle && `rounded-circle`, thumbnail && `${bsPrefix}-thumbnail`)
-  });
-});
-Image.displayName = 'Image';
-var _default = Image;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FigureImage.js":[function(require,module,exports) {
-"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
-var _Image = _interopRequireWildcard(require("./Image"));
-var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const FigureImage = /*#__PURE__*/React.forwardRef(({
-  className,
-  fluid = true,
-  ...props
-}, ref) => /*#__PURE__*/(0, _jsxRuntime.jsx)(_Image.default, {
-  ref: ref,
-  ...props,
-  fluid: fluid,
-  className: (0, _classnames.default)(className, 'figure-img')
-}));
-FigureImage.displayName = 'FigureImage';
-FigureImage.propTypes = _Image.propTypes;
-var _default = FigureImage;
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./Image":"../node_modules/react-bootstrap/esm/Image.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/FigureCaption.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const FigureCaption = (0, _createWithBsPrefix.default)('figure-caption', {
-  Component: 'figcaption'
-});
-var _default = FigureCaption;
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/Figure.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-var _FigureImage = _interopRequireDefault(require("./FigureImage"));
-var _FigureCaption = _interopRequireDefault(require("./FigureCaption"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const Figure = (0, _createWithBsPrefix.default)('figure', {
-  Component: 'figure'
-});
-var _default = Object.assign(Figure, {
-  Image: _FigureImage.default,
-  Caption: _FigureCaption.default
-});
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./FigureImage":"../node_modules/react-bootstrap/esm/FigureImage.js","./FigureCaption":"../node_modules/react-bootstrap/esm/FigureCaption.js"}],"../node_modules/react-bootstrap/esm/InputGroup.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _FormCheckInput = _interopRequireDefault(require("./FormCheckInput"));
 var _InputGroupContext = _interopRequireDefault(require("./InputGroupContext"));
+var _InputGroupText = _interopRequireDefault(require("./InputGroupText"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const InputGroupText = (0, _createWithBsPrefix.default)('input-group-text', {
-  Component: 'span'
-});
-const InputGroupCheckbox = props => /*#__PURE__*/(0, _jsxRuntime.jsx)(InputGroupText, {
+const InputGroupCheckbox = props => /*#__PURE__*/(0, _jsxRuntime.jsx)(_InputGroupText.default, {
   children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_FormCheckInput.default, {
     type: "checkbox",
     ...props
   })
 });
-const InputGroupRadio = props => /*#__PURE__*/(0, _jsxRuntime.jsx)(InputGroupText, {
+const InputGroupRadio = props => /*#__PURE__*/(0, _jsxRuntime.jsx)(_InputGroupText.default, {
   children: /*#__PURE__*/(0, _jsxRuntime.jsx)(_FormCheckInput.default, {
     type: "radio",
     ...props
@@ -40315,7 +40642,7 @@ const InputGroup = /*#__PURE__*/React.forwardRef(({
 
   // Intentionally an empty object. Used in detecting if a dropdown
   // exists under an input group.
-  const contextValue = (0, React.useMemo)(() => ({}), []);
+  const contextValue = (0, _react.useMemo)(() => ({}), []);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_InputGroupContext.default.Provider, {
     value: contextValue,
     children: /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
@@ -40326,13 +40653,12 @@ const InputGroup = /*#__PURE__*/React.forwardRef(({
   });
 });
 InputGroup.displayName = 'InputGroup';
-var _default = Object.assign(InputGroup, {
-  Text: InputGroupText,
+var _default = exports.default = Object.assign(InputGroup, {
+  Text: _InputGroupText.default,
   Radio: InputGroupRadio,
   Checkbox: InputGroupCheckbox
 });
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./FormCheckInput":"../node_modules/react-bootstrap/esm/FormCheckInput.js","./InputGroupContext":"../node_modules/react-bootstrap/esm/InputGroupContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/TabContext.js":[function(require,module,exports) {
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./FormCheckInput":"../node_modules/react-bootstrap/esm/FormCheckInput.js","./InputGroupContext":"../node_modules/react-bootstrap/esm/InputGroupContext.js","./InputGroupText":"../node_modules/react-bootstrap/esm/InputGroupText.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/TabContext.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -40340,11 +40666,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const TabContext = /*#__PURE__*/React.createContext(null);
-var _default = TabContext;
-exports.default = _default;
+var _default = exports.default = TabContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/@restart/ui/esm/NavItem.js":[function(require,module,exports) {
 "use strict";
 
@@ -40353,7 +40678,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 exports.useNavItem = useNavItem;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _NavContext = _interopRequireDefault(require("./NavContext"));
 var _SelectableContext = _interopRequireWildcard(require("./SelectableContext"));
@@ -40362,8 +40688,8 @@ var _DataKey = require("./DataKey");
 var _TabContext = _interopRequireDefault(require("./TabContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const _excluded = ["as", "active", "eventKey"];
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -40385,9 +40711,9 @@ function useNavItem({
   role,
   disabled
 }) {
-  const parentOnSelect = (0, React.useContext)(_SelectableContext.default);
-  const navContext = (0, React.useContext)(_NavContext.default);
-  const tabContext = (0, React.useContext)(_TabContext.default);
+  const parentOnSelect = (0, _react.useContext)(_SelectableContext.default);
+  const navContext = (0, _react.useContext)(_NavContext.default);
+  const tabContext = (0, _react.useContext)(_TabContext.default);
   let isActive = active;
   const props = {
     role
@@ -40456,8 +40782,7 @@ const NavItem = /*#__PURE__*/React.forwardRef((_ref, ref) => {
   }));
 });
 NavItem.displayName = 'NavItem';
-var _default = NavItem;
-exports.default = _default;
+var _default = exports.default = NavItem;
 },{"react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./NavContext":"../node_modules/@restart/ui/esm/NavContext.js","./SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./Button":"../node_modules/@restart/ui/esm/Button.js","./DataKey":"../node_modules/@restart/ui/esm/DataKey.js","./TabContext":"../node_modules/@restart/ui/esm/TabContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/Nav.js":[function(require,module,exports) {
 "use strict";
 
@@ -40466,7 +40791,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _querySelectorAll = _interopRequireDefault(require("dom-helpers/querySelectorAll"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useForceUpdate = _interopRequireDefault(require("@restart/hooks/useForceUpdate"));
 var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRefs"));
 var _NavContext = _interopRequireDefault(require("./NavContext"));
@@ -40475,8 +40801,8 @@ var _TabContext = _interopRequireDefault(require("./TabContext"));
 var _DataKey = require("./DataKey");
 var _NavItem = _interopRequireDefault(require("./NavItem"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const _excluded = ["as", "onSelect", "activeKey", "role", "onKeyDown"];
 function _objectWithoutPropertiesLoose(source, excluded) {
@@ -40507,9 +40833,9 @@ const Nav = /*#__PURE__*/React.forwardRef((_ref, ref) => {
   // A ref and forceUpdate for refocus, b/c we only want to trigger when needed
   // and don't want to reset the set in the effect
   const forceUpdate = (0, _useForceUpdate.default)();
-  const needsRefocusRef = (0, React.useRef)(false);
-  const parentOnSelect = (0, React.useContext)(_SelectableContext.default);
-  const tabContext = (0, React.useContext)(_TabContext.default);
+  const needsRefocusRef = (0, _react.useRef)(false);
+  const parentOnSelect = (0, _react.useContext)(_SelectableContext.default);
+  const tabContext = (0, _react.useContext)(_TabContext.default);
   let getControlledId, getControllerId;
   if (tabContext) {
     role = role || 'tablist';
@@ -40518,7 +40844,7 @@ const Nav = /*#__PURE__*/React.forwardRef((_ref, ref) => {
     getControlledId = tabContext.getControlledId;
     getControllerId = tabContext.getControllerId;
   }
-  const listNode = (0, React.useRef)(null);
+  const listNode = (0, _react.useRef)(null);
   const getNextActiveTab = offset => {
     const currentListNode = listNode.current;
     if (!currentListNode) return null;
@@ -40561,7 +40887,7 @@ const Nav = /*#__PURE__*/React.forwardRef((_ref, ref) => {
     needsRefocusRef.current = true;
     forceUpdate();
   };
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     if (listNode.current && needsRefocusRef.current) {
       const activeChild = listNode.current.querySelector(`[${EVENT_KEY_ATTR}][aria-selected=true]`);
       activeChild == null ? void 0 : activeChild.focus();
@@ -40588,12 +40914,12 @@ const Nav = /*#__PURE__*/React.forwardRef((_ref, ref) => {
   });
 });
 Nav.displayName = 'Nav';
-var _default = Object.assign(Nav, {
+var _default = exports.default = Object.assign(Nav, {
   Item: _NavItem.default
 });
-exports.default = _default;
 },{"dom-helpers/querySelectorAll":"../node_modules/dom-helpers/esm/querySelectorAll.js","react":"../node_modules/react/index.js","@restart/hooks/useForceUpdate":"../node_modules/@restart/hooks/esm/useForceUpdate.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","./NavContext":"../node_modules/@restart/ui/esm/NavContext.js","./SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./TabContext":"../node_modules/@restart/ui/esm/TabContext.js","./DataKey":"../node_modules/@restart/ui/esm/DataKey.js","./NavItem":"../node_modules/@restart/ui/esm/NavItem.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ListGroupItem.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -40607,8 +40933,8 @@ var _NavItem = require("@restart/ui/NavItem");
 var _SelectableContext = require("@restart/ui/SelectableContext");
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ListGroupItem = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -40652,10 +40978,10 @@ const ListGroupItem = /*#__PURE__*/React.forwardRef(({
   });
 });
 ListGroupItem.displayName = 'ListGroupItem';
-var _default = ListGroupItem;
-exports.default = _default;
+var _default = exports.default = ListGroupItem;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","warning":"../node_modules/warning/warning.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","@restart/ui/NavItem":"../node_modules/@restart/ui/esm/NavItem.js","@restart/ui/SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ListGroup.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -40669,8 +40995,8 @@ var _Nav = _interopRequireDefault(require("@restart/ui/Nav"));
 var _ThemeProvider = require("./ThemeProvider");
 var _ListGroupItem = _interopRequireDefault(require("./ListGroupItem"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ListGroup = /*#__PURE__*/React.forwardRef((props, ref) => {
   const {
@@ -40699,10 +41025,9 @@ const ListGroup = /*#__PURE__*/React.forwardRef((props, ref) => {
   });
 });
 ListGroup.displayName = 'ListGroup';
-var _default = Object.assign(ListGroup, {
+var _default = exports.default = Object.assign(ListGroup, {
   Item: _ListGroupItem.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","warning":"../node_modules/warning/warning.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/ui/Nav":"../node_modules/@restart/ui/esm/Nav.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./ListGroupItem":"../node_modules/react-bootstrap/esm/ListGroupItem.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/dom-helpers/esm/scrollbarSize.js":[function(require,module,exports) {
 "use strict";
 
@@ -40787,13 +41112,12 @@ var _css = _interopRequireDefault(require("dom-helpers/css"));
 var _DataKey = require("./DataKey");
 var _getScrollbarWidth = _interopRequireDefault(require("./getScrollbarWidth"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const OPEN_DATA_ATTRIBUTE = (0, _DataKey.dataAttr)('modal-open');
+const OPEN_DATA_ATTRIBUTE = exports.OPEN_DATA_ATTRIBUTE = (0, _DataKey.dataAttr)('modal-open');
 
 /**
  * Manages a stack of Modals as well as ensuring
  * body scrolling is is disabled and padding accounted for
  */
-exports.OPEN_DATA_ATTRIBUTE = OPEN_DATA_ATTRIBUTE;
 class ModalManager {
   constructor({
     ownerDocument,
@@ -40884,8 +41208,7 @@ class ModalManager {
     return !!this.modals.length && this.modals[this.modals.length - 1] === modal;
   }
 }
-var _default = ModalManager;
-exports.default = _default;
+var _default = exports.default = ModalManager;
 },{"dom-helpers/css":"../node_modules/dom-helpers/esm/css.js","./DataKey":"../node_modules/@restart/ui/esm/DataKey.js","./getScrollbarWidth":"../node_modules/@restart/ui/esm/getScrollbarWidth.js"}],"../node_modules/@restart/ui/esm/useWaitForDOMRef.js":[function(require,module,exports) {
 "use strict";
 
@@ -40967,8 +41290,7 @@ function NoopTransition({
   }
   return child;
 }
-var _default = NoopTransition;
-exports.default = _default;
+var _default = exports.default = NoopTransition;
 },{"@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","react":"../node_modules/react/index.js"}],"../node_modules/@restart/ui/esm/ImperativeTransition.js":[function(require,module,exports) {
 "use strict";
 
@@ -40984,8 +41306,8 @@ var _useIsomorphicEffect = _interopRequireDefault(require("@restart/hooks/useIso
 var _react = _interopRequireWildcard(require("react"));
 var _NoopTransition = _interopRequireDefault(require("./NoopTransition"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function useTransition({
   in: inProp,
@@ -41093,7 +41415,8 @@ var _activeElement = _interopRequireDefault(require("dom-helpers/activeElement")
 var _contains = _interopRequireDefault(require("dom-helpers/contains"));
 var _canUseDOM = _interopRequireDefault(require("dom-helpers/canUseDOM"));
 var _listen = _interopRequireDefault(require("dom-helpers/listen"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _reactDom = _interopRequireDefault(require("react-dom"));
 var _useMounted = _interopRequireDefault(require("@restart/hooks/useMounted"));
 var _useWillUnmount = _interopRequireDefault(require("@restart/hooks/useWillUnmount"));
@@ -41105,8 +41428,8 @@ var _useWindow = _interopRequireDefault(require("./useWindow"));
 var _ImperativeTransition = require("./ImperativeTransition");
 var _utils = require("./utils");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const _excluded = ["show", "role", "className", "style", "children", "backdrop", "keyboard", "onBackdropClick", "onEscapeKeyDown", "transition", "runTransition", "backdropTransition", "runBackdropTransition", "autoFocus", "enforceFocus", "restoreFocus", "restoreFocusOptions", "renderDialog", "renderBackdrop", "manager", "container", "onShow", "onHide", "onExit", "onExited", "onExiting", "onEnter", "onEntering", "onEntered"];
 function _objectWithoutPropertiesLoose(source, excluded) {
@@ -41133,7 +41456,7 @@ function getManager(window) {
 function useModalManager(provided) {
   const window = (0, _useWindow.default)();
   const modalManager = provided || getManager(window);
-  const modal = (0, React.useRef)({
+  const modal = (0, _react.useRef)({
     dialog: null,
     backdrop: null
   });
@@ -41141,15 +41464,15 @@ function useModalManager(provided) {
     add: () => modalManager.add(modal.current),
     remove: () => modalManager.remove(modal.current),
     isTopModal: () => modalManager.isTopModal(modal.current),
-    setDialogRef: (0, React.useCallback)(ref => {
+    setDialogRef: (0, _react.useCallback)(ref => {
       modal.current.dialog = ref;
     }, []),
-    setBackdropRef: (0, React.useCallback)(ref => {
+    setBackdropRef: (0, _react.useCallback)(ref => {
       modal.current.backdrop = ref;
     }, [])
   });
 }
-const Modal = /*#__PURE__*/(0, React.forwardRef)((_ref, ref) => {
+const Modal = /*#__PURE__*/(0, _react.forwardRef)((_ref, ref) => {
   let {
       show = false,
       role = 'dialog',
@@ -41187,9 +41510,9 @@ const Modal = /*#__PURE__*/(0, React.forwardRef)((_ref, ref) => {
   const modal = useModalManager(providedManager);
   const isMounted = (0, _useMounted.default)();
   const prevShow = (0, _usePrevious.default)(show);
-  const [exited, setExited] = (0, React.useState)(!show);
-  const lastFocusRef = (0, React.useRef)(null);
-  (0, React.useImperativeHandle)(ref, () => modal, [modal]);
+  const [exited, setExited] = (0, _react.useState)(!show);
+  const lastFocusRef = (0, _react.useRef)(null);
+  (0, _react.useImperativeHandle)(ref, () => modal, [modal]);
   if (_canUseDOM.default && !prevShow && show) {
     lastFocusRef.current = (0, _activeElement.default)(ownerWindow == null ? void 0 : ownerWindow.document);
   }
@@ -41236,7 +41559,7 @@ const Modal = /*#__PURE__*/(0, React.forwardRef)((_ref, ref) => {
 
   // Show logic when:
   //  - show is `true` _and_ `container` has resolved
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     if (!show || !container) return;
     handleShow();
   }, [show, container, /* should never change: */handleShow]);
@@ -41244,7 +41567,7 @@ const Modal = /*#__PURE__*/(0, React.forwardRef)((_ref, ref) => {
   // Hide cleanup logic when:
   //  - `exited` switches to true
   //  - component unmounts;
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     if (!exited) return;
     handleHide();
   }, [exited, handleHide]);
@@ -41280,8 +41603,8 @@ const Modal = /*#__PURE__*/(0, React.forwardRef)((_ref, ref) => {
       }
     }
   });
-  const removeFocusListenerRef = (0, React.useRef)();
-  const removeKeydownListenerRef = (0, React.useRef)();
+  const removeFocusListenerRef = (0, _react.useRef)();
+  const removeKeydownListenerRef = (0, _react.useRef)();
   const handleHidden = (...args) => {
     setExited(true);
     onExited == null ? void 0 : onExited(...args);
@@ -41338,10 +41661,9 @@ const Modal = /*#__PURE__*/(0, React.forwardRef)((_ref, ref) => {
   });
 });
 Modal.displayName = 'Modal';
-var _default = Object.assign(Modal, {
+var _default = exports.default = Object.assign(Modal, {
   Manager: _ModalManager.default
 });
-exports.default = _default;
 },{"dom-helpers/activeElement":"../node_modules/dom-helpers/esm/activeElement.js","dom-helpers/contains":"../node_modules/dom-helpers/esm/contains.js","dom-helpers/canUseDOM":"../node_modules/dom-helpers/esm/canUseDOM.js","dom-helpers/listen":"../node_modules/dom-helpers/esm/listen.js","react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","@restart/hooks/useMounted":"../node_modules/@restart/hooks/esm/useMounted.js","@restart/hooks/useWillUnmount":"../node_modules/@restart/hooks/esm/useWillUnmount.js","@restart/hooks/usePrevious":"../node_modules/@restart/hooks/esm/usePrevious.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./ModalManager":"../node_modules/@restart/ui/esm/ModalManager.js","./useWaitForDOMRef":"../node_modules/@restart/ui/esm/useWaitForDOMRef.js","./useWindow":"../node_modules/@restart/ui/esm/useWindow.js","./ImperativeTransition":"../node_modules/@restart/ui/esm/ImperativeTransition.js","./utils":"../node_modules/@restart/ui/esm/utils.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/dom-helpers/esm/hasClass.js":[function(require,module,exports) {
 "use strict";
 
@@ -41469,37 +41791,56 @@ function getSharedManager(options) {
   if (!sharedManager) sharedManager = new BootstrapModalManager(options);
   return sharedManager;
 }
-var _default = BootstrapModalManager;
-exports.default = _default;
+var _default = exports.default = BootstrapModalManager;
 },{"dom-helpers/addClass":"../node_modules/dom-helpers/esm/addClass.js","dom-helpers/css":"../node_modules/dom-helpers/esm/css.js","dom-helpers/querySelectorAll":"../node_modules/dom-helpers/esm/querySelectorAll.js","dom-helpers/removeClass":"../node_modules/dom-helpers/esm/removeClass.js","@restart/ui/ModalManager":"../node_modules/@restart/ui/esm/ModalManager.js"}],"../node_modules/react-bootstrap/esm/ModalBody.js":[function(require,module,exports) {
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('modal-body');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/ModalContext.js":[function(require,module,exports) {
-"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const ModalBody = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'modal-body');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+ModalBody.displayName = 'ModalBody';
+var _default = exports.default = ModalBody;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ModalContext.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const ModalContext = /*#__PURE__*/React.createContext({
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   onHide() {}
 });
-var _default = ModalContext;
-exports.default = _default;
+var _default = exports.default = ModalContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/ModalDialog.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -41509,8 +41850,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ModalDialog = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -41537,34 +41878,54 @@ const ModalDialog = /*#__PURE__*/React.forwardRef(({
   });
 });
 ModalDialog.displayName = 'ModalDialog';
-var _default = ModalDialog;
-exports.default = _default;
+var _default = exports.default = ModalDialog;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ModalFooter.js":[function(require,module,exports) {
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('modal-footer');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/AbstractModalHeader.js":[function(require,module,exports) {
-"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const ModalFooter = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'modal-footer');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+ModalFooter.displayName = 'ModalFooter';
+var _default = exports.default = ModalFooter;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/AbstractModalHeader.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _CloseButton = _interopRequireDefault(require("./CloseButton"));
 var _ModalContext = _interopRequireDefault(require("./ModalContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const AbstractModalHeader = /*#__PURE__*/React.forwardRef(({
   closeLabel = 'Close',
   closeVariant,
@@ -41573,7 +41934,7 @@ const AbstractModalHeader = /*#__PURE__*/React.forwardRef(({
   children,
   ...props
 }, ref) => {
-  const context = (0, React.useContext)(_ModalContext.default);
+  const context = (0, _react.useContext)(_ModalContext.default);
   const handleClick = (0, _useEventCallback.default)(() => {
     context == null ? void 0 : context.onHide();
     onHide == null ? void 0 : onHide();
@@ -41588,10 +41949,10 @@ const AbstractModalHeader = /*#__PURE__*/React.forwardRef(({
     })]
   });
 });
-var _default = AbstractModalHeader;
-exports.default = _default;
+var _default = exports.default = AbstractModalHeader;
 },{"react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./CloseButton":"../node_modules/react-bootstrap/esm/CloseButton.js","./ModalContext":"../node_modules/react-bootstrap/esm/ModalContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ModalHeader.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -41602,8 +41963,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _AbstractModalHeader = _interopRequireDefault(require("./AbstractModalHeader"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ModalHeader = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -41622,25 +41983,42 @@ const ModalHeader = /*#__PURE__*/React.forwardRef(({
   });
 });
 ModalHeader.displayName = 'ModalHeader';
-var _default = ModalHeader;
-exports.default = _default;
+var _default = exports.default = ModalHeader;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AbstractModalHeader":"../node_modules/react-bootstrap/esm/AbstractModalHeader.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ModalTitle.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
 var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const DivStyledAsH4 = (0, _divWithClassName.default)('h4');
-var _default = (0, _createWithBsPrefix.default)('modal-title', {
-  Component: DivStyledAsH4
+const ModalTitle = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = DivStyledAsH4,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'modal-title');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
 });
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js"}],"../node_modules/react-bootstrap/esm/Modal.js":[function(require,module,exports) {
+ModalTitle.displayName = 'ModalTitle';
+var _default = exports.default = ModalTitle;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Modal.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -41657,7 +42035,8 @@ var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventC
 var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRefs"));
 var _useWillUnmount = _interopRequireDefault(require("@restart/hooks/useWillUnmount"));
 var _transitionEnd = _interopRequireDefault(require("dom-helpers/transitionEnd"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Modal = _interopRequireDefault(require("@restart/ui/Modal"));
 var _BootstrapModalManager = require("./BootstrapModalManager");
 var _Fade = _interopRequireDefault(require("./Fade"));
@@ -41669,8 +42048,8 @@ var _ModalHeader = _interopRequireDefault(require("./ModalHeader"));
 var _ModalTitle = _interopRequireDefault(require("./ModalTitle"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /* eslint-disable no-use-before-define, react/no-multi-comp */
 function DialogTransition(props) {
@@ -41722,17 +42101,17 @@ const Modal = /*#__PURE__*/React.forwardRef(({
   manager: propsManager,
   ...props
 }, ref) => {
-  const [modalStyle, setStyle] = (0, React.useState)({});
-  const [animateStaticModal, setAnimateStaticModal] = (0, React.useState)(false);
-  const waitingForMouseUpRef = (0, React.useRef)(false);
-  const ignoreBackdropClickRef = (0, React.useRef)(false);
-  const removeStaticModalAnimationRef = (0, React.useRef)(null);
+  const [modalStyle, setStyle] = (0, _react.useState)({});
+  const [animateStaticModal, setAnimateStaticModal] = (0, _react.useState)(false);
+  const waitingForMouseUpRef = (0, _react.useRef)(false);
+  const ignoreBackdropClickRef = (0, _react.useRef)(false);
+  const removeStaticModalAnimationRef = (0, _react.useRef)(null);
   const [modal, setModalRef] = (0, _useCallbackRef.default)();
   const mergedRef = (0, _useMergedRefs.default)(ref, setModalRef);
   const handleHide = (0, _useEventCallback.default)(onHide);
   const isRTL = (0, _ThemeProvider.useIsRTL)();
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'modal');
-  const modalContext = (0, React.useMemo)(() => ({
+  const modalContext = (0, _react.useMemo)(() => ({
     onHide: handleHide
   }), [handleHide]);
   function getModalManager() {
@@ -41830,7 +42209,7 @@ const Modal = /*#__PURE__*/React.forwardRef(({
     // FIXME: This should work even when animation is disabled.
     (0, _removeEventListener.default)(window, 'resize', handleWindowResize);
   };
-  const renderBackdrop = (0, React.useCallback)(backdropProps => /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
+  const renderBackdrop = (0, _react.useCallback)(backdropProps => /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
     ...backdropProps,
     className: (0, _classnames.default)(`${bsPrefix}-backdrop`, backdropClassName, !animation && 'show')
   }), [animation, backdropClassName, bsPrefix]);
@@ -41892,7 +42271,7 @@ const Modal = /*#__PURE__*/React.forwardRef(({
   });
 });
 Modal.displayName = 'Modal';
-var _default = Object.assign(Modal, {
+var _default = exports.default = Object.assign(Modal, {
   Body: _ModalBody.default,
   Header: _ModalHeader.default,
   Title: _ModalTitle.default,
@@ -41901,7 +42280,6 @@ var _default = Object.assign(Modal, {
   TRANSITION_DURATION: 300,
   BACKDROP_TRANSITION_DURATION: 150
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","dom-helpers/addEventListener":"../node_modules/dom-helpers/esm/addEventListener.js","dom-helpers/canUseDOM":"../node_modules/dom-helpers/esm/canUseDOM.js","dom-helpers/ownerDocument":"../node_modules/dom-helpers/esm/ownerDocument.js","dom-helpers/removeEventListener":"../node_modules/dom-helpers/esm/removeEventListener.js","dom-helpers/scrollbarSize":"../node_modules/dom-helpers/esm/scrollbarSize.js","@restart/hooks/useCallbackRef":"../node_modules/@restart/hooks/esm/useCallbackRef.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","@restart/hooks/useWillUnmount":"../node_modules/@restart/hooks/esm/useWillUnmount.js","dom-helpers/transitionEnd":"../node_modules/dom-helpers/esm/transitionEnd.js","react":"../node_modules/react/index.js","@restart/ui/Modal":"../node_modules/@restart/ui/esm/Modal.js","./BootstrapModalManager":"../node_modules/react-bootstrap/esm/BootstrapModalManager.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./ModalBody":"../node_modules/react-bootstrap/esm/ModalBody.js","./ModalContext":"../node_modules/react-bootstrap/esm/ModalContext.js","./ModalDialog":"../node_modules/react-bootstrap/esm/ModalDialog.js","./ModalFooter":"../node_modules/react-bootstrap/esm/ModalFooter.js","./ModalHeader":"../node_modules/react-bootstrap/esm/ModalHeader.js","./ModalTitle":"../node_modules/react-bootstrap/esm/ModalTitle.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js":[function(require,module,exports) {
 'use strict';
 
@@ -41991,17 +42369,37 @@ function all() {
 module.exports = exports['default'];
 },{"./utils/createChainableTypeChecker":"../node_modules/prop-types-extra/lib/utils/createChainableTypeChecker.js"}],"../node_modules/react-bootstrap/esm/NavItem.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('nav-item');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/NavLink.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const NavItem = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'nav-item');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+NavItem.displayName = 'NavItem';
+var _default = exports.default = NavItem;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavLink.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42014,8 +42412,8 @@ var _NavItem = require("@restart/ui/NavItem");
 var _SelectableContext = require("@restart/ui/SelectableContext");
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const NavLink = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -42042,10 +42440,10 @@ const NavLink = /*#__PURE__*/React.forwardRef(({
   });
 });
 NavLink.displayName = 'NavLink';
-var _default = NavLink;
-exports.default = _default;
+var _default = exports.default = NavLink;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","@restart/ui/NavItem":"../node_modules/@restart/ui/esm/NavItem.js","@restart/ui/SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Nav.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42053,7 +42451,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
 var _all = _interopRequireDefault(require("prop-types-extra/lib/all"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _uncontrollable = require("uncontrollable");
 var _Nav = _interopRequireDefault(require("@restart/ui/Nav"));
 var _ThemeProvider = require("./ThemeProvider");
@@ -42062,8 +42461,8 @@ var _CardHeaderContext = _interopRequireDefault(require("./CardHeaderContext"));
 var _NavItem = _interopRequireDefault(require("./NavItem"));
 var _NavLink = _interopRequireDefault(require("./NavLink"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Nav = /*#__PURE__*/React.forwardRef((uncontrolledProps, ref) => {
   const {
@@ -42084,8 +42483,8 @@ const Nav = /*#__PURE__*/React.forwardRef((uncontrolledProps, ref) => {
   let navbarBsPrefix;
   let cardHeaderBsPrefix;
   let isNavbar = false;
-  const navbarContext = (0, React.useContext)(_NavbarContext.default);
-  const cardHeaderContext = (0, React.useContext)(_CardHeaderContext.default);
+  const navbarContext = (0, _react.useContext)(_NavbarContext.default);
+  const cardHeaderContext = (0, _react.useContext)(_CardHeaderContext.default);
   if (navbarContext) {
     navbarBsPrefix = navbarContext.bsPrefix;
     isNavbar = navbar == null ? true : navbar;
@@ -42111,13 +42510,13 @@ const Nav = /*#__PURE__*/React.forwardRef((uncontrolledProps, ref) => {
   });
 });
 Nav.displayName = 'Nav';
-var _default = Object.assign(Nav, {
+var _default = exports.default = Object.assign(Nav, {
   Item: _NavItem.default,
   Link: _NavLink.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","prop-types-extra/lib/all":"../node_modules/prop-types-extra/lib/all.js","react":"../node_modules/react/index.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/ui/Nav":"../node_modules/@restart/ui/esm/Nav.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","./CardHeaderContext":"../node_modules/react-bootstrap/esm/CardHeaderContext.js","./NavItem":"../node_modules/react-bootstrap/esm/NavItem.js","./NavLink":"../node_modules/react-bootstrap/esm/NavLink.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavbarBrand.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42127,8 +42526,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const NavbarBrand = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -42145,30 +42544,31 @@ const NavbarBrand = /*#__PURE__*/React.forwardRef(({
   });
 });
 NavbarBrand.displayName = 'NavbarBrand';
-var _default = NavbarBrand;
-exports.default = _default;
+var _default = exports.default = NavbarBrand;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavbarCollapse.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Collapse = _interopRequireDefault(require("./Collapse"));
 var _ThemeProvider = require("./ThemeProvider");
 var _NavbarContext = _interopRequireDefault(require("./NavbarContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const NavbarCollapse = /*#__PURE__*/React.forwardRef(({
   children,
   bsPrefix,
   ...props
 }, ref) => {
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'navbar-collapse');
-  const context = (0, React.useContext)(_NavbarContext.default);
+  const context = (0, _react.useContext)(_NavbarContext.default);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Collapse.default, {
     in: !!(context && context.expanded),
     ...props,
@@ -42180,23 +42580,24 @@ const NavbarCollapse = /*#__PURE__*/React.forwardRef(({
   });
 });
 NavbarCollapse.displayName = 'NavbarCollapse';
-var _default = NavbarCollapse;
-exports.default = _default;
+var _default = exports.default = NavbarCollapse;
 },{"react":"../node_modules/react/index.js","./Collapse":"../node_modules/react-bootstrap/esm/Collapse.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavbarToggle.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _ThemeProvider = require("./ThemeProvider");
 var _NavbarContext = _interopRequireDefault(require("./NavbarContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const NavbarToggle = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -42212,7 +42613,7 @@ const NavbarToggle = /*#__PURE__*/React.forwardRef(({
   const {
     onToggle,
     expanded
-  } = (0, React.useContext)(_NavbarContext.default) || {};
+  } = (0, _react.useContext)(_NavbarContext.default) || {};
   const handleClick = (0, _useEventCallback.default)(e => {
     if (onClick) onClick(e);
     if (onToggle) onToggle();
@@ -42232,8 +42633,7 @@ const NavbarToggle = /*#__PURE__*/React.forwardRef(({
   });
 });
 NavbarToggle.displayName = 'NavbarToggle';
-var _default = NavbarToggle;
-exports.default = _default;
+var _default = exports.default = NavbarToggle;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/hooks/esm/useMediaQuery.js":[function(require,module,exports) {
 "use strict";
 
@@ -42426,21 +42826,40 @@ const useBreakpoint = createBreakpointHook({
   xl: 1200,
   xxl: 1400
 });
-var _default = useBreakpoint;
-exports.default = _default;
+var _default = exports.default = useBreakpoint;
 },{"./useMediaQuery":"../node_modules/@restart/hooks/esm/useMediaQuery.js","react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/OffcanvasBody.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('offcanvas-body');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/OffcanvasToggling.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const OffcanvasBody = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'offcanvas-body');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+OffcanvasBody.displayName = 'OffcanvasBody';
+var _default = exports.default = OffcanvasBody;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/OffcanvasToggling.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42453,8 +42872,8 @@ var _transitionEndListener = _interopRequireDefault(require("./transitionEndList
 var _TransitionWrapper = _interopRequireDefault(require("./TransitionWrapper"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const transitionStyles = {
   [_Transition.ENTERING]: 'show',
@@ -42487,10 +42906,10 @@ const OffcanvasToggling = /*#__PURE__*/React.forwardRef(({
   });
 });
 OffcanvasToggling.displayName = 'OffcanvasToggling';
-var _default = OffcanvasToggling;
-exports.default = _default;
+var _default = exports.default = OffcanvasToggling;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","react-transition-group/Transition":"../node_modules/react-transition-group/esm/Transition.js","./transitionEndListener":"../node_modules/react-bootstrap/esm/transitionEndListener.js","./TransitionWrapper":"../node_modules/react-bootstrap/esm/TransitionWrapper.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/OffcanvasHeader.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42501,8 +42920,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _AbstractModalHeader = _interopRequireDefault(require("./AbstractModalHeader"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const OffcanvasHeader = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -42521,25 +42940,42 @@ const OffcanvasHeader = /*#__PURE__*/React.forwardRef(({
   });
 });
 OffcanvasHeader.displayName = 'OffcanvasHeader';
-var _default = OffcanvasHeader;
-exports.default = _default;
+var _default = exports.default = OffcanvasHeader;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./AbstractModalHeader":"../node_modules/react-bootstrap/esm/AbstractModalHeader.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/OffcanvasTitle.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
 var _divWithClassName = _interopRequireDefault(require("./divWithClassName"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const DivStyledAsH5 = (0, _divWithClassName.default)('h5');
-var _default = (0, _createWithBsPrefix.default)('offcanvas-title', {
-  Component: DivStyledAsH5
+const OffcanvasTitle = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = DivStyledAsH5,
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'offcanvas-title');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
 });
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js"}],"../node_modules/react-bootstrap/esm/Offcanvas.js":[function(require,module,exports) {
+OffcanvasTitle.displayName = 'OffcanvasTitle';
+var _default = exports.default = OffcanvasTitle;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./divWithClassName":"../node_modules/react-bootstrap/esm/divWithClassName.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Offcanvas.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42548,7 +42984,8 @@ exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
 var _useBreakpoint = _interopRequireDefault(require("@restart/hooks/useBreakpoint"));
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Modal = _interopRequireDefault(require("@restart/ui/Modal"));
 var _Fade = _interopRequireDefault(require("./Fade"));
 var _OffcanvasBody = _interopRequireDefault(require("./OffcanvasBody"));
@@ -42560,8 +42997,8 @@ var _OffcanvasTitle = _interopRequireDefault(require("./OffcanvasTitle"));
 var _ThemeProvider = require("./ThemeProvider");
 var _BootstrapModalManager = _interopRequireWildcard(require("./BootstrapModalManager"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function DialogTransition(props) {
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_OffcanvasToggling.default, {
@@ -42605,14 +43042,14 @@ const Offcanvas = /*#__PURE__*/React.forwardRef(({
   renderStaticNode = false,
   ...props
 }, ref) => {
-  const modalManager = (0, React.useRef)();
+  const modalManager = (0, _react.useRef)();
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'offcanvas');
   const {
     onToggle
-  } = (0, React.useContext)(_NavbarContext.default) || {};
-  const [showOffcanvas, setShowOffcanvas] = (0, React.useState)(false);
+  } = (0, _react.useContext)(_NavbarContext.default) || {};
+  const [showOffcanvas, setShowOffcanvas] = (0, _react.useState)(false);
   const hideResponsiveOffcanvas = (0, _useBreakpoint.default)(responsive || 'xs', 'up');
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     // Handles the case where screen is resized while the responsive
     // offcanvas is shown. If `responsive` not provided, just use `show`.
     setShowOffcanvas(responsive ? show && !hideResponsiveOffcanvas : show);
@@ -42621,7 +43058,7 @@ const Offcanvas = /*#__PURE__*/React.forwardRef(({
     onToggle == null ? void 0 : onToggle();
     onHide == null ? void 0 : onHide();
   });
-  const modalContext = (0, React.useMemo)(() => ({
+  const modalContext = (0, _react.useMemo)(() => ({
     onHide: handleHide
   }), [handleHide]);
   function getModalManager() {
@@ -42644,7 +43081,7 @@ const Offcanvas = /*#__PURE__*/React.forwardRef(({
     if (node) node.style.visibility = '';
     onExited == null ? void 0 : onExited(...args);
   };
-  const renderBackdrop = (0, React.useCallback)(backdropProps => /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
+  const renderBackdrop = (0, _react.useCallback)(backdropProps => /*#__PURE__*/(0, _jsxRuntime.jsx)("div", {
     ...backdropProps,
     className: (0, _classnames.default)(`${bsPrefix}-backdrop`, backdropClassName)
   }), [backdropClassName, bsPrefix]);
@@ -42687,28 +43124,29 @@ const Offcanvas = /*#__PURE__*/React.forwardRef(({
   });
 });
 Offcanvas.displayName = 'Offcanvas';
-var _default = Object.assign(Offcanvas, {
+var _default = exports.default = Object.assign(Offcanvas, {
   Body: _OffcanvasBody.default,
   Header: _OffcanvasHeader.default,
   Title: _OffcanvasTitle.default
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","@restart/hooks/useBreakpoint":"../node_modules/@restart/hooks/esm/useBreakpoint.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","react":"../node_modules/react/index.js","@restart/ui/Modal":"../node_modules/@restart/ui/esm/Modal.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./OffcanvasBody":"../node_modules/react-bootstrap/esm/OffcanvasBody.js","./OffcanvasToggling":"../node_modules/react-bootstrap/esm/OffcanvasToggling.js","./ModalContext":"../node_modules/react-bootstrap/esm/ModalContext.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","./OffcanvasHeader":"../node_modules/react-bootstrap/esm/OffcanvasHeader.js","./OffcanvasTitle":"../node_modules/react-bootstrap/esm/OffcanvasTitle.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./BootstrapModalManager":"../node_modules/react-bootstrap/esm/BootstrapModalManager.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavbarOffcanvas.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _Offcanvas = _interopRequireDefault(require("./Offcanvas"));
 var _NavbarContext = _interopRequireDefault(require("./NavbarContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const NavbarOffcanvas = /*#__PURE__*/React.forwardRef((props, ref) => {
-  const context = (0, React.useContext)(_NavbarContext.default);
+  const context = (0, _react.useContext)(_NavbarContext.default);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Offcanvas.default, {
     ref: ref,
     show: !!(context != null && context.expanded),
@@ -42717,33 +43155,61 @@ const NavbarOffcanvas = /*#__PURE__*/React.forwardRef((props, ref) => {
   });
 });
 NavbarOffcanvas.displayName = 'NavbarOffcanvas';
-var _default = NavbarOffcanvas;
-exports.default = _default;
-},{"react":"../node_modules/react/index.js","./Offcanvas":"../node_modules/react-bootstrap/esm/Offcanvas.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Navbar.js":[function(require,module,exports) {
+var _default = exports.default = NavbarOffcanvas;
+},{"react":"../node_modules/react/index.js","./Offcanvas":"../node_modules/react-bootstrap/esm/Offcanvas.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavbarText.js":[function(require,module,exports) {
 "use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const NavbarText = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'span',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'navbar-text');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+NavbarText.displayName = 'NavbarText';
+var _default = exports.default = NavbarText;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Navbar.js":[function(require,module,exports) {
+"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _SelectableContext = _interopRequireDefault(require("@restart/ui/SelectableContext"));
 var _uncontrollable = require("uncontrollable");
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
 var _NavbarBrand = _interopRequireDefault(require("./NavbarBrand"));
 var _NavbarCollapse = _interopRequireDefault(require("./NavbarCollapse"));
 var _NavbarToggle = _interopRequireDefault(require("./NavbarToggle"));
 var _NavbarOffcanvas = _interopRequireDefault(require("./NavbarOffcanvas"));
 var _ThemeProvider = require("./ThemeProvider");
 var _NavbarContext = _interopRequireDefault(require("./NavbarContext"));
+var _NavbarText = _interopRequireDefault(require("./NavbarText"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-const NavbarText = (0, _createWithBsPrefix.default)('navbar-text', {
-  Component: 'span'
-});
 const Navbar = /*#__PURE__*/React.forwardRef((props, ref) => {
   const {
     bsPrefix: initialBsPrefix,
@@ -42764,7 +43230,7 @@ const Navbar = /*#__PURE__*/React.forwardRef((props, ref) => {
     expanded: 'onToggle'
   });
   const bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(initialBsPrefix, 'navbar');
-  const handleCollapse = (0, React.useCallback)((...args) => {
+  const handleCollapse = (0, _react.useCallback)((...args) => {
     onSelect == null ? void 0 : onSelect(...args);
     if (collapseOnSelect && expanded) {
       onToggle == null ? void 0 : onToggle(false);
@@ -42779,7 +43245,7 @@ const Navbar = /*#__PURE__*/React.forwardRef((props, ref) => {
   }
   let expandClass = `${bsPrefix}-expand`;
   if (typeof expand === 'string') expandClass = `${expandClass}-${expand}`;
-  const navbarContext = (0, React.useMemo)(() => ({
+  const navbarContext = (0, _react.useMemo)(() => ({
     onToggle: () => onToggle == null ? void 0 : onToggle(!expanded),
     bsPrefix,
     expanded: !!expanded,
@@ -42798,16 +43264,16 @@ const Navbar = /*#__PURE__*/React.forwardRef((props, ref) => {
   });
 });
 Navbar.displayName = 'Navbar';
-var _default = Object.assign(Navbar, {
+var _default = exports.default = Object.assign(Navbar, {
   Brand: _NavbarBrand.default,
   Collapse: _NavbarCollapse.default,
   Offcanvas: _NavbarOffcanvas.default,
-  Text: NavbarText,
+  Text: _NavbarText.default,
   Toggle: _NavbarToggle.default
 });
-exports.default = _default;
-},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js","./NavbarBrand":"../node_modules/react-bootstrap/esm/NavbarBrand.js","./NavbarCollapse":"../node_modules/react-bootstrap/esm/NavbarCollapse.js","./NavbarToggle":"../node_modules/react-bootstrap/esm/NavbarToggle.js","./NavbarOffcanvas":"../node_modules/react-bootstrap/esm/NavbarOffcanvas.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavDropdown.js":[function(require,module,exports) {
+},{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","./NavbarBrand":"../node_modules/react-bootstrap/esm/NavbarBrand.js","./NavbarCollapse":"../node_modules/react-bootstrap/esm/NavbarCollapse.js","./NavbarToggle":"../node_modules/react-bootstrap/esm/NavbarToggle.js","./NavbarOffcanvas":"../node_modules/react-bootstrap/esm/NavbarOffcanvas.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./NavbarContext":"../node_modules/react-bootstrap/esm/NavbarContext.js","./NavbarText":"../node_modules/react-bootstrap/esm/NavbarText.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/NavDropdown.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -42819,8 +43285,8 @@ var _ThemeProvider = require("./ThemeProvider");
 var _Dropdown = _interopRequireDefault(require("./Dropdown"));
 var _NavLink = _interopRequireDefault(require("./NavLink"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const NavDropdown = /*#__PURE__*/React.forwardRef(({
   id,
@@ -42860,13 +43326,12 @@ const NavDropdown = /*#__PURE__*/React.forwardRef(({
   });
 });
 NavDropdown.displayName = 'NavDropdown';
-var _default = Object.assign(NavDropdown, {
+var _default = exports.default = Object.assign(NavDropdown, {
   Item: _Dropdown.default.Item,
   ItemText: _Dropdown.default.ItemText,
   Divider: _Dropdown.default.Divider,
   Header: _Dropdown.default.Header
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Dropdown":"../node_modules/react-bootstrap/esm/Dropdown.js","./NavLink":"../node_modules/react-bootstrap/esm/NavLink.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/useRootClose.js":[function(require,module,exports) {
 "use strict";
 
@@ -42880,8 +43345,8 @@ var _react = require("react");
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _useClickOutside = _interopRequireWildcard(require("./useClickOutside"));
 var _utils = require("./utils");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const noop = () => {};
 /**
@@ -42930,8 +43395,7 @@ function useRootClose(ref, onRootClose, {
     };
   }, [ref, disabled, handleKeyUp]);
 }
-var _default = useRootClose;
-exports.default = _default;
+var _default = exports.default = useRootClose;
 },{"dom-helpers/listen":"../node_modules/dom-helpers/esm/listen.js","dom-helpers/ownerDocument":"../node_modules/dom-helpers/esm/ownerDocument.js","react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./useClickOutside":"../node_modules/@restart/ui/esm/useClickOutside.js","./utils":"../node_modules/@restart/ui/esm/utils.js"}],"../node_modules/@restart/ui/esm/Overlay.js":[function(require,module,exports) {
 "use strict";
 
@@ -42939,7 +43403,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _reactDom = _interopRequireDefault(require("react-dom"));
 var _useCallbackRef = _interopRequireDefault(require("@restart/hooks/useCallbackRef"));
 var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRefs"));
@@ -42949,8 +43414,8 @@ var _useWaitForDOMRef = _interopRequireDefault(require("./useWaitForDOMRef"));
 var _mergeOptionsWithPopperConfig = _interopRequireDefault(require("./mergeOptionsWithPopperConfig"));
 var _ImperativeTransition = require("./ImperativeTransition");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 /**
  * Built on top of `Popper.js`, the overlay component is
  * great for custom tooltip overlays.
@@ -42970,7 +43435,7 @@ const Overlay = /*#__PURE__*/React.forwardRef((props, outerRef) => {
   const mergedRef = (0, _useMergedRefs.default)(attachRef, outerRef);
   const container = (0, _useWaitForDOMRef.default)(props.container);
   const target = (0, _useWaitForDOMRef.default)(props.target);
-  const [exited, setExited] = (0, React.useState)(!props.show);
+  const [exited, setExited] = (0, _react.useState)(!props.show);
   const popper = (0, _usePopper.default)(target, rootElement, (0, _mergeOptionsWithPopperConfig.default)({
     placement,
     enableEvents: !!props.show,
@@ -43037,31 +43502,68 @@ const Overlay = /*#__PURE__*/React.forwardRef((props, outerRef) => {
   return container ? /*#__PURE__*/_reactDom.default.createPortal(child, container) : null;
 });
 Overlay.displayName = 'Overlay';
-var _default = Overlay;
-exports.default = _default;
+var _default = exports.default = Overlay;
 },{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","@restart/hooks/useCallbackRef":"../node_modules/@restart/hooks/esm/useCallbackRef.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","./usePopper":"../node_modules/@restart/ui/esm/usePopper.js","./useRootClose":"../node_modules/@restart/ui/esm/useRootClose.js","./useWaitForDOMRef":"../node_modules/@restart/ui/esm/useWaitForDOMRef.js","./mergeOptionsWithPopperConfig":"../node_modules/@restart/ui/esm/mergeOptionsWithPopperConfig.js","./ImperativeTransition":"../node_modules/@restart/ui/esm/ImperativeTransition.js"}],"../node_modules/react-bootstrap/esm/PopoverHeader.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('popover-header');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/PopoverBody.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const PopoverHeader = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'popover-header');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+PopoverHeader.displayName = 'PopoverHeader';
+var _default = exports.default = PopoverHeader;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/PopoverBody.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('popover-body');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/helpers.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const PopoverBody = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'popover-body');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+PopoverBody.displayName = 'PopoverBody';
+var _default = exports.default = PopoverBody;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/helpers.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43070,8 +43572,8 @@ Object.defineProperty(exports, "__esModule", {
 exports.BsPrefixComponent = void 0;
 exports.getOverlayDirection = getOverlayDirection;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 class BsPrefixComponent extends React.Component {}
 
 // Need to use this instead of typeof Component to get proper type checking.
@@ -43103,6 +43605,7 @@ function getInitialPopperStyles(position = 'absolute') {
 }
 },{}],"../node_modules/react-bootstrap/esm/Popover.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43116,8 +43619,8 @@ var _PopoverBody = _interopRequireDefault(require("./PopoverBody"));
 var _helpers = require("./helpers");
 var _getInitialPopperStyles = _interopRequireDefault(require("./getInitialPopperStyles"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Popover = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -43158,16 +43661,16 @@ const Popover = /*#__PURE__*/React.forwardRef(({
     }) : children]
   });
 });
-var _default = Object.assign(Popover, {
+var _default = exports.default = Object.assign(Popover, {
   Header: _PopoverHeader.default,
   Body: _PopoverBody.default,
   // Default popover offset.
   // https://github.com/twbs/bootstrap/blob/5c32767e0e0dbac2d934bcdee03719a65d3f1187/js/src/popover.js#L28
   POPPER_OFFSET: [0, 8]
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./PopoverHeader":"../node_modules/react-bootstrap/esm/PopoverHeader.js","./PopoverBody":"../node_modules/react-bootstrap/esm/PopoverBody.js","./helpers":"../node_modules/react-bootstrap/esm/helpers.js","./getInitialPopperStyles":"../node_modules/react-bootstrap/esm/getInitialPopperStyles.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Tooltip.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43179,8 +43682,8 @@ var _ThemeProvider = require("./ThemeProvider");
 var _helpers = require("./helpers");
 var _getInitialPopperStyles = _interopRequireDefault(require("./getInitialPopperStyles"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Tooltip = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -43222,14 +43725,14 @@ const Tooltip = /*#__PURE__*/React.forwardRef(({
   });
 });
 Tooltip.displayName = 'Tooltip';
-var _default = Object.assign(Tooltip, {
+var _default = exports.default = Object.assign(Tooltip, {
   // Default tooltip offset.
   // https://github.com/twbs/bootstrap/blob/beca2a6c7f6bc88b6449339fc76edcda832c59e5/js/src/tooltip.js#L65
   TOOLTIP_OFFSET: [0, 6]
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./helpers":"../node_modules/react-bootstrap/esm/helpers.js","./getInitialPopperStyles":"../node_modules/react-bootstrap/esm/getInitialPopperStyles.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/useOverlayOffset.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43270,12 +43773,14 @@ function useOverlayOffset(customOffset) {
 }
 },{"react":"../node_modules/react/index.js","dom-helpers/hasClass":"../node_modules/dom-helpers/esm/hasClass.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Popover":"../node_modules/react-bootstrap/esm/Popover.js","./Tooltip":"../node_modules/react-bootstrap/esm/Tooltip.js"}],"../node_modules/react-bootstrap/esm/Overlay.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _classnames = _interopRequireDefault(require("classnames"));
 var _Overlay = _interopRequireDefault(require("@restart/ui/Overlay"));
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
@@ -43286,8 +43791,8 @@ var _Fade = _interopRequireDefault(require("./Fade"));
 var _safeFindDOMNode = _interopRequireDefault(require("./safeFindDOMNode"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function wrapRefs(props, arrowProps) {
   const {
     ref
@@ -43307,8 +43812,8 @@ const Overlay = /*#__PURE__*/React.forwardRef(({
   show: outerShow = false,
   ...outerProps
 }, outerRef) => {
-  const popperRef = (0, React.useRef)({});
-  const [firstRenderedState, setFirstRenderedState] = (0, React.useState)(null);
+  const popperRef = (0, _react.useRef)({});
+  const [firstRenderedState, setFirstRenderedState] = (0, _react.useState)(null);
   const [ref, modifiers] = (0, _useOverlayOffset.default)(outerProps.offset);
   const mergedRef = (0, _useMergedRefs.default)(outerRef, ref);
   const actualTransition = transition === true ? _Fade.default : transition || undefined;
@@ -43317,11 +43822,12 @@ const Overlay = /*#__PURE__*/React.forwardRef(({
     popperConfig == null ? void 0 : popperConfig.onFirstUpdate == null ? void 0 : popperConfig.onFirstUpdate(state);
   });
   (0, _useIsomorphicEffect.default)(() => {
-    if (firstRenderedState) {
+    if (firstRenderedState && outerProps.target) {
+      // Must wait for target element to resolve before updating popper.
       popperRef.current.scheduleUpdate == null ? void 0 : popperRef.current.scheduleUpdate();
     }
-  }, [firstRenderedState]);
-  (0, React.useEffect)(() => {
+  }, [firstRenderedState, outerProps.target]);
+  (0, _react.useEffect)(() => {
     if (!outerShow) {
       setFirstRenderedState(null);
     }
@@ -43382,17 +43888,19 @@ const Overlay = /*#__PURE__*/React.forwardRef(({
   });
 });
 Overlay.displayName = 'Overlay';
-var _default = Overlay;
-exports.default = _default;
+var _default = exports.default = Overlay;
 },{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","@restart/ui/Overlay":"../node_modules/@restart/ui/esm/Overlay.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","@restart/hooks/useIsomorphicEffect":"../node_modules/@restart/hooks/esm/useIsomorphicEffect.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","./useOverlayOffset":"../node_modules/react-bootstrap/esm/useOverlayOffset.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./safeFindDOMNode":"../node_modules/react-bootstrap/esm/safeFindDOMNode.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/OverlayTrigger.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _contains = _interopRequireDefault(require("dom-helpers/contains"));
-var React = _interopRequireWildcard(require("react"));
+var _propTypes = _interopRequireDefault(require("prop-types"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useTimeout = _interopRequireDefault(require("@restart/hooks/useTimeout"));
 var _warning = _interopRequireDefault(require("warning"));
 var _uncontrollable = require("uncontrollable");
@@ -43400,8 +43908,8 @@ var _useMergedRefs = _interopRequireDefault(require("@restart/hooks/useMergedRef
 var _Overlay = _interopRequireDefault(require("./Overlay"));
 var _safeFindDOMNode = _interopRequireDefault(require("./safeFindDOMNode"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function normalizeDelay(delay) {
   return delay && typeof delay === 'object' ? delay : {
@@ -43424,7 +43932,8 @@ handler, args, relatedNative) {
     handler(...args);
   }
 }
-function OverlayTrigger({
+const triggerType = _propTypes.default.oneOf(['click', 'hover', 'focus']);
+const OverlayTrigger = ({
   trigger = ['hover', 'focus'],
   overlay,
   children,
@@ -43436,11 +43945,11 @@ function OverlayTrigger({
   placement,
   flip = placement && placement.indexOf('auto') !== -1,
   ...props
-}) {
-  const triggerNodeRef = (0, React.useRef)(null);
+}) => {
+  const triggerNodeRef = (0, _react.useRef)(null);
   const mergedRef = (0, _useMergedRefs.default)(triggerNodeRef, children.ref);
   const timeout = (0, _useTimeout.default)();
-  const hoverStateRef = (0, React.useRef)('');
+  const hoverStateRef = (0, _react.useRef)('');
   const [show, setShow] = (0, _uncontrollable.useUncontrolledProp)(propsShow, defaultShow, onToggle);
   const delay = normalizeDelay(propsDelay);
   const {
@@ -43451,7 +43960,7 @@ function OverlayTrigger({
   const attachRef = r => {
     mergedRef((0, _safeFindDOMNode.default)(r));
   };
-  const handleShow = (0, React.useCallback)(() => {
+  const handleShow = (0, _react.useCallback)(() => {
     timeout.clear();
     hoverStateRef.current = 'show';
     if (!delay.show) {
@@ -43462,7 +43971,7 @@ function OverlayTrigger({
       if (hoverStateRef.current === 'show') setShow(true);
     }, delay.show);
   }, [delay.show, setShow, timeout]);
-  const handleHide = (0, React.useCallback)(() => {
+  const handleHide = (0, _react.useCallback)(() => {
     timeout.clear();
     hoverStateRef.current = 'hide';
     if (!delay.hide) {
@@ -43473,22 +43982,22 @@ function OverlayTrigger({
       if (hoverStateRef.current === 'hide') setShow(false);
     }, delay.hide);
   }, [delay.hide, setShow, timeout]);
-  const handleFocus = (0, React.useCallback)((...args) => {
+  const handleFocus = (0, _react.useCallback)((...args) => {
     handleShow();
     onFocus == null ? void 0 : onFocus(...args);
   }, [handleShow, onFocus]);
-  const handleBlur = (0, React.useCallback)((...args) => {
+  const handleBlur = (0, _react.useCallback)((...args) => {
     handleHide();
     onBlur == null ? void 0 : onBlur(...args);
   }, [handleHide, onBlur]);
-  const handleClick = (0, React.useCallback)((...args) => {
+  const handleClick = (0, _react.useCallback)((...args) => {
     setShow(!show);
     onClick == null ? void 0 : onClick(...args);
   }, [onClick, setShow, show]);
-  const handleMouseOver = (0, React.useCallback)((...args) => {
+  const handleMouseOver = (0, _react.useCallback)((...args) => {
     handleMouseOverOut(handleShow, args, 'fromElement');
   }, [handleShow]);
-  const handleMouseOut = (0, React.useCallback)((...args) => {
+  const handleMouseOut = (0, _react.useCallback)((...args) => {
     handleMouseOverOut(handleHide, args, 'toElement');
   }, [handleHide]);
   const triggers = trigger == null ? [] : [].concat(trigger);
@@ -43508,7 +44017,7 @@ function OverlayTrigger({
     triggerProps.onMouseOut = handleMouseOut;
   }
   return /*#__PURE__*/(0, _jsxRuntime.jsxs)(_jsxRuntime.Fragment, {
-    children: [typeof children === 'function' ? children(triggerProps) : /*#__PURE__*/(0, React.cloneElement)(children, triggerProps), /*#__PURE__*/(0, _jsxRuntime.jsx)(_Overlay.default, {
+    children: [typeof children === 'function' ? children(triggerProps) : /*#__PURE__*/(0, _react.cloneElement)(children, triggerProps), /*#__PURE__*/(0, _jsxRuntime.jsx)(_Overlay.default, {
       ...props,
       show: show,
       onHide: handleHide,
@@ -43519,10 +44028,9 @@ function OverlayTrigger({
       children: overlay
     })]
   });
-}
-var _default = OverlayTrigger;
-exports.default = _default;
-},{"dom-helpers/contains":"../node_modules/dom-helpers/esm/contains.js","react":"../node_modules/react/index.js","@restart/hooks/useTimeout":"../node_modules/@restart/hooks/esm/useTimeout.js","warning":"../node_modules/warning/warning.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","./Overlay":"../node_modules/react-bootstrap/esm/Overlay.js","./safeFindDOMNode":"../node_modules/react-bootstrap/esm/safeFindDOMNode.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/PageItem.js":[function(require,module,exports) {
+};
+var _default = exports.default = OverlayTrigger;
+},{"dom-helpers/contains":"../node_modules/dom-helpers/esm/contains.js","prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","@restart/hooks/useTimeout":"../node_modules/@restart/hooks/esm/useTimeout.js","warning":"../node_modules/warning/warning.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/hooks/useMergedRefs":"../node_modules/@restart/hooks/esm/useMergedRefs.js","./Overlay":"../node_modules/react-bootstrap/esm/Overlay.js","./safeFindDOMNode":"../node_modules/react-bootstrap/esm/safeFindDOMNode.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/PageItem.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -43533,8 +44041,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _Anchor = _interopRequireDefault(require("@restart/ui/Anchor"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /* eslint-disable react/no-multi-comp */
 
@@ -43569,8 +44077,7 @@ const PageItem = /*#__PURE__*/React.forwardRef(({
   });
 });
 PageItem.displayName = 'PageItem';
-var _default = PageItem;
-exports.default = _default;
+var _default = exports.default = PageItem;
 function createButton(name, defaultValue, label = name) {
   const Button = /*#__PURE__*/React.forwardRef(({
     children,
@@ -43589,18 +44096,14 @@ function createButton(name, defaultValue, label = name) {
   Button.displayName = name;
   return Button;
 }
-const First = createButton('First', '«');
-exports.First = First;
-const Prev = createButton('Prev', '‹', 'Previous');
-exports.Prev = Prev;
-const Ellipsis = createButton('Ellipsis', '…', 'More');
-exports.Ellipsis = Ellipsis;
-const Next = createButton('Next', '›');
-exports.Next = Next;
-const Last = createButton('Last', '»');
-exports.Last = Last;
+const First = exports.First = createButton('First', '«');
+const Prev = exports.Prev = createButton('Prev', '‹', 'Previous');
+const Ellipsis = exports.Ellipsis = createButton('Ellipsis', '…', 'More');
+const Next = exports.Next = createButton('Next', '›');
+const Last = exports.Last = createButton('Last', '»');
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/Anchor":"../node_modules/@restart/ui/esm/Anchor.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Pagination.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43611,8 +44114,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _PageItem = _interopRequireWildcard(require("./PageItem"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Pagination = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -43628,7 +44131,7 @@ const Pagination = /*#__PURE__*/React.forwardRef(({
   });
 });
 Pagination.displayName = 'Pagination';
-var _default = Object.assign(Pagination, {
+var _default = exports.default = Object.assign(Pagination, {
   First: _PageItem.First,
   Prev: _PageItem.Prev,
   Ellipsis: _PageItem.Ellipsis,
@@ -43636,9 +44139,9 @@ var _default = Object.assign(Pagination, {
   Next: _PageItem.Next,
   Last: _PageItem.Last
 });
-exports.default = _default;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./PageItem":"../node_modules/react-bootstrap/esm/PageItem.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/usePlaceholder.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43677,8 +44180,8 @@ var _Button = _interopRequireDefault(require("./Button"));
 var _usePlaceholder = _interopRequireDefault(require("./usePlaceholder"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const PlaceholderButton = /*#__PURE__*/React.forwardRef((props, ref) => {
   const placeholderProps = (0, _usePlaceholder.default)(props);
   return /*#__PURE__*/(0, _jsxRuntime.jsx)(_Button.default, {
@@ -43689,8 +44192,7 @@ const PlaceholderButton = /*#__PURE__*/React.forwardRef((props, ref) => {
   });
 });
 PlaceholderButton.displayName = 'PlaceholderButton';
-var _default = PlaceholderButton;
-exports.default = _default;
+var _default = exports.default = PlaceholderButton;
 },{"react":"../node_modules/react/index.js","./Button":"../node_modules/react-bootstrap/esm/Button.js","./usePlaceholder":"../node_modules/react-bootstrap/esm/usePlaceholder.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Placeholder.js":[function(require,module,exports) {
 "use strict";
 
@@ -43703,8 +44205,8 @@ var _usePlaceholder = _interopRequireDefault(require("./usePlaceholder"));
 var _PlaceholderButton = _interopRequireDefault(require("./PlaceholderButton"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const Placeholder = /*#__PURE__*/React.forwardRef(({
   as: Component = 'span',
   ...props
@@ -43716,24 +44218,25 @@ const Placeholder = /*#__PURE__*/React.forwardRef(({
   });
 });
 Placeholder.displayName = 'Placeholder';
-var _default = Object.assign(Placeholder, {
+var _default = exports.default = Object.assign(Placeholder, {
   Button: _PlaceholderButton.default
 });
-exports.default = _default;
 },{"react":"../node_modules/react/index.js","./usePlaceholder":"../node_modules/react-bootstrap/esm/usePlaceholder.js","./PlaceholderButton":"../node_modules/react-bootstrap/esm/PlaceholderButton.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ProgressBar.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _ThemeProvider = require("./ThemeProvider");
 var _ElementChildren = require("./ElementChildren");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ROUND_PRECISION = 1000;
 
@@ -43840,7 +44343,7 @@ const ProgressBar = /*#__PURE__*/React.forwardRef(({
     ref: ref,
     ...wrapperProps,
     className: (0, _classnames.default)(className, bsPrefix),
-    children: children ? (0, _ElementChildren.map)(children, child => /*#__PURE__*/(0, React.cloneElement)(child, {
+    children: children ? (0, _ElementChildren.map)(children, child => /*#__PURE__*/(0, _react.cloneElement)(child, {
       isChild: true
     })) : renderProgressBar({
       min,
@@ -43856,10 +44359,10 @@ const ProgressBar = /*#__PURE__*/React.forwardRef(({
   });
 });
 ProgressBar.displayName = 'ProgressBar';
-var _default = ProgressBar;
-exports.default = _default;
+var _default = exports.default = ProgressBar;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./ElementChildren":"../node_modules/react-bootstrap/esm/ElementChildren.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Ratio.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43869,8 +44372,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 function toPercent(num) {
   if (num <= 0) return '100%';
@@ -43900,10 +44403,10 @@ const Ratio = /*#__PURE__*/React.forwardRef(({
     children: React.Children.only(children)
   });
 });
-var _default = Ratio;
-exports.default = _default;
+var _default = exports.default = Ratio;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Row.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43913,8 +44416,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Row = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -43949,10 +44452,10 @@ const Row = /*#__PURE__*/React.forwardRef(({
   });
 });
 Row.displayName = 'Row';
-var _default = Row;
-exports.default = _default;
+var _default = exports.default = Row;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Spinner.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -43962,8 +44465,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Spinner = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -43984,8 +44487,7 @@ const Spinner = /*#__PURE__*/React.forwardRef(({
   });
 });
 Spinner.displayName = 'Spinner';
-var _default = Spinner;
-exports.default = _default;
+var _default = exports.default = Spinner;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/SplitButton.js":[function(require,module,exports) {
 "use strict";
 
@@ -44001,8 +44503,8 @@ var _Dropdown = _interopRequireDefault(require("./Dropdown"));
 var _types = require("./types");
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const propTypes = {
   /**
    * An html id attribute for the Toggle button, necessary for assistive technologies, such as screen readers.
@@ -44120,8 +44622,7 @@ const SplitButton = /*#__PURE__*/React.forwardRef(({
 }));
 SplitButton.propTypes = propTypes;
 SplitButton.displayName = 'SplitButton';
-var _default = SplitButton;
-exports.default = _default;
+var _default = exports.default = SplitButton;
 },{"react":"../node_modules/react/index.js","prop-types":"../node_modules/prop-types/index.js","./Button":"../node_modules/react-bootstrap/esm/Button.js","./ButtonGroup":"../node_modules/react-bootstrap/esm/ButtonGroup.js","./Dropdown":"../node_modules/react-bootstrap/esm/Dropdown.js","./types":"../node_modules/react-bootstrap/esm/types.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/SSRProvider.js":[function(require,module,exports) {
 "use strict";
 
@@ -44130,8 +44631,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _ssr = require("@restart/ui/ssr");
-var _default = _ssr.SSRProvider;
-exports.default = _default;
+var _default = exports.default = _ssr.SSRProvider;
 },{"@restart/ui/ssr":"../node_modules/@restart/ui/esm/ssr.js"}],"../node_modules/react-bootstrap/esm/createUtilityClasses.js":[function(require,module,exports) {
 "use strict";
 
@@ -44174,6 +44674,7 @@ function createUtilityClassName(utilityValues, breakpoints = _ThemeProvider.DEFA
 }
 },{"prop-types":"../node_modules/prop-types/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js"}],"../node_modules/react-bootstrap/esm/Stack.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -44184,8 +44685,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _createUtilityClasses = _interopRequireWildcard(require("./createUtilityClasses"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Stack = /*#__PURE__*/React.forwardRef(({
   as: Component = 'div',
@@ -44207,8 +44708,7 @@ const Stack = /*#__PURE__*/React.forwardRef(({
   });
 });
 Stack.displayName = 'Stack';
-var _default = Stack;
-exports.default = _default;
+var _default = exports.default = Stack;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./createUtilityClasses":"../node_modules/react-bootstrap/esm/createUtilityClasses.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/TabPanel.js":[function(require,module,exports) {
 "use strict";
 
@@ -44217,14 +44717,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 exports.useTabPanel = useTabPanel;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _TabContext = _interopRequireDefault(require("./TabContext"));
 var _SelectableContext = _interopRequireWildcard(require("./SelectableContext"));
 var _NoopTransition = _interopRequireDefault(require("./NoopTransition"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const _excluded = ["active", "eventKey", "mountOnEnter", "transition", "unmountOnExit", "role", "onEnter", "onEntering", "onEntered", "onExit", "onExiting", "onExited"],
   _excluded2 = ["activeKey", "getControlledId", "getControllerId"],
   _excluded3 = ["as"];
@@ -44256,7 +44757,7 @@ function useTabPanel(_ref) {
       onExited
     } = _ref,
     props = _objectWithoutPropertiesLoose(_ref, _excluded);
-  const context = (0, React.useContext)(_TabContext.default);
+  const context = (0, _react.useContext)(_TabContext.default);
   if (!context) return [Object.assign({}, props, {
     role
   }), {
@@ -44342,8 +44843,7 @@ const TabPanel = /*#__PURE__*/React.forwardRef(
   });
 });
 TabPanel.displayName = 'TabPanel';
-var _default = TabPanel;
-exports.default = _default;
+var _default = exports.default = TabPanel;
 },{"react":"../node_modules/react/index.js","./TabContext":"../node_modules/@restart/ui/esm/TabContext.js","./SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./NoopTransition":"../node_modules/@restart/ui/esm/NoopTransition.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/@restart/ui/esm/Tabs.js":[function(require,module,exports) {
 "use strict";
 
@@ -44351,7 +44851,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _uncontrollable = require("uncontrollable");
 var _ssr = require("./ssr");
 var _TabContext = _interopRequireDefault(require("./TabContext"));
@@ -44359,8 +44860,8 @@ var _SelectableContext = _interopRequireDefault(require("./SelectableContext"));
 var _TabPanel = _interopRequireDefault(require("./TabPanel"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const Tabs = props => {
   const {
     id: userId,
@@ -44375,8 +44876,8 @@ const Tabs = props => {
   } = props;
   const [activeKey, onSelect] = (0, _uncontrollable.useUncontrolledProp)(propsActiveKey, defaultActiveKey, propsOnSelect);
   const id = (0, _ssr.useSSRSafeId)(userId);
-  const generateChildId = (0, React.useMemo)(() => generateCustomChildId || ((key, type) => id ? `${id}-${type}-${key}` : null), [id, generateCustomChildId]);
-  const tabContext = (0, React.useMemo)(() => ({
+  const generateChildId = (0, _react.useMemo)(() => generateCustomChildId || ((key, type) => id ? `${id}-${type}-${key}` : null), [id, generateCustomChildId]);
+  const tabContext = (0, _react.useMemo)(() => ({
     onSelect,
     activeKey,
     transition,
@@ -44394,8 +44895,7 @@ const Tabs = props => {
   });
 };
 Tabs.Panel = _TabPanel.default;
-var _default = Tabs;
-exports.default = _default;
+var _default = exports.default = Tabs;
 },{"react":"../node_modules/react/index.js","uncontrollable":"../node_modules/@restart/ui/node_modules/uncontrollable/lib/esm/index.js","./ssr":"../node_modules/@restart/ui/esm/ssr.js","./TabContext":"../node_modules/@restart/ui/esm/TabContext.js","./SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","./TabPanel":"../node_modules/@restart/ui/esm/TabPanel.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/getTabTransitionComponent.js":[function(require,module,exports) {
 "use strict";
 
@@ -44424,8 +44924,8 @@ var _Tabs = _interopRequireDefault(require("@restart/ui/Tabs"));
 var _getTabTransitionComponent = _interopRequireDefault(require("./getTabTransitionComponent"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const TabContainer = ({
   transition,
   ...props
@@ -44434,21 +44934,40 @@ const TabContainer = ({
   transition: (0, _getTabTransitionComponent.default)(transition)
 });
 TabContainer.displayName = 'TabContainer';
-var _default = TabContainer;
-exports.default = _default;
+var _default = exports.default = TabContainer;
 },{"react":"../node_modules/react/index.js","@restart/ui/Tabs":"../node_modules/@restart/ui/esm/Tabs.js","./getTabTransitionComponent":"../node_modules/react-bootstrap/esm/getTabTransitionComponent.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/TabContent.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
+var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('tab-content');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/TabPane.js":[function(require,module,exports) {
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const TabContent = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'tab-content');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+TabContent.displayName = 'TabContent';
+var _default = exports.default = TabContent;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/TabPane.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -44463,8 +44982,8 @@ var _ThemeProvider = require("./ThemeProvider");
 var _Fade = _interopRequireDefault(require("./Fade"));
 var _getTabTransitionComponent = _interopRequireDefault(require("./getTabTransitionComponent"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const TabPane = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -44519,8 +45038,7 @@ const TabPane = /*#__PURE__*/React.forwardRef(({
   });
 });
 TabPane.displayName = 'TabPane';
-var _default = TabPane;
-exports.default = _default;
+var _default = exports.default = TabPane;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/ui/SelectableContext":"../node_modules/@restart/ui/esm/SelectableContext.js","@restart/ui/TabContext":"../node_modules/@restart/ui/esm/TabContext.js","@restart/ui/TabPanel":"../node_modules/@restart/ui/esm/TabPanel.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./getTabTransitionComponent":"../node_modules/react-bootstrap/esm/getTabTransitionComponent.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Tab.js":[function(require,module,exports) {
 "use strict";
 
@@ -44529,13 +45047,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _propTypes = _interopRequireDefault(require("prop-types"));
-var React = _interopRequireWildcard(require("react"));
 var _TabContainer = _interopRequireDefault(require("./TabContainer"));
 var _TabContent = _interopRequireDefault(require("./TabContent"));
 var _TabPane = _interopRequireDefault(require("./TabPane"));
-var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 /* eslint-disable react/no-unused-prop-types */
 const propTypes = {
@@ -44559,18 +45073,16 @@ const propTypes = {
 };
 const Tab = () => {
   throw new Error('ReactBootstrap: The `Tab` component is not meant to be rendered! ' + "It's an abstract component that is only valid as a direct Child of the `Tabs` Component. " + 'For custom tabs components use TabPane and TabsContainer directly');
-  // Needed otherwise docs error out.
-  return /*#__PURE__*/(0, _jsxRuntime.jsx)(_jsxRuntime.Fragment, {});
 };
 Tab.propTypes = propTypes;
-var _default = Object.assign(Tab, {
+var _default = exports.default = Object.assign(Tab, {
   Container: _TabContainer.default,
   Content: _TabContent.default,
   Pane: _TabPane.default
 });
-exports.default = _default;
-},{"prop-types":"../node_modules/prop-types/index.js","react":"../node_modules/react/index.js","./TabContainer":"../node_modules/react-bootstrap/esm/TabContainer.js","./TabContent":"../node_modules/react-bootstrap/esm/TabContent.js","./TabPane":"../node_modules/react-bootstrap/esm/TabPane.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Table.js":[function(require,module,exports) {
+},{"prop-types":"../node_modules/prop-types/index.js","./TabContainer":"../node_modules/react-bootstrap/esm/TabContainer.js","./TabContent":"../node_modules/react-bootstrap/esm/TabContent.js","./TabPane":"../node_modules/react-bootstrap/esm/TabPane.js"}],"../node_modules/react-bootstrap/esm/Table.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -44580,8 +45092,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const Table = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -44614,8 +45126,7 @@ const Table = /*#__PURE__*/React.forwardRef(({
   }
   return table;
 });
-var _default = Table;
-exports.default = _default;
+var _default = exports.default = Table;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Tabs.js":[function(require,module,exports) {
 "use strict";
 
@@ -44635,8 +45146,8 @@ var _ElementChildren = require("./ElementChildren");
 var _getTabTransitionComponent = _interopRequireDefault(require("./getTabTransitionComponent"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function getDefaultActiveKey(children) {
   let defaultActiveKey;
   (0, _ElementChildren.forEach)(children, child => {
@@ -44717,8 +45228,7 @@ const Tabs = props => {
   });
 };
 Tabs.displayName = 'Tabs';
-var _default = Tabs;
-exports.default = _default;
+var _default = exports.default = Tabs;
 },{"react":"../node_modules/react/index.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","@restart/ui/Tabs":"../node_modules/@restart/ui/esm/Tabs.js","./Nav":"../node_modules/react-bootstrap/esm/Nav.js","./NavLink":"../node_modules/react-bootstrap/esm/NavLink.js","./NavItem":"../node_modules/react-bootstrap/esm/NavItem.js","./TabContent":"../node_modules/react-bootstrap/esm/TabContent.js","./TabPane":"../node_modules/react-bootstrap/esm/TabPane.js","./ElementChildren":"../node_modules/react-bootstrap/esm/ElementChildren.js","./getTabTransitionComponent":"../node_modules/react-bootstrap/esm/getTabTransitionComponent.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ToastFade.js":[function(require,module,exports) {
 "use strict";
 
@@ -44731,8 +45241,8 @@ var _Transition = require("react-transition-group/Transition");
 var _Fade = _interopRequireDefault(require("./Fade"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const fadeStyles = {
   [_Transition.ENTERING]: 'showing',
   [_Transition.EXITING]: 'showing show'
@@ -44743,40 +45253,41 @@ const ToastFade = /*#__PURE__*/React.forwardRef((props, ref) => /*#__PURE__*/(0,
   transitionClasses: fadeStyles
 }));
 ToastFade.displayName = 'ToastFade';
-var _default = ToastFade;
-exports.default = _default;
+var _default = exports.default = ToastFade;
 },{"react":"../node_modules/react/index.js","react-transition-group/Transition":"../node_modules/react-transition-group/esm/Transition.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ToastContext.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const ToastContext = /*#__PURE__*/React.createContext({
   // eslint-disable-next-line @typescript-eslint/no-empty-function
   onClose() {}
 });
-var _default = ToastContext;
-exports.default = _default;
+var _default = exports.default = ToastContext;
 },{"react":"../node_modules/react/index.js"}],"../node_modules/react-bootstrap/esm/ToastHeader.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var _classnames = _interopRequireDefault(require("classnames"));
-var React = _interopRequireWildcard(require("react"));
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _useEventCallback = _interopRequireDefault(require("@restart/hooks/useEventCallback"));
 var _ThemeProvider = require("./ThemeProvider");
 var _CloseButton = _interopRequireDefault(require("./CloseButton"));
 var _ToastContext = _interopRequireDefault(require("./ToastContext"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const ToastHeader = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
@@ -44788,7 +45299,7 @@ const ToastHeader = /*#__PURE__*/React.forwardRef(({
   ...props
 }, ref) => {
   bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'toast-header');
-  const context = (0, React.useContext)(_ToastContext.default);
+  const context = (0, _react.useContext)(_ToastContext.default);
   const handleClick = (0, _useEventCallback.default)(e => {
     context == null ? void 0 : context.onClose == null ? void 0 : context.onClose(e);
   });
@@ -44805,27 +45316,47 @@ const ToastHeader = /*#__PURE__*/React.forwardRef(({
   });
 });
 ToastHeader.displayName = 'ToastHeader';
-var _default = ToastHeader;
-exports.default = _default;
+var _default = exports.default = ToastHeader;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","@restart/hooks/useEventCallback":"../node_modules/@restart/hooks/esm/useEventCallback.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./CloseButton":"../node_modules/react-bootstrap/esm/CloseButton.js","./ToastContext":"../node_modules/react-bootstrap/esm/ToastContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ToastBody.js":[function(require,module,exports) {
 "use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-var _createWithBsPrefix = _interopRequireDefault(require("./createWithBsPrefix"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var _default = (0, _createWithBsPrefix.default)('toast-body');
-exports.default = _default;
-},{"./createWithBsPrefix":"../node_modules/react-bootstrap/esm/createWithBsPrefix.js"}],"../node_modules/react-bootstrap/esm/Toast.js":[function(require,module,exports) {
-"use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.default = void 0;
 var React = _interopRequireWildcard(require("react"));
+var _classnames = _interopRequireDefault(require("classnames"));
+var _ThemeProvider = require("./ThemeProvider");
+var _jsxRuntime = require("react/jsx-runtime");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+const ToastBody = /*#__PURE__*/React.forwardRef(({
+  className,
+  bsPrefix,
+  as: Component = 'div',
+  ...props
+}, ref) => {
+  bsPrefix = (0, _ThemeProvider.useBootstrapPrefix)(bsPrefix, 'toast-body');
+  return /*#__PURE__*/(0, _jsxRuntime.jsx)(Component, {
+    ref: ref,
+    className: (0, _classnames.default)(className, bsPrefix),
+    ...props
+  });
+});
+ToastBody.displayName = 'ToastBody';
+var _default = exports.default = ToastBody;
+},{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/Toast.js":[function(require,module,exports) {
+"use strict";
+"use client";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _react = _interopRequireWildcard(require("react"));
+var React = _react;
 var _classnames = _interopRequireDefault(require("classnames"));
 var _useTimeout = _interopRequireDefault(require("@restart/hooks/useTimeout"));
 var _ToastFade = _interopRequireDefault(require("./ToastFade"));
@@ -44835,8 +45366,8 @@ var _ThemeProvider = require("./ThemeProvider");
 var _ToastContext = _interopRequireDefault(require("./ToastContext"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const Toast = /*#__PURE__*/React.forwardRef(({
   bsPrefix,
   className,
@@ -44846,6 +45377,12 @@ const Toast = /*#__PURE__*/React.forwardRef(({
   delay = 5000,
   autohide = false,
   onClose,
+  onEntered,
+  onExit,
+  onExiting,
+  onEnter,
+  onEntering,
+  onExited,
   bg,
   ...props
 }, ref) => {
@@ -44853,24 +45390,24 @@ const Toast = /*#__PURE__*/React.forwardRef(({
 
   // We use refs for these, because we don't want to restart the autohide
   // timer in case these values change.
-  const delayRef = (0, React.useRef)(delay);
-  const onCloseRef = (0, React.useRef)(onClose);
-  (0, React.useEffect)(() => {
+  const delayRef = (0, _react.useRef)(delay);
+  const onCloseRef = (0, _react.useRef)(onClose);
+  (0, _react.useEffect)(() => {
     delayRef.current = delay;
     onCloseRef.current = onClose;
   }, [delay, onClose]);
   const autohideTimeout = (0, _useTimeout.default)();
   const autohideToast = !!(autohide && show);
-  const autohideFunc = (0, React.useCallback)(() => {
+  const autohideFunc = (0, _react.useCallback)(() => {
     if (autohideToast) {
       onCloseRef.current == null ? void 0 : onCloseRef.current();
     }
   }, [autohideToast]);
-  (0, React.useEffect)(() => {
+  (0, _react.useEffect)(() => {
     // Only reset timer if show or autohide changes.
     autohideTimeout.set(autohideFunc, delayRef.current);
   }, [autohideTimeout, autohideFunc]);
-  const toastContext = (0, React.useMemo)(() => ({
+  const toastContext = (0, _react.useMemo)(() => ({
     onClose
   }), [onClose]);
   const hasAnimation = !!(Transition && animation);
@@ -44886,19 +45423,25 @@ const Toast = /*#__PURE__*/React.forwardRef(({
     value: toastContext,
     children: hasAnimation && Transition ? /*#__PURE__*/(0, _jsxRuntime.jsx)(Transition, {
       in: show,
+      onEnter: onEnter,
+      onEntering: onEntering,
+      onEntered: onEntered,
+      onExit: onExit,
+      onExiting: onExiting,
+      onExited: onExited,
       unmountOnExit: true,
       children: toast
     }) : toast
   });
 });
 Toast.displayName = 'Toast';
-var _default = Object.assign(Toast, {
+var _default = exports.default = Object.assign(Toast, {
   Body: _ToastBody.default,
   Header: _ToastHeader.default
 });
-exports.default = _default;
 },{"react":"../node_modules/react/index.js","classnames":"../node_modules/classnames/index.js","@restart/hooks/useTimeout":"../node_modules/@restart/hooks/esm/useTimeout.js","./ToastFade":"../node_modules/react-bootstrap/esm/ToastFade.js","./ToastHeader":"../node_modules/react-bootstrap/esm/ToastHeader.js","./ToastBody":"../node_modules/react-bootstrap/esm/ToastBody.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./ToastContext":"../node_modules/react-bootstrap/esm/ToastContext.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ToastContainer.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -44908,8 +45451,8 @@ var _classnames = _interopRequireDefault(require("classnames"));
 var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const positionClasses = {
   'top-start': 'top-0 start-0',
@@ -44939,10 +45482,10 @@ const ToastContainer = /*#__PURE__*/React.forwardRef(({
   });
 });
 ToastContainer.displayName = 'ToastContainer';
-var _default = ToastContainer;
-exports.default = _default;
+var _default = exports.default = ToastContainer;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ToggleButton.js":[function(require,module,exports) {
 "use strict";
+"use client";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -44953,8 +45496,8 @@ var React = _interopRequireWildcard(require("react"));
 var _ThemeProvider = require("./ThemeProvider");
 var _Button = _interopRequireDefault(require("./Button"));
 var _jsxRuntime = require("react/jsx-runtime");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 const noop = () => undefined;
 const ToggleButton = /*#__PURE__*/React.forwardRef(({
@@ -44995,8 +45538,7 @@ const ToggleButton = /*#__PURE__*/React.forwardRef(({
   });
 });
 ToggleButton.displayName = 'ToggleButton';
-var _default = ToggleButton;
-exports.default = _default;
+var _default = exports.default = ToggleButton;
 },{"classnames":"../node_modules/classnames/index.js","react":"../node_modules/react/index.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Button":"../node_modules/react-bootstrap/esm/Button.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/ToggleButtonGroup.js":[function(require,module,exports) {
 "use strict";
 
@@ -45013,8 +45555,8 @@ var _ButtonGroup = _interopRequireDefault(require("./ButtonGroup"));
 var _ToggleButton = _interopRequireDefault(require("./ToggleButton"));
 var _jsxRuntime = require("react/jsx-runtime");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 const ToggleButtonGroup = /*#__PURE__*/React.forwardRef((props, ref) => {
   const {
     children,
@@ -45065,10 +45607,9 @@ const ToggleButtonGroup = /*#__PURE__*/React.forwardRef((props, ref) => {
     })
   });
 });
-var _default = Object.assign(ToggleButtonGroup, {
+var _default = exports.default = Object.assign(ToggleButtonGroup, {
   Button: _ToggleButton.default
 });
-exports.default = _default;
 },{"react":"../node_modules/react/index.js","invariant":"../node_modules/invariant/browser.js","uncontrollable":"../node_modules/uncontrollable/lib/esm/index.js","./createChainedFunction":"../node_modules/react-bootstrap/esm/createChainedFunction.js","./ElementChildren":"../node_modules/react-bootstrap/esm/ElementChildren.js","./ButtonGroup":"../node_modules/react-bootstrap/esm/ButtonGroup.js","./ToggleButton":"../node_modules/react-bootstrap/esm/ToggleButton.js","react/jsx-runtime":"../node_modules/react/jsx-runtime.js"}],"../node_modules/react-bootstrap/esm/index.js":[function(require,module,exports) {
 "use strict";
 
@@ -45099,10 +45640,34 @@ Object.defineProperty(exports, "AccordionContext", {
     return _AccordionContext.default;
   }
 });
+Object.defineProperty(exports, "AccordionHeader", {
+  enumerable: true,
+  get: function () {
+    return _AccordionHeader.default;
+  }
+});
+Object.defineProperty(exports, "AccordionItem", {
+  enumerable: true,
+  get: function () {
+    return _AccordionItem.default;
+  }
+});
 Object.defineProperty(exports, "Alert", {
   enumerable: true,
   get: function () {
     return _Alert.default;
+  }
+});
+Object.defineProperty(exports, "AlertHeading", {
+  enumerable: true,
+  get: function () {
+    return _AlertHeading.default;
+  }
+});
+Object.defineProperty(exports, "AlertLink", {
+  enumerable: true,
+  get: function () {
+    return _AlertLink.default;
   }
 });
 Object.defineProperty(exports, "Anchor", {
@@ -45153,10 +45718,28 @@ Object.defineProperty(exports, "Card", {
     return _Card.default;
   }
 });
+Object.defineProperty(exports, "CardBody", {
+  enumerable: true,
+  get: function () {
+    return _CardBody.default;
+  }
+});
+Object.defineProperty(exports, "CardFooter", {
+  enumerable: true,
+  get: function () {
+    return _CardFooter.default;
+  }
+});
 Object.defineProperty(exports, "CardGroup", {
   enumerable: true,
   get: function () {
     return _CardGroup.default;
+  }
+});
+Object.defineProperty(exports, "CardHeader", {
+  enumerable: true,
+  get: function () {
+    return _CardHeader.default;
   }
 });
 Object.defineProperty(exports, "CardImg", {
@@ -45165,10 +45748,46 @@ Object.defineProperty(exports, "CardImg", {
     return _CardImg.default;
   }
 });
+Object.defineProperty(exports, "CardImgOverlay", {
+  enumerable: true,
+  get: function () {
+    return _CardImgOverlay.default;
+  }
+});
+Object.defineProperty(exports, "CardLink", {
+  enumerable: true,
+  get: function () {
+    return _CardLink.default;
+  }
+});
+Object.defineProperty(exports, "CardSubtitle", {
+  enumerable: true,
+  get: function () {
+    return _CardSubtitle.default;
+  }
+});
+Object.defineProperty(exports, "CardText", {
+  enumerable: true,
+  get: function () {
+    return _CardText.default;
+  }
+});
+Object.defineProperty(exports, "CardTitle", {
+  enumerable: true,
+  get: function () {
+    return _CardTitle.default;
+  }
+});
 Object.defineProperty(exports, "Carousel", {
   enumerable: true,
   get: function () {
     return _Carousel.default;
+  }
+});
+Object.defineProperty(exports, "CarouselCaption", {
+  enumerable: true,
+  get: function () {
+    return _CarouselCaption.default;
   }
 });
 Object.defineProperty(exports, "CarouselItem", {
@@ -45213,6 +45832,42 @@ Object.defineProperty(exports, "DropdownButton", {
     return _DropdownButton.default;
   }
 });
+Object.defineProperty(exports, "DropdownDivider", {
+  enumerable: true,
+  get: function () {
+    return _DropdownDivider.default;
+  }
+});
+Object.defineProperty(exports, "DropdownHeader", {
+  enumerable: true,
+  get: function () {
+    return _DropdownHeader.default;
+  }
+});
+Object.defineProperty(exports, "DropdownItem", {
+  enumerable: true,
+  get: function () {
+    return _DropdownItem.default;
+  }
+});
+Object.defineProperty(exports, "DropdownItemText", {
+  enumerable: true,
+  get: function () {
+    return _DropdownItemText.default;
+  }
+});
+Object.defineProperty(exports, "DropdownMenu", {
+  enumerable: true,
+  get: function () {
+    return _DropdownMenu.default;
+  }
+});
+Object.defineProperty(exports, "DropdownToggle", {
+  enumerable: true,
+  get: function () {
+    return _DropdownToggle.default;
+  }
+});
 Object.defineProperty(exports, "Fade", {
   enumerable: true,
   get: function () {
@@ -45223,6 +45878,18 @@ Object.defineProperty(exports, "Figure", {
   enumerable: true,
   get: function () {
     return _Figure.default;
+  }
+});
+Object.defineProperty(exports, "FigureCaption", {
+  enumerable: true,
+  get: function () {
+    return _FigureCaption.default;
+  }
+});
+Object.defineProperty(exports, "FigureImage", {
+  enumerable: true,
+  get: function () {
+    return _FigureImage.default;
   }
 });
 Object.defineProperty(exports, "FloatingLabel", {
@@ -45375,6 +46042,30 @@ Object.defineProperty(exports, "NavbarBrand", {
     return _NavbarBrand.default;
   }
 });
+Object.defineProperty(exports, "NavbarCollapse", {
+  enumerable: true,
+  get: function () {
+    return _NavbarCollapse.default;
+  }
+});
+Object.defineProperty(exports, "NavbarOffcanvas", {
+  enumerable: true,
+  get: function () {
+    return _NavbarOffcanvas.default;
+  }
+});
+Object.defineProperty(exports, "NavbarText", {
+  enumerable: true,
+  get: function () {
+    return _NavbarText.default;
+  }
+});
+Object.defineProperty(exports, "NavbarToggle", {
+  enumerable: true,
+  get: function () {
+    return _NavbarToggle.default;
+  }
+});
 Object.defineProperty(exports, "Offcanvas", {
   enumerable: true,
   get: function () {
@@ -45397,6 +46088,12 @@ Object.defineProperty(exports, "OffcanvasTitle", {
   enumerable: true,
   get: function () {
     return _OffcanvasTitle.default;
+  }
+});
+Object.defineProperty(exports, "OffcanvasToggling", {
+  enumerable: true,
+  get: function () {
+    return _OffcanvasToggling.default;
   }
 });
 Object.defineProperty(exports, "Overlay", {
@@ -45589,7 +46286,11 @@ var _Accordion = _interopRequireDefault(require("./Accordion"));
 var _AccordionContext = _interopRequireDefault(require("./AccordionContext"));
 var _AccordionCollapse = _interopRequireDefault(require("./AccordionCollapse"));
 var _AccordionButton = _interopRequireWildcard(require("./AccordionButton"));
+var _AccordionHeader = _interopRequireDefault(require("./AccordionHeader"));
+var _AccordionItem = _interopRequireDefault(require("./AccordionItem"));
 var _Alert = _interopRequireDefault(require("./Alert"));
+var _AlertHeading = _interopRequireDefault(require("./AlertHeading"));
+var _AlertLink = _interopRequireDefault(require("./AlertLink"));
 var _Anchor = _interopRequireDefault(require("./Anchor"));
 var _Badge = _interopRequireDefault(require("./Badge"));
 var _Breadcrumb = _interopRequireDefault(require("./Breadcrumb"));
@@ -45598,16 +46299,35 @@ var _Button = _interopRequireDefault(require("./Button"));
 var _ButtonGroup = _interopRequireDefault(require("./ButtonGroup"));
 var _ButtonToolbar = _interopRequireDefault(require("./ButtonToolbar"));
 var _Card = _interopRequireDefault(require("./Card"));
-var _CardImg = _interopRequireDefault(require("./CardImg"));
+var _CardBody = _interopRequireDefault(require("./CardBody"));
+var _CardFooter = _interopRequireDefault(require("./CardFooter"));
 var _CardGroup = _interopRequireDefault(require("./CardGroup"));
+var _CardHeader = _interopRequireDefault(require("./CardHeader"));
+var _CardImg = _interopRequireDefault(require("./CardImg"));
+var _CardImgOverlay = _interopRequireDefault(require("./CardImgOverlay"));
+var _CardLink = _interopRequireDefault(require("./CardLink"));
+var _CardSubtitle = _interopRequireDefault(require("./CardSubtitle"));
+var _CardText = _interopRequireDefault(require("./CardText"));
+var _CardTitle = _interopRequireDefault(require("./CardTitle"));
 var _Carousel = _interopRequireDefault(require("./Carousel"));
+var _CarouselCaption = _interopRequireDefault(require("./CarouselCaption"));
 var _CarouselItem = _interopRequireDefault(require("./CarouselItem"));
 var _CloseButton = _interopRequireDefault(require("./CloseButton"));
 var _Col = _interopRequireDefault(require("./Col"));
 var _Collapse = _interopRequireDefault(require("./Collapse"));
+var _Container = _interopRequireDefault(require("./Container"));
 var _Dropdown = _interopRequireDefault(require("./Dropdown"));
 var _DropdownButton = _interopRequireDefault(require("./DropdownButton"));
+var _DropdownDivider = _interopRequireDefault(require("./DropdownDivider"));
+var _DropdownHeader = _interopRequireDefault(require("./DropdownHeader"));
+var _DropdownItem = _interopRequireDefault(require("./DropdownItem"));
+var _DropdownItemText = _interopRequireDefault(require("./DropdownItemText"));
+var _DropdownMenu = _interopRequireDefault(require("./DropdownMenu"));
+var _DropdownToggle = _interopRequireDefault(require("./DropdownToggle"));
 var _Fade = _interopRequireDefault(require("./Fade"));
+var _Figure = _interopRequireDefault(require("./Figure"));
+var _FigureCaption = _interopRequireDefault(require("./FigureCaption"));
+var _FigureImage = _interopRequireDefault(require("./FigureImage"));
 var _Form = _interopRequireDefault(require("./Form"));
 var _FormControl = _interopRequireDefault(require("./FormControl"));
 var _FormCheck = _interopRequireDefault(require("./FormCheck"));
@@ -45617,28 +46337,31 @@ var _FormGroup = _interopRequireDefault(require("./FormGroup"));
 var _FormLabel = _interopRequireDefault(require("./FormLabel"));
 var _FormText = _interopRequireDefault(require("./FormText"));
 var _FormSelect = _interopRequireDefault(require("./FormSelect"));
-var _Container = _interopRequireDefault(require("./Container"));
 var _Image = _interopRequireDefault(require("./Image"));
-var _Figure = _interopRequireDefault(require("./Figure"));
 var _InputGroup = _interopRequireDefault(require("./InputGroup"));
 var _ListGroup = _interopRequireDefault(require("./ListGroup"));
 var _ListGroupItem = _interopRequireDefault(require("./ListGroupItem"));
 var _Modal = _interopRequireDefault(require("./Modal"));
 var _ModalBody = _interopRequireDefault(require("./ModalBody"));
 var _ModalDialog = _interopRequireDefault(require("./ModalDialog"));
-var _ModalHeader = _interopRequireDefault(require("./ModalHeader"));
 var _ModalFooter = _interopRequireDefault(require("./ModalFooter"));
+var _ModalHeader = _interopRequireDefault(require("./ModalHeader"));
 var _ModalTitle = _interopRequireDefault(require("./ModalTitle"));
 var _Nav = _interopRequireDefault(require("./Nav"));
 var _Navbar = _interopRequireDefault(require("./Navbar"));
 var _NavbarBrand = _interopRequireDefault(require("./NavbarBrand"));
+var _NavbarCollapse = _interopRequireDefault(require("./NavbarCollapse"));
+var _NavbarOffcanvas = _interopRequireDefault(require("./NavbarOffcanvas"));
+var _NavbarText = _interopRequireDefault(require("./NavbarText"));
+var _NavbarToggle = _interopRequireDefault(require("./NavbarToggle"));
 var _NavDropdown = _interopRequireDefault(require("./NavDropdown"));
 var _NavItem = _interopRequireDefault(require("./NavItem"));
 var _NavLink = _interopRequireDefault(require("./NavLink"));
 var _Offcanvas = _interopRequireDefault(require("./Offcanvas"));
+var _OffcanvasBody = _interopRequireDefault(require("./OffcanvasBody"));
 var _OffcanvasHeader = _interopRequireDefault(require("./OffcanvasHeader"));
 var _OffcanvasTitle = _interopRequireDefault(require("./OffcanvasTitle"));
-var _OffcanvasBody = _interopRequireDefault(require("./OffcanvasBody"));
+var _OffcanvasToggling = _interopRequireDefault(require("./OffcanvasToggling"));
 var _Overlay = _interopRequireDefault(require("./Overlay"));
 var _OverlayTrigger = _interopRequireDefault(require("./OverlayTrigger"));
 var _PageItem = _interopRequireDefault(require("./PageItem"));
@@ -45646,8 +46369,8 @@ var _Pagination = _interopRequireDefault(require("./Pagination"));
 var _Placeholder = _interopRequireDefault(require("./Placeholder"));
 var _PlaceholderButton = _interopRequireDefault(require("./PlaceholderButton"));
 var _Popover = _interopRequireDefault(require("./Popover"));
-var _PopoverHeader = _interopRequireDefault(require("./PopoverHeader"));
 var _PopoverBody = _interopRequireDefault(require("./PopoverBody"));
+var _PopoverHeader = _interopRequireDefault(require("./PopoverHeader"));
 var _ProgressBar = _interopRequireDefault(require("./ProgressBar"));
 var _Ratio = _interopRequireDefault(require("./Ratio"));
 var _Row = _interopRequireDefault(require("./Row"));
@@ -45664,22 +46387,23 @@ var _Tabs = _interopRequireDefault(require("./Tabs"));
 var _ThemeProvider = _interopRequireDefault(require("./ThemeProvider"));
 var _Toast = _interopRequireDefault(require("./Toast"));
 var _ToastBody = _interopRequireDefault(require("./ToastBody"));
-var _ToastHeader = _interopRequireDefault(require("./ToastHeader"));
 var _ToastContainer = _interopRequireDefault(require("./ToastContainer"));
+var _ToastHeader = _interopRequireDefault(require("./ToastHeader"));
 var _ToggleButton = _interopRequireDefault(require("./ToggleButton"));
 var _ToggleButtonGroup = _interopRequireDefault(require("./ToggleButtonGroup"));
 var _Tooltip = _interopRequireDefault(require("./Tooltip"));
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-},{"./Accordion":"../node_modules/react-bootstrap/esm/Accordion.js","./AccordionContext":"../node_modules/react-bootstrap/esm/AccordionContext.js","./AccordionCollapse":"../node_modules/react-bootstrap/esm/AccordionCollapse.js","./AccordionButton":"../node_modules/react-bootstrap/esm/AccordionButton.js","./Alert":"../node_modules/react-bootstrap/esm/Alert.js","./Anchor":"../node_modules/react-bootstrap/esm/Anchor.js","./Badge":"../node_modules/react-bootstrap/esm/Badge.js","./Breadcrumb":"../node_modules/react-bootstrap/esm/Breadcrumb.js","./BreadcrumbItem":"../node_modules/react-bootstrap/esm/BreadcrumbItem.js","./Button":"../node_modules/react-bootstrap/esm/Button.js","./ButtonGroup":"../node_modules/react-bootstrap/esm/ButtonGroup.js","./ButtonToolbar":"../node_modules/react-bootstrap/esm/ButtonToolbar.js","./Card":"../node_modules/react-bootstrap/esm/Card.js","./CardImg":"../node_modules/react-bootstrap/esm/CardImg.js","./CardGroup":"../node_modules/react-bootstrap/esm/CardGroup.js","./Carousel":"../node_modules/react-bootstrap/esm/Carousel.js","./CarouselItem":"../node_modules/react-bootstrap/esm/CarouselItem.js","./CloseButton":"../node_modules/react-bootstrap/esm/CloseButton.js","./Col":"../node_modules/react-bootstrap/esm/Col.js","./Collapse":"../node_modules/react-bootstrap/esm/Collapse.js","./Dropdown":"../node_modules/react-bootstrap/esm/Dropdown.js","./DropdownButton":"../node_modules/react-bootstrap/esm/DropdownButton.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./Form":"../node_modules/react-bootstrap/esm/Form.js","./FormControl":"../node_modules/react-bootstrap/esm/FormControl.js","./FormCheck":"../node_modules/react-bootstrap/esm/FormCheck.js","./FormFloating":"../node_modules/react-bootstrap/esm/FormFloating.js","./FloatingLabel":"../node_modules/react-bootstrap/esm/FloatingLabel.js","./FormGroup":"../node_modules/react-bootstrap/esm/FormGroup.js","./FormLabel":"../node_modules/react-bootstrap/esm/FormLabel.js","./FormText":"../node_modules/react-bootstrap/esm/FormText.js","./FormSelect":"../node_modules/react-bootstrap/esm/FormSelect.js","./Container":"../node_modules/react-bootstrap/esm/Container.js","./Image":"../node_modules/react-bootstrap/esm/Image.js","./Figure":"../node_modules/react-bootstrap/esm/Figure.js","./InputGroup":"../node_modules/react-bootstrap/esm/InputGroup.js","./ListGroup":"../node_modules/react-bootstrap/esm/ListGroup.js","./ListGroupItem":"../node_modules/react-bootstrap/esm/ListGroupItem.js","./Modal":"../node_modules/react-bootstrap/esm/Modal.js","./ModalBody":"../node_modules/react-bootstrap/esm/ModalBody.js","./ModalDialog":"../node_modules/react-bootstrap/esm/ModalDialog.js","./ModalHeader":"../node_modules/react-bootstrap/esm/ModalHeader.js","./ModalFooter":"../node_modules/react-bootstrap/esm/ModalFooter.js","./ModalTitle":"../node_modules/react-bootstrap/esm/ModalTitle.js","./Nav":"../node_modules/react-bootstrap/esm/Nav.js","./Navbar":"../node_modules/react-bootstrap/esm/Navbar.js","./NavbarBrand":"../node_modules/react-bootstrap/esm/NavbarBrand.js","./NavDropdown":"../node_modules/react-bootstrap/esm/NavDropdown.js","./NavItem":"../node_modules/react-bootstrap/esm/NavItem.js","./NavLink":"../node_modules/react-bootstrap/esm/NavLink.js","./Offcanvas":"../node_modules/react-bootstrap/esm/Offcanvas.js","./OffcanvasHeader":"../node_modules/react-bootstrap/esm/OffcanvasHeader.js","./OffcanvasTitle":"../node_modules/react-bootstrap/esm/OffcanvasTitle.js","./OffcanvasBody":"../node_modules/react-bootstrap/esm/OffcanvasBody.js","./Overlay":"../node_modules/react-bootstrap/esm/Overlay.js","./OverlayTrigger":"../node_modules/react-bootstrap/esm/OverlayTrigger.js","./PageItem":"../node_modules/react-bootstrap/esm/PageItem.js","./Pagination":"../node_modules/react-bootstrap/esm/Pagination.js","./Placeholder":"../node_modules/react-bootstrap/esm/Placeholder.js","./PlaceholderButton":"../node_modules/react-bootstrap/esm/PlaceholderButton.js","./Popover":"../node_modules/react-bootstrap/esm/Popover.js","./PopoverHeader":"../node_modules/react-bootstrap/esm/PopoverHeader.js","./PopoverBody":"../node_modules/react-bootstrap/esm/PopoverBody.js","./ProgressBar":"../node_modules/react-bootstrap/esm/ProgressBar.js","./Ratio":"../node_modules/react-bootstrap/esm/Ratio.js","./Row":"../node_modules/react-bootstrap/esm/Row.js","./Spinner":"../node_modules/react-bootstrap/esm/Spinner.js","./SplitButton":"../node_modules/react-bootstrap/esm/SplitButton.js","./SSRProvider":"../node_modules/react-bootstrap/esm/SSRProvider.js","./Stack":"../node_modules/react-bootstrap/esm/Stack.js","./Tab":"../node_modules/react-bootstrap/esm/Tab.js","./TabContainer":"../node_modules/react-bootstrap/esm/TabContainer.js","./TabContent":"../node_modules/react-bootstrap/esm/TabContent.js","./Table":"../node_modules/react-bootstrap/esm/Table.js","./TabPane":"../node_modules/react-bootstrap/esm/TabPane.js","./Tabs":"../node_modules/react-bootstrap/esm/Tabs.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Toast":"../node_modules/react-bootstrap/esm/Toast.js","./ToastBody":"../node_modules/react-bootstrap/esm/ToastBody.js","./ToastHeader":"../node_modules/react-bootstrap/esm/ToastHeader.js","./ToastContainer":"../node_modules/react-bootstrap/esm/ToastContainer.js","./ToggleButton":"../node_modules/react-bootstrap/esm/ToggleButton.js","./ToggleButtonGroup":"../node_modules/react-bootstrap/esm/ToggleButtonGroup.js","./Tooltip":"../node_modules/react-bootstrap/esm/Tooltip.js"}],"../node_modules/@remix-run/router/dist/router.js":[function(require,module,exports) {
+},{"./Accordion":"../node_modules/react-bootstrap/esm/Accordion.js","./AccordionContext":"../node_modules/react-bootstrap/esm/AccordionContext.js","./AccordionCollapse":"../node_modules/react-bootstrap/esm/AccordionCollapse.js","./AccordionButton":"../node_modules/react-bootstrap/esm/AccordionButton.js","./AccordionHeader":"../node_modules/react-bootstrap/esm/AccordionHeader.js","./AccordionItem":"../node_modules/react-bootstrap/esm/AccordionItem.js","./Alert":"../node_modules/react-bootstrap/esm/Alert.js","./AlertHeading":"../node_modules/react-bootstrap/esm/AlertHeading.js","./AlertLink":"../node_modules/react-bootstrap/esm/AlertLink.js","./Anchor":"../node_modules/react-bootstrap/esm/Anchor.js","./Badge":"../node_modules/react-bootstrap/esm/Badge.js","./Breadcrumb":"../node_modules/react-bootstrap/esm/Breadcrumb.js","./BreadcrumbItem":"../node_modules/react-bootstrap/esm/BreadcrumbItem.js","./Button":"../node_modules/react-bootstrap/esm/Button.js","./ButtonGroup":"../node_modules/react-bootstrap/esm/ButtonGroup.js","./ButtonToolbar":"../node_modules/react-bootstrap/esm/ButtonToolbar.js","./Card":"../node_modules/react-bootstrap/esm/Card.js","./CardBody":"../node_modules/react-bootstrap/esm/CardBody.js","./CardFooter":"../node_modules/react-bootstrap/esm/CardFooter.js","./CardGroup":"../node_modules/react-bootstrap/esm/CardGroup.js","./CardHeader":"../node_modules/react-bootstrap/esm/CardHeader.js","./CardImg":"../node_modules/react-bootstrap/esm/CardImg.js","./CardImgOverlay":"../node_modules/react-bootstrap/esm/CardImgOverlay.js","./CardLink":"../node_modules/react-bootstrap/esm/CardLink.js","./CardSubtitle":"../node_modules/react-bootstrap/esm/CardSubtitle.js","./CardText":"../node_modules/react-bootstrap/esm/CardText.js","./CardTitle":"../node_modules/react-bootstrap/esm/CardTitle.js","./Carousel":"../node_modules/react-bootstrap/esm/Carousel.js","./CarouselCaption":"../node_modules/react-bootstrap/esm/CarouselCaption.js","./CarouselItem":"../node_modules/react-bootstrap/esm/CarouselItem.js","./CloseButton":"../node_modules/react-bootstrap/esm/CloseButton.js","./Col":"../node_modules/react-bootstrap/esm/Col.js","./Collapse":"../node_modules/react-bootstrap/esm/Collapse.js","./Container":"../node_modules/react-bootstrap/esm/Container.js","./Dropdown":"../node_modules/react-bootstrap/esm/Dropdown.js","./DropdownButton":"../node_modules/react-bootstrap/esm/DropdownButton.js","./DropdownDivider":"../node_modules/react-bootstrap/esm/DropdownDivider.js","./DropdownHeader":"../node_modules/react-bootstrap/esm/DropdownHeader.js","./DropdownItem":"../node_modules/react-bootstrap/esm/DropdownItem.js","./DropdownItemText":"../node_modules/react-bootstrap/esm/DropdownItemText.js","./DropdownMenu":"../node_modules/react-bootstrap/esm/DropdownMenu.js","./DropdownToggle":"../node_modules/react-bootstrap/esm/DropdownToggle.js","./Fade":"../node_modules/react-bootstrap/esm/Fade.js","./Figure":"../node_modules/react-bootstrap/esm/Figure.js","./FigureCaption":"../node_modules/react-bootstrap/esm/FigureCaption.js","./FigureImage":"../node_modules/react-bootstrap/esm/FigureImage.js","./Form":"../node_modules/react-bootstrap/esm/Form.js","./FormControl":"../node_modules/react-bootstrap/esm/FormControl.js","./FormCheck":"../node_modules/react-bootstrap/esm/FormCheck.js","./FormFloating":"../node_modules/react-bootstrap/esm/FormFloating.js","./FloatingLabel":"../node_modules/react-bootstrap/esm/FloatingLabel.js","./FormGroup":"../node_modules/react-bootstrap/esm/FormGroup.js","./FormLabel":"../node_modules/react-bootstrap/esm/FormLabel.js","./FormText":"../node_modules/react-bootstrap/esm/FormText.js","./FormSelect":"../node_modules/react-bootstrap/esm/FormSelect.js","./Image":"../node_modules/react-bootstrap/esm/Image.js","./InputGroup":"../node_modules/react-bootstrap/esm/InputGroup.js","./ListGroup":"../node_modules/react-bootstrap/esm/ListGroup.js","./ListGroupItem":"../node_modules/react-bootstrap/esm/ListGroupItem.js","./Modal":"../node_modules/react-bootstrap/esm/Modal.js","./ModalBody":"../node_modules/react-bootstrap/esm/ModalBody.js","./ModalDialog":"../node_modules/react-bootstrap/esm/ModalDialog.js","./ModalFooter":"../node_modules/react-bootstrap/esm/ModalFooter.js","./ModalHeader":"../node_modules/react-bootstrap/esm/ModalHeader.js","./ModalTitle":"../node_modules/react-bootstrap/esm/ModalTitle.js","./Nav":"../node_modules/react-bootstrap/esm/Nav.js","./Navbar":"../node_modules/react-bootstrap/esm/Navbar.js","./NavbarBrand":"../node_modules/react-bootstrap/esm/NavbarBrand.js","./NavbarCollapse":"../node_modules/react-bootstrap/esm/NavbarCollapse.js","./NavbarOffcanvas":"../node_modules/react-bootstrap/esm/NavbarOffcanvas.js","./NavbarText":"../node_modules/react-bootstrap/esm/NavbarText.js","./NavbarToggle":"../node_modules/react-bootstrap/esm/NavbarToggle.js","./NavDropdown":"../node_modules/react-bootstrap/esm/NavDropdown.js","./NavItem":"../node_modules/react-bootstrap/esm/NavItem.js","./NavLink":"../node_modules/react-bootstrap/esm/NavLink.js","./Offcanvas":"../node_modules/react-bootstrap/esm/Offcanvas.js","./OffcanvasBody":"../node_modules/react-bootstrap/esm/OffcanvasBody.js","./OffcanvasHeader":"../node_modules/react-bootstrap/esm/OffcanvasHeader.js","./OffcanvasTitle":"../node_modules/react-bootstrap/esm/OffcanvasTitle.js","./OffcanvasToggling":"../node_modules/react-bootstrap/esm/OffcanvasToggling.js","./Overlay":"../node_modules/react-bootstrap/esm/Overlay.js","./OverlayTrigger":"../node_modules/react-bootstrap/esm/OverlayTrigger.js","./PageItem":"../node_modules/react-bootstrap/esm/PageItem.js","./Pagination":"../node_modules/react-bootstrap/esm/Pagination.js","./Placeholder":"../node_modules/react-bootstrap/esm/Placeholder.js","./PlaceholderButton":"../node_modules/react-bootstrap/esm/PlaceholderButton.js","./Popover":"../node_modules/react-bootstrap/esm/Popover.js","./PopoverBody":"../node_modules/react-bootstrap/esm/PopoverBody.js","./PopoverHeader":"../node_modules/react-bootstrap/esm/PopoverHeader.js","./ProgressBar":"../node_modules/react-bootstrap/esm/ProgressBar.js","./Ratio":"../node_modules/react-bootstrap/esm/Ratio.js","./Row":"../node_modules/react-bootstrap/esm/Row.js","./Spinner":"../node_modules/react-bootstrap/esm/Spinner.js","./SplitButton":"../node_modules/react-bootstrap/esm/SplitButton.js","./SSRProvider":"../node_modules/react-bootstrap/esm/SSRProvider.js","./Stack":"../node_modules/react-bootstrap/esm/Stack.js","./Tab":"../node_modules/react-bootstrap/esm/Tab.js","./TabContainer":"../node_modules/react-bootstrap/esm/TabContainer.js","./TabContent":"../node_modules/react-bootstrap/esm/TabContent.js","./Table":"../node_modules/react-bootstrap/esm/Table.js","./TabPane":"../node_modules/react-bootstrap/esm/TabPane.js","./Tabs":"../node_modules/react-bootstrap/esm/Tabs.js","./ThemeProvider":"../node_modules/react-bootstrap/esm/ThemeProvider.js","./Toast":"../node_modules/react-bootstrap/esm/Toast.js","./ToastBody":"../node_modules/react-bootstrap/esm/ToastBody.js","./ToastContainer":"../node_modules/react-bootstrap/esm/ToastContainer.js","./ToastHeader":"../node_modules/react-bootstrap/esm/ToastHeader.js","./ToggleButton":"../node_modules/react-bootstrap/esm/ToggleButton.js","./ToggleButtonGroup":"../node_modules/react-bootstrap/esm/ToggleButtonGroup.js","./Tooltip":"../node_modules/react-bootstrap/esm/Tooltip.js"}],"../node_modules/@remix-run/router/dist/router.js":[function(require,module,exports) {
 var define;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.UNSAFE_DeferredData = exports.UNSAFE_DEFERRED_SYMBOL = exports.IDLE_NAVIGATION = exports.IDLE_FETCHER = exports.IDLE_BLOCKER = exports.ErrorResponse = exports.Action = exports.AbortedDeferredError = void 0;
+exports.UNSAFE_ErrorResponseImpl = exports.UNSAFE_DeferredData = exports.UNSAFE_DEFERRED_SYMBOL = exports.IDLE_NAVIGATION = exports.IDLE_FETCHER = exports.IDLE_BLOCKER = exports.Action = exports.AbortedDeferredError = void 0;
+exports.UNSAFE_convertRouteMatchToUiMatch = convertRouteMatchToUiMatch;
 exports.UNSAFE_convertRoutesToDataRoutes = convertRoutesToDataRoutes;
 exports.UNSAFE_getPathContributingMatches = getPathContributingMatches;
 exports.UNSAFE_invariant = invariant;
@@ -45705,11 +46429,11 @@ exports.redirectDocument = exports.redirect = void 0;
 exports.resolvePath = resolvePath;
 exports.resolveTo = resolveTo;
 exports.stripBasename = stripBasename;
-function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == _typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return { value: void 0, done: !0 }; } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator.return && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable || "" === iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; return next.value = undefined, next.done = !0, next; }; return next.next = next; } } throw new TypeError(_typeof(iterable) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) keys.push(key); return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, catch: function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw new Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator.return && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw new Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, catch: function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 function _defineProperty(obj, key, value) { key = _toPropertyKey(key); if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
 function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
@@ -45722,15 +46446,15 @@ function _assertThisInitialized(self) { if (self === void 0) { throw new Referen
 function _wrapNativeSuper(Class) { var _cache = typeof Map === "function" ? new Map() : undefined; _wrapNativeSuper = function _wrapNativeSuper(Class) { if (Class === null || !_isNativeFunction(Class)) return Class; if (typeof Class !== "function") { throw new TypeError("Super expression must either be null or a function"); } if (typeof _cache !== "undefined") { if (_cache.has(Class)) return _cache.get(Class); _cache.set(Class, Wrapper); } function Wrapper() { return _construct(Class, arguments, _getPrototypeOf(this).constructor); } Wrapper.prototype = Object.create(Class.prototype, { constructor: { value: Wrapper, enumerable: false, writable: true, configurable: true } }); return _setPrototypeOf(Wrapper, Class); }; return _wrapNativeSuper(Class); }
 function _construct(Parent, args, Class) { if (_isNativeReflectConstruct()) { _construct = Reflect.construct.bind(); } else { _construct = function _construct(Parent, args, Class) { var a = [null]; a.push.apply(a, args); var Constructor = Function.bind.apply(Parent, a); var instance = new Constructor(); if (Class) _setPrototypeOf(instance, Class.prototype); return instance; }; } return _construct.apply(null, arguments); }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
-function _isNativeFunction(fn) { return Function.toString.call(fn).indexOf("[native code]") !== -1; }
+function _isNativeFunction(fn) { try { return Function.toString.call(fn).indexOf("[native code]") !== -1; } catch (e) { return typeof fn === "function"; } }
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf ? Object.setPrototypeOf.bind() : function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e2) { throw _e2; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e3) { didErr = true; err = _e3; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
@@ -45738,7 +46462,7 @@ function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symb
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 /**
- * @remix-run/router v1.8.0
+ * @remix-run/router v1.11.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -45769,7 +46493,6 @@ function _extends() {
  * Actions represent the type of change to a location value.
  */
 var Action;
-exports.Action = Action;
 (function (Action) {
   /**
    * A POP indicates a change to an arbitrary index in the history stack, such
@@ -45992,7 +46715,7 @@ function warning(cond, message) {
     try {
       // Welcome to debugging history!
       //
-      // This error is thrown as a convenience so you can more easily
+      // This error is thrown as a convenience, so you can more easily
       // find the source for a warning that appears in the console by
       // enabling "pause on exceptions" in your JavaScript debugger.
       throw new Error(message);
@@ -46218,7 +46941,7 @@ var immutableRouteKeys = new Set(["lazy", "caseSensitive", "path", "id", "index"
 function isIndexRoute(route) {
   return route.index === true;
 }
-// Walk the route tree generating unique IDs where necessary so we are working
+// Walk the route tree generating unique IDs where necessary, so we are working
 // solely with AgnosticDataRouteObject's within the Router
 function convertRoutesToDataRoutes(routes, mapRouteProperties, parentPath, manifest) {
   if (parentPath === void 0) {
@@ -46280,6 +47003,18 @@ function matchRoutes(routes, locationArg, basename) {
   }
   return matches;
 }
+function convertRouteMatchToUiMatch(match, loaderData) {
+  var route = match.route,
+    pathname = match.pathname,
+    params = match.params;
+  return {
+    id: route.id,
+    pathname: pathname,
+    params: params,
+    data: loaderData[route.id],
+    handle: route.handle
+  };
+}
 function flattenRoutes(routes, branches, parentsMeta, parentPath) {
   if (branches === void 0) {
     branches = [];
@@ -46303,7 +47038,7 @@ function flattenRoutes(routes, branches, parentsMeta, parentPath) {
     }
     var path = joinPaths([parentPath, meta.relativePath]);
     var routesMeta = parentsMeta.concat(meta);
-    // Add the children before adding this route to the array so we traverse the
+    // Add the children before adding this route to the array, so we traverse the
     // route tree depth-first and child routes appear before their parents in
     // the "flattened" version.
     if (route.children && route.children.length > 0) {
@@ -46378,16 +47113,16 @@ function explodeOptionalSegments(path) {
   var restExploded = explodeOptionalSegments(rest.join("/"));
   var result = [];
   // All child paths with the prefix.  Do this for all children before the
-  // optional version for all children so we get consistent ordering where the
+  // optional version for all children, so we get consistent ordering where the
   // parent optional aspect is preferred as required.  Otherwise, we can get
   // child sections interspersed where deeper optional segments are higher than
-  // parent optional segments, where for example, /:two would explodes _earlier_
+  // parent optional segments, where for example, /:two would explode _earlier_
   // then /:one.  By always including the parent as required _for all children_
   // first, we avoid this issue
   result.push.apply(result, _toConsumableArray(restExploded.map(function (subpath) {
     return subpath === "" ? required : [required, subpath].join("/");
   })));
-  // Then if this is an optional value, add all child versions without
+  // Then, if this is an optional value, add all child versions without
   if (isOptional) {
     result.push.apply(result, _toConsumableArray(restExploded));
   }
@@ -46536,20 +47271,27 @@ function matchPath(pattern, pathname) {
   var _compilePath = compilePath(pattern.path, pattern.caseSensitive, pattern.end),
     _compilePath2 = _slicedToArray(_compilePath, 2),
     matcher = _compilePath2[0],
-    paramNames = _compilePath2[1];
+    compiledParams = _compilePath2[1];
   var match = pathname.match(matcher);
   if (!match) return null;
   var matchedPathname = match[0];
   var pathnameBase = matchedPathname.replace(/(.)\/+$/, "$1");
   var captureGroups = match.slice(1);
-  var params = paramNames.reduce(function (memo, paramName, index) {
+  var params = compiledParams.reduce(function (memo, _ref, index) {
+    var paramName = _ref.paramName,
+      isOptional = _ref.isOptional;
     // We need to compute the pathnameBase here using the raw splat value
     // instead of using params["*"] later because it will be decoded then
     if (paramName === "*") {
       var splatValue = captureGroups[index] || "";
       pathnameBase = matchedPathname.slice(0, matchedPathname.length - splatValue.length).replace(/(.)\/+$/, "$1");
     }
-    memo[paramName] = safelyDecodeURIComponent(captureGroups[index] || "", paramName);
+    var value = captureGroups[index];
+    if (isOptional && !value) {
+      memo[paramName] = undefined;
+    } else {
+      memo[paramName] = safelyDecodeURIComponent(value || "", paramName);
+    }
     return memo;
   }, {});
   return {
@@ -46567,16 +47309,21 @@ function compilePath(path, caseSensitive, end) {
     end = true;
   }
   warning(path === "*" || !path.endsWith("*") || path.endsWith("/*"), "Route path \"" + path + "\" will be treated as if it were " + ("\"" + path.replace(/\*$/, "/*") + "\" because the `*` character must ") + "always follow a `/` in the pattern. To get rid of this warning, " + ("please change the route path to \"" + path.replace(/\*$/, "/*") + "\"."));
-  var paramNames = [];
+  var params = [];
   var regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
   .replace(/^\/*/, "/") // Make sure it has a leading /
-  .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
-  .replace(/\/:(\w+)/g, function (_, paramName) {
-    paramNames.push(paramName);
-    return "/([^\\/]+)";
+  .replace(/[\\.*+^${}|()[\]]/g, "\\$&") // Escape special regex chars
+  .replace(/\/:(\w+)(\?)?/g, function (_, paramName, isOptional) {
+    params.push({
+      paramName: paramName,
+      isOptional: isOptional != null
+    });
+    return isOptional ? "/?([^\\/]+)?" : "/([^\\/]+)";
   });
   if (path.endsWith("*")) {
-    paramNames.push("*");
+    params.push({
+      paramName: "*"
+    });
     regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
     : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
   } else if (end) {
@@ -46584,7 +47331,7 @@ function compilePath(path, caseSensitive, end) {
     regexpSource += "\\/*$";
   } else if (path !== "" && path !== "/") {
     // If our path is non-empty and contains anything beyond an initial slash,
-    // then we have _some_ form of path in our regex so we should expect to
+    // then we have _some_ form of path in our regex, so we should expect to
     // match only if we find the end of this path segment.  Look for an optional
     // non-captured trailing slash (to match a portion of the URL) or the end
     // of the path (if we've matched to the end).  We used to do this with a
@@ -46593,7 +47340,7 @@ function compilePath(path, caseSensitive, end) {
     regexpSource += "(?:(?=\\/|$))";
   } else ;
   var matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
-  return [matcher, paramNames];
+  return [matcher, params];
 }
 function safelyDecodeURI(value) {
   try {
@@ -46762,20 +47509,18 @@ function getToPathname(to) {
 /**
  * @private
  */
-var joinPaths = function joinPaths(paths) {
+var joinPaths = exports.joinPaths = function joinPaths(paths) {
   return paths.join("/").replace(/\/\/+/g, "/");
 };
 /**
  * @private
  */
-exports.joinPaths = joinPaths;
-var normalizePathname = function normalizePathname(pathname) {
+var normalizePathname = exports.normalizePathname = function normalizePathname(pathname) {
   return pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
 };
 /**
  * @private
  */
-exports.normalizePathname = normalizePathname;
 var normalizeSearch = function normalizeSearch(search) {
   return !search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
 };
@@ -46789,7 +47534,7 @@ var normalizeHash = function normalizeHash(hash) {
  * This is a shortcut for creating `application/json` responses. Converts `data`
  * to JSON and sets the `Content-Type` header.
  */
-var json = function json(data, init) {
+var json = exports.json = function json(data, init) {
   if (init === void 0) {
     init = {};
   }
@@ -46804,8 +47549,7 @@ var json = function json(data, init) {
     headers: headers
   }));
 };
-exports.json = json;
-var AbortedDeferredError = /*#__PURE__*/function (_Error) {
+var AbortedDeferredError = exports.AbortedDeferredError = /*#__PURE__*/function (_Error) {
   _inherits(AbortedDeferredError, _Error);
   var _super = _createSuper(AbortedDeferredError);
   function AbortedDeferredError() {
@@ -46814,8 +47558,7 @@ var AbortedDeferredError = /*#__PURE__*/function (_Error) {
   }
   return _createClass(AbortedDeferredError);
 }( /*#__PURE__*/_wrapNativeSuper(Error));
-exports.AbortedDeferredError = AbortedDeferredError;
-var DeferredData = /*#__PURE__*/function () {
+var DeferredData = exports.UNSAFE_DeferredData = /*#__PURE__*/function () {
   function DeferredData(data, responseInit) {
     var _this = this;
     _classCallCheck(this, DeferredData);
@@ -46837,8 +47580,8 @@ var DeferredData = /*#__PURE__*/function () {
       return _this.controller.signal.removeEventListener("abort", onAbort);
     };
     this.controller.signal.addEventListener("abort", onAbort);
-    this.data = Object.entries(data).reduce(function (acc, _ref) {
-      var _ref5 = _slicedToArray(_ref, 2),
+    this.data = Object.entries(data).reduce(function (acc, _ref2) {
+      var _ref5 = _slicedToArray(_ref2, 2),
         key = _ref5[0],
         value = _ref5[1];
       return Object.assign(acc, _defineProperty({}, key, _this.trackPromise(key, value)));
@@ -46984,7 +47727,7 @@ var DeferredData = /*#__PURE__*/function () {
           }
         }, _callee, this);
       }));
-      function resolveData(_x2) {
+      function resolveData(_x) {
         return _resolveData.apply(this, arguments);
       }
       return resolveData;
@@ -46998,8 +47741,8 @@ var DeferredData = /*#__PURE__*/function () {
     key: "unwrappedData",
     get: function get() {
       invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
-      return Object.entries(this.data).reduce(function (acc, _ref2) {
-        var _ref6 = _slicedToArray(_ref2, 2),
+      return Object.entries(this.data).reduce(function (acc, _ref3) {
+        var _ref6 = _slicedToArray(_ref3, 2),
           key = _ref6[0],
           value = _ref6[1];
         return Object.assign(acc, _defineProperty({}, key, unwrapTrackedPromise(value)));
@@ -47013,7 +47756,6 @@ var DeferredData = /*#__PURE__*/function () {
   }]);
   return DeferredData;
 }();
-exports.UNSAFE_DeferredData = DeferredData;
 function isTrackedPromise(value) {
   return value instanceof Promise && value._tracked === true;
 }
@@ -47026,7 +47768,7 @@ function unwrapTrackedPromise(value) {
   }
   return value._data;
 }
-var defer = function defer(data, init) {
+var defer = exports.defer = function defer(data, init) {
   if (init === void 0) {
     init = {};
   }
@@ -47039,8 +47781,7 @@ var defer = function defer(data, init) {
  * A redirect response. Sets the status code and the `Location` header.
  * Defaults to "302 Found".
  */
-exports.defer = defer;
-var redirect = function redirect(url, init) {
+var redirect = exports.redirect = function redirect(url, init) {
   if (init === void 0) {
     init = 302;
   }
@@ -47063,8 +47804,7 @@ var redirect = function redirect(url, init) {
  * Sets the status code and the `Location` header.
  * Defaults to "302 Found".
  */
-exports.redirect = redirect;
-var redirectDocument = function redirectDocument(url, init) {
+var redirectDocument = exports.redirectDocument = function redirectDocument(url, init) {
   var response = redirect(url, init);
   response.headers.set("X-Remix-Reload-Document", "true");
   return response;
@@ -47072,10 +47812,13 @@ var redirectDocument = function redirectDocument(url, init) {
 /**
  * @private
  * Utility class we use to hold auto-unwrapped 4xx/5xx Response bodies
+ *
+ * We don't export the class for public use since it's an implementation
+ * detail, but we export the interface above so folks can build their own
+ * abstractions around instances via isRouteErrorResponse()
  */
-exports.redirectDocument = redirectDocument;
-var ErrorResponse = /*#__PURE__*/_createClass(function ErrorResponse(status, statusText, data, internal) {
-  _classCallCheck(this, ErrorResponse);
+var ErrorResponseImpl = exports.UNSAFE_ErrorResponseImpl = /*#__PURE__*/_createClass(function ErrorResponseImpl(status, statusText, data, internal) {
+  _classCallCheck(this, ErrorResponseImpl);
   if (internal === void 0) {
     internal = false;
   }
@@ -47093,7 +47836,6 @@ var ErrorResponse = /*#__PURE__*/_createClass(function ErrorResponse(status, sta
  * Check if the given error is an ErrorResponse generated from a 4xx/5xx
  * Response thrown from an action/loader
  */
-exports.ErrorResponse = ErrorResponse;
 function isRouteErrorResponse(error) {
   return error != null && typeof error.status === "number" && typeof error.statusText === "string" && typeof error.internal === "boolean" && "data" in error;
 }
@@ -47103,7 +47845,7 @@ var validRequestMethodsArr = ["get"].concat(validMutationMethodsArr);
 var validRequestMethods = new Set(validRequestMethodsArr);
 var redirectStatusCodes = new Set([301, 302, 303, 307, 308]);
 var redirectPreserveMethodStatusCodes = new Set([307, 308]);
-var IDLE_NAVIGATION = {
+var IDLE_NAVIGATION = exports.IDLE_NAVIGATION = {
   state: "idle",
   location: undefined,
   formMethod: undefined,
@@ -47113,8 +47855,7 @@ var IDLE_NAVIGATION = {
   json: undefined,
   text: undefined
 };
-exports.IDLE_NAVIGATION = IDLE_NAVIGATION;
-var IDLE_FETCHER = {
+var IDLE_FETCHER = exports.IDLE_FETCHER = {
   state: "idle",
   data: undefined,
   formMethod: undefined,
@@ -47124,20 +47865,19 @@ var IDLE_FETCHER = {
   json: undefined,
   text: undefined
 };
-exports.IDLE_FETCHER = IDLE_FETCHER;
-var IDLE_BLOCKER = {
+var IDLE_BLOCKER = exports.IDLE_BLOCKER = {
   state: "unblocked",
   proceed: undefined,
   reset: undefined,
   location: undefined
 };
-exports.IDLE_BLOCKER = IDLE_BLOCKER;
 var ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
 var defaultMapRouteProperties = function defaultMapRouteProperties(route) {
   return {
     hasErrorBoundary: Boolean(route.hasErrorBoundary)
   };
 };
+var TRANSITIONS_STORAGE_KEY = "remix-router-transitions";
 //#endregion
 ////////////////////////////////////////////////////////////////////////////////
 //#region createRouter
@@ -47172,6 +47912,7 @@ function createRouter(init) {
   var basename = init.basename || "/";
   // Config driven behavior flags
   var future = _extends({
+    v7_fetcherPersist: false,
     v7_normalizeFormMethod: false,
     v7_prependBasename: false
   }, init.future);
@@ -47241,6 +47982,12 @@ function createRouter(init) {
   var pendingPreventScrollReset = false;
   // AbortController for the active navigation
   var pendingNavigationController;
+  // Should the current navigation enable document.startViewTransition?
+  var pendingViewTransitionEnabled = false;
+  // Store applied view transitions so we can apply them on POP
+  var appliedViewTransitions = new Map();
+  // Cleanup function for persisting applied transitions to sessionStorage
+  var removePageHideEventListener = null;
   // We use this to avoid touching history in completeNavigation if a
   // revalidation is entirely uninterrupted
   var isUninterruptedRevalidation = false;
@@ -47269,6 +48016,11 @@ function createRouter(init) {
   var fetchRedirectIds = new Set();
   // Most recent href/match for fetcher.load calls for fetchers
   var fetchLoadMatches = new Map();
+  // Ref-count mounted fetchers so we know when it's ok to clean them up
+  var activeFetchers = new Map();
+  // Fetchers that have requested a delete when using v7_fetcherPersist,
+  // they'll be officially removed after they return to idle
+  var deletedFetchers = new Set();
   // Store DeferredData instances for active route matches.  When a
   // route loader returns defer() we stick one in here.  Then, when a nested
   // promise resolves we update loaderData.  If a new navigation starts we
@@ -47332,6 +48084,18 @@ function createRouter(init) {
       }
       return startNavigation(historyAction, location);
     });
+    if (isBrowser) {
+      // FIXME: This feels gross.  How can we cleanup the lines between
+      // scrollRestoration/appliedTransitions persistance?
+      restoreAppliedTransitions(routerWindow, appliedViewTransitions);
+      var _saveAppliedTransitions = function _saveAppliedTransitions() {
+        return persistAppliedTransitions(routerWindow, appliedViewTransitions);
+      };
+      routerWindow.addEventListener("pagehide", _saveAppliedTransitions);
+      removePageHideEventListener = function removePageHideEventListener() {
+        return routerWindow.removeEventListener("pagehide", _saveAppliedTransitions);
+      };
+    }
     // Kick off initial data load if needed.  Use Pop to avoid modifying history
     // Note we don't do any handling of lazy here.  For SPA's it'll get handled
     // in the normal navigation flow.  For SSR it's expected that lazy modules are
@@ -47346,6 +48110,9 @@ function createRouter(init) {
   function dispose() {
     if (unlistenHistory) {
       unlistenHistory();
+    }
+    if (removePageHideEventListener) {
+      removePageHideEventListener();
     }
     subscribers.clear();
     pendingNavigationController && pendingNavigationController.abort();
@@ -47364,11 +48131,41 @@ function createRouter(init) {
     };
   }
   // Update our state and notify the calling context of the change
-  function updateState(newState) {
+  function updateState(newState, viewTransitionOpts) {
     state = _extends({}, state, newState);
+    // Prep fetcher cleanup so we can tell the UI which fetcher data entries
+    // can be removed
+    var completedFetchers = [];
+    var deletedFetchersKeys = [];
+    if (future.v7_fetcherPersist) {
+      state.fetchers.forEach(function (fetcher, key) {
+        if (fetcher.state === "idle") {
+          if (deletedFetchers.has(key)) {
+            // Unmounted from the UI and can be totally removed
+            deletedFetchersKeys.push(key);
+          } else {
+            // Returned to idle but still mounted in the UI, so semi-remains for
+            // revalidations and such
+            completedFetchers.push(key);
+          }
+        }
+      });
+    }
     subscribers.forEach(function (subscriber) {
-      return subscriber(state);
+      return subscriber(state, {
+        deletedFetchers: deletedFetchersKeys,
+        unstable_viewTransitionOpts: viewTransitionOpts
+      });
     });
+    // Remove idle fetchers from state since we only care about in-flight fetchers.
+    if (future.v7_fetcherPersist) {
+      completedFetchers.forEach(function (key) {
+        return state.fetchers.delete(key);
+      });
+      deletedFetchersKeys.forEach(function (key) {
+        return deleteFetcher(key);
+      });
+    }
   }
   // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
   // and setting state.[historyAction/location/matches] to the new route.
@@ -47421,6 +48218,38 @@ function createRouter(init) {
     } else if (pendingAction === Action.Replace) {
       init.history.replace(location, location.state);
     }
+    var viewTransitionOpts;
+    // On POP, enable transitions if they were enabled on the original navigation
+    if (pendingAction === Action.Pop) {
+      // Forward takes precedence so they behave like the original navigation
+      var priorPaths = appliedViewTransitions.get(state.location.pathname);
+      if (priorPaths && priorPaths.has(location.pathname)) {
+        viewTransitionOpts = {
+          currentLocation: state.location,
+          nextLocation: location
+        };
+      } else if (appliedViewTransitions.has(location.pathname)) {
+        // If we don't have a previous forward nav, assume we're popping back to
+        // the new location and enable if that location previously enabled
+        viewTransitionOpts = {
+          currentLocation: location,
+          nextLocation: state.location
+        };
+      }
+    } else if (pendingViewTransitionEnabled) {
+      // Store the applied transition on PUSH/REPLACE
+      var toPaths = appliedViewTransitions.get(state.location.pathname);
+      if (toPaths) {
+        toPaths.add(location.pathname);
+      } else {
+        toPaths = new Set([location.pathname]);
+        appliedViewTransitions.set(state.location.pathname, toPaths);
+      }
+      viewTransitionOpts = {
+        currentLocation: state.location,
+        nextLocation: location
+      };
+    }
     updateState(_extends({}, newState, {
       actionData: actionData,
       loaderData: loaderData,
@@ -47432,10 +48261,11 @@ function createRouter(init) {
       restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
       preventScrollReset: preventScrollReset,
       blockers: blockers
-    }));
+    }), viewTransitionOpts);
     // Reset stateful navigation vars
     pendingAction = Action.Pop;
     pendingPreventScrollReset = false;
+    pendingViewTransitionEnabled = false;
     isUninterruptedRevalidation = false;
     isRevalidationRequired = false;
     cancelledDeferredRoutes = [];
@@ -47443,7 +48273,7 @@ function createRouter(init) {
   }
   // Trigger a navigation event, which can either be a numerical POP or a PUSH
   // replace with an optional submission
-  function navigate(_x3, _x4) {
+  function navigate(_x2, _x3) {
     return _navigate.apply(this, arguments);
   } // Revalidate all current loaders.  If a navigation is in progress or if this
   // is interrupted by a navigation, allow this to "succeed" by calling all
@@ -47522,7 +48352,8 @@ function createRouter(init) {
               // render at the right error boundary after we match routes
               pendingError: error,
               preventScrollReset: preventScrollReset,
-              replace: opts && opts.replace
+              replace: opts && opts.replace,
+              enableViewTransition: opts && opts.unstable_viewTransition
             });
           case 18:
             return _context2.abrupt("return", _context2.sent);
@@ -47563,7 +48394,7 @@ function createRouter(init) {
   // Start a navigation to the given action/location.  Can optionally provide a
   // overrideNavigation which will override the normalLoad in the case of a redirect
   // navigation
-  function startNavigation(_x5, _x6, _x7) {
+  function startNavigation(_x4, _x5, _x6) {
     return _startNavigation.apply(this, arguments);
   } // Call the action matched by the leaf route for this navigation and handle
   // redirects/errors
@@ -47584,11 +48415,12 @@ function createRouter(init) {
             // and track whether we should reset scroll on completion
             saveScrollPosition(state.location, state.matches);
             pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+            pendingViewTransitionEnabled = (opts && opts.enableViewTransition) === true;
             routesToUse = inFlightDataRoutes || dataRoutes;
             loadingNavigation = opts && opts.overrideNavigation;
             matches = matchRoutes(routesToUse, location, basename); // Short circuit with a 404 on the root error boundary if we match nothing
             if (matches) {
-              _context3.next = 15;
+              _context3.next = 16;
               break;
             }
             _error = getInternalRouterError(404, {
@@ -47602,21 +48434,21 @@ function createRouter(init) {
               errors: _defineProperty({}, _route.id, _error)
             });
             return _context3.abrupt("return");
-          case 15:
+          case 16:
             if (!(state.initialized && !isRevalidationRequired && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod)))) {
-              _context3.next = 18;
+              _context3.next = 19;
               break;
             }
             completeNavigation(location, {
               matches: matches
             });
             return _context3.abrupt("return");
-          case 18:
+          case 19:
             // Create a controller/Request for this navigation
             pendingNavigationController = new AbortController();
             request = createClientSideRequest(init.history, location, pendingNavigationController.signal, opts && opts.submission);
             if (!(opts && opts.pendingError)) {
-              _context3.next = 24;
+              _context3.next = 25;
               break;
             }
             // If we have a pendingError, it means the user attempted a GET submission
@@ -47624,25 +48456,25 @@ function createRouter(init) {
             // way we handle calling loaders above the boundary etc.  It's not really
             // different from an actionError in that sense.
             pendingError = _defineProperty({}, findNearestBoundary(matches).route.id, opts.pendingError);
-            _context3.next = 34;
+            _context3.next = 35;
             break;
-          case 24:
+          case 25:
             if (!(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
-              _context3.next = 34;
+              _context3.next = 35;
               break;
             }
-            _context3.next = 27;
+            _context3.next = 28;
             return handleAction(request, location, opts.submission, matches, {
               replace: opts.replace
             });
-          case 27:
+          case 28:
             actionOutput = _context3.sent;
             if (!actionOutput.shortCircuited) {
-              _context3.next = 30;
+              _context3.next = 31;
               break;
             }
             return _context3.abrupt("return");
-          case 30:
+          case 31:
             pendingActionData = actionOutput.pendingActionData;
             pendingError = actionOutput.pendingActionError;
             loadingNavigation = getLoadingNavigation(location, opts.submission);
@@ -47650,20 +48482,20 @@ function createRouter(init) {
             request = new Request(request.url, {
               signal: request.signal
             });
-          case 34:
-            _context3.next = 36;
+          case 35:
+            _context3.next = 37;
             return handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
-          case 36:
+          case 37:
             _yield$handleLoaders = _context3.sent;
             shortCircuited = _yield$handleLoaders.shortCircuited;
             loaderData = _yield$handleLoaders.loaderData;
             errors = _yield$handleLoaders.errors;
             if (!shortCircuited) {
-              _context3.next = 42;
+              _context3.next = 43;
               break;
             }
             return _context3.abrupt("return");
-          case 42:
+          case 43:
             // Clean up now that the action/loaders have completed.  Don't clean up if
             // we short circuited because pendingNavigationController will have already
             // been assigned to a new controller for the next navigation
@@ -47676,7 +48508,7 @@ function createRouter(init) {
               loaderData: loaderData,
               errors: errors
             }));
-          case 44:
+          case 45:
           case "end":
             return _context3.stop();
         }
@@ -47684,7 +48516,7 @@ function createRouter(init) {
     }));
     return _startNavigation.apply(this, arguments);
   }
-  function handleAction(_x8, _x9, _x10, _x11, _x12) {
+  function handleAction(_x7, _x8, _x9, _x10, _x11) {
     return _handleAction.apply(this, arguments);
   } // Call all applicable loaders for the given matches, handling redirects,
   // errors, etc.
@@ -47792,7 +48624,7 @@ function createRouter(init) {
     }));
     return _handleAction.apply(this, arguments);
   }
-  function handleLoaders(_x13, _x14, _x15, _x16, _x17, _x18, _x19, _x20, _x21) {
+  function handleLoaders(_x12, _x13, _x14, _x15, _x16, _x17, _x18, _x19, _x20) {
     return _handleLoaders.apply(this, arguments);
   }
   function _handleLoaders() {
@@ -47954,6 +48786,14 @@ function createRouter(init) {
     return _handleLoaders.apply(this, arguments);
   }
   function getFetcher(key) {
+    if (future.v7_fetcherPersist) {
+      activeFetchers.set(key, (activeFetchers.get(key) || 0) + 1);
+      // If this fetcher was previously marked for deletion, unmark it since we
+      // have a new instance
+      if (deletedFetchers.has(key)) {
+        deletedFetchers.delete(key);
+      }
+    }
     return state.fetchers.get(key) || IDLE_FETCHER;
   }
   // Trigger a fetcher load/submit for the given fetcher key
@@ -47995,12 +48835,12 @@ function createRouter(init) {
   }
   // Call the action for the matched fetcher.submit(), and then handle redirects,
   // errors, and revalidation
-  function handleFetcherAction(_x22, _x23, _x24, _x25, _x26, _x27) {
+  function handleFetcherAction(_x21, _x22, _x23, _x24, _x25, _x26) {
     return _handleFetcherAction.apply(this, arguments);
   } // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
   function _handleFetcherAction() {
     _handleFetcherAction = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee6(key, routeId, path, match, requestMatches, submission) {
-      var _error2, existingFetcher, fetcher, abortController, fetchRequest, originatingLoadId, actionResult, doneFetcher, loadingFetcher, nextLocation, revalidationRequest, routesToUse, matches, loadId, loadFetcher, _getMatchesToLoad3, _getMatchesToLoad4, matchesToLoad, revalidatingFetchers, abortPendingFetchRevalidations, _yield$callLoadersAnd2, results, loaderResults, fetcherResults, redirect, fetcherKey, _processLoaderData2, loaderData, errors, _doneFetcher, didAbortFetchLoads;
+      var _error2, existingFetcher, fetcher, abortController, fetchRequest, originatingLoadId, actionResult, doneFetcher, loadingFetcher, nextLocation, revalidationRequest, routesToUse, matches, loadId, loadFetcher, _getMatchesToLoad3, _getMatchesToLoad4, matchesToLoad, revalidatingFetchers, abortPendingFetchRevalidations, _yield$callLoadersAnd2, results, loaderResults, fetcherResults, redirect, fetcherKey, _processLoaderData2, loaderData, errors, _doneFetcher;
       return _regeneratorRuntime().wrap(function _callee6$(_context6) {
         while (1) switch (_context6.prev = _context6.next) {
           case 0:
@@ -48038,20 +48878,30 @@ function createRouter(init) {
               _context6.next = 20;
               break;
             }
-            // We can delete this so long as we weren't aborted by ou our own fetcher
+            // We can delete this so long as we weren't aborted by our own fetcher
             // re-submit which would have put _new_ controller is in fetchControllers
             if (fetchControllers.get(key) === abortController) {
               fetchControllers.delete(key);
             }
             return _context6.abrupt("return");
           case 20:
+            if (!deletedFetchers.has(key)) {
+              _context6.next = 24;
+              break;
+            }
+            state.fetchers.set(key, getDoneFetcher(undefined));
+            updateState({
+              fetchers: new Map(state.fetchers)
+            });
+            return _context6.abrupt("return");
+          case 24:
             if (!isRedirectResult(actionResult)) {
-              _context6.next = 34;
+              _context6.next = 38;
               break;
             }
             fetchControllers.delete(key);
             if (!(pendingNavigationLoadId > originatingLoadId)) {
-              _context6.next = 29;
+              _context6.next = 33;
               break;
             }
             // A new navigation was kicked off after our action started, so that
@@ -48064,7 +48914,7 @@ function createRouter(init) {
               fetchers: new Map(state.fetchers)
             });
             return _context6.abrupt("return");
-          case 29:
+          case 33:
             fetchRedirectIds.add(key);
             loadingFetcher = getLoadingFetcher(submission);
             state.fetchers.set(key, loadingFetcher);
@@ -48072,25 +48922,24 @@ function createRouter(init) {
               fetchers: new Map(state.fetchers)
             });
             return _context6.abrupt("return", startRedirectNavigation(state, actionResult, {
-              submission: submission,
-              isFetchActionRedirect: true
+              fetcherSubmission: submission
             }));
-          case 34:
+          case 38:
             if (!isErrorResult(actionResult)) {
-              _context6.next = 37;
+              _context6.next = 41;
               break;
             }
             setFetcherError(key, routeId, actionResult.error);
             return _context6.abrupt("return");
-          case 37:
+          case 41:
             if (!isDeferredResult(actionResult)) {
-              _context6.next = 39;
+              _context6.next = 43;
               break;
             }
             throw getInternalRouterError(400, {
               type: "defer-action"
             });
-          case 39:
+          case 43:
             // Start the data load for current matches, or the next location if we're
             // in the middle of a navigation
             nextLocation = state.navigation.location || state.location;
@@ -48129,19 +48978,19 @@ function createRouter(init) {
               });
             };
             abortController.signal.addEventListener("abort", abortPendingFetchRevalidations);
-            _context6.next = 55;
+            _context6.next = 59;
             return callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, revalidationRequest);
-          case 55:
+          case 59:
             _yield$callLoadersAnd2 = _context6.sent;
             results = _yield$callLoadersAnd2.results;
             loaderResults = _yield$callLoadersAnd2.loaderResults;
             fetcherResults = _yield$callLoadersAnd2.fetcherResults;
             if (!abortController.signal.aborted) {
-              _context6.next = 61;
+              _context6.next = 65;
               break;
             }
             return _context6.abrupt("return");
-          case 61:
+          case 65:
             abortController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
             fetchReloadIds.delete(key);
             fetchControllers.delete(key);
@@ -48150,7 +48999,7 @@ function createRouter(init) {
             });
             redirect = findRedirect(results);
             if (!redirect) {
-              _context6.next = 69;
+              _context6.next = 73;
               break;
             }
             if (redirect.idx >= matchesToLoad.length) {
@@ -48161,7 +49010,7 @@ function createRouter(init) {
               fetchRedirectIds.add(fetcherKey);
             }
             return _context6.abrupt("return", startRedirectNavigation(state, redirect.result));
-          case 69:
+          case 73:
             // Process and commit output from loaders
             _processLoaderData2 = processLoaderData(state, state.matches, matchesToLoad, loaderResults, undefined, revalidatingFetchers, fetcherResults, activeDeferreds), loaderData = _processLoaderData2.loaderData, errors = _processLoaderData2.errors; // Since we let revalidations complete even if the submitting fetcher was
             // deleted, only put it back to idle if it hasn't been deleted
@@ -48169,7 +49018,8 @@ function createRouter(init) {
               _doneFetcher = getDoneFetcher(actionResult.data);
               state.fetchers.set(key, _doneFetcher);
             }
-            didAbortFetchLoads = abortStaleFetchLoads(loadId); // If we are currently in a navigation loading state and this fetcher is
+            abortStaleFetchLoads(loadId);
+            // If we are currently in a navigation loading state and this fetcher is
             // more recent than the navigation, we want the newer data so abort the
             // navigation and complete it with the fetcher data
             if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
@@ -48185,15 +49035,14 @@ function createRouter(init) {
               // otherwise just update with the fetcher data, preserving any existing
               // loaderData for loaders that did not need to reload.  We have to
               // manually merge here since we aren't going through completeNavigation
-              updateState(_extends({
+              updateState({
                 errors: errors,
-                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
-              }, didAbortFetchLoads || revalidatingFetchers.length > 0 ? {
+                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors),
                 fetchers: new Map(state.fetchers)
-              } : {}));
+              });
               isRevalidationRequired = false;
             }
-          case 73:
+          case 77:
           case "end":
             return _context6.stop();
         }
@@ -48201,7 +49050,7 @@ function createRouter(init) {
     }));
     return _handleFetcherAction.apply(this, arguments);
   }
-  function handleFetcherLoader(_x28, _x29, _x30, _x31, _x32, _x33) {
+  function handleFetcherLoader(_x27, _x28, _x29, _x30, _x31, _x32) {
     return _handleFetcherLoader.apply(this, arguments);
   }
   /**
@@ -48225,7 +49074,7 @@ function createRouter(init) {
    */
   function _handleFetcherLoader() {
     _handleFetcherLoader = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee7(key, routeId, path, match, matches, submission) {
-      var existingFetcher, loadingFetcher, abortController, fetchRequest, originatingLoadId, result, _doneFetcher2, boundaryMatch, doneFetcher;
+      var existingFetcher, loadingFetcher, abortController, fetchRequest, originatingLoadId, result, _doneFetcher2, doneFetcher;
       return _regeneratorRuntime().wrap(function _callee7$(_context7) {
         while (1) switch (_context7.prev = _context7.next) {
           case 0:
@@ -48271,12 +49120,22 @@ function createRouter(init) {
             }
             return _context7.abrupt("return");
           case 21:
+            if (!deletedFetchers.has(key)) {
+              _context7.next = 25;
+              break;
+            }
+            state.fetchers.set(key, getDoneFetcher(undefined));
+            updateState({
+              fetchers: new Map(state.fetchers)
+            });
+            return _context7.abrupt("return");
+          case 25:
             if (!isRedirectResult(result)) {
-              _context7.next = 33;
+              _context7.next = 37;
               break;
             }
             if (!(pendingNavigationLoadId > originatingLoadId)) {
-              _context7.next = 29;
+              _context7.next = 33;
               break;
             }
             // A new navigation was kicked off after our loader started, so that
@@ -48287,28 +49146,20 @@ function createRouter(init) {
               fetchers: new Map(state.fetchers)
             });
             return _context7.abrupt("return");
-          case 29:
-            fetchRedirectIds.add(key);
-            _context7.next = 32;
-            return startRedirectNavigation(state, result);
-          case 32:
-            return _context7.abrupt("return");
           case 33:
+            fetchRedirectIds.add(key);
+            _context7.next = 36;
+            return startRedirectNavigation(state, result);
+          case 36:
+            return _context7.abrupt("return");
+          case 37:
             if (!isErrorResult(result)) {
-              _context7.next = 38;
+              _context7.next = 40;
               break;
             }
-            boundaryMatch = findNearestBoundary(state.matches, routeId);
-            state.fetchers.delete(key);
-            // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
-            // do we need to behave any differently with our non-redirect errors?
-            // What if it was a non-redirect Response?
-            updateState({
-              fetchers: new Map(state.fetchers),
-              errors: _defineProperty({}, boundaryMatch.route.id, result.error)
-            });
+            setFetcherError(key, routeId, result.error);
             return _context7.abrupt("return");
-          case 38:
+          case 40:
             invariant(!isDeferredResult(result), "Unhandled fetcher deferred data");
             // Put the fetcher back into an idle state
             doneFetcher = getDoneFetcher(result.data);
@@ -48316,7 +49167,7 @@ function createRouter(init) {
             updateState({
               fetchers: new Map(state.fetchers)
             });
-          case 42:
+          case 44:
           case "end":
             return _context7.stop();
         }
@@ -48324,26 +49175,22 @@ function createRouter(init) {
     }));
     return _handleFetcherLoader.apply(this, arguments);
   }
-  function startRedirectNavigation(_x34, _x35, _x36) {
+  function startRedirectNavigation(_x33, _x34, _x35) {
     return _startRedirectNavigation.apply(this, arguments);
   }
   function _startRedirectNavigation() {
     _startRedirectNavigation = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee8(state, redirect, _temp) {
-      var _ref7, submission, replace, isFetchActionRedirect, redirectLocation, isDocumentReload, url, redirectHistoryAction, activeSubmission, overrideNavigation;
+      var _ref7, submission, fetcherSubmission, replace, redirectLocation, isDocumentReload, url, redirectHistoryAction, _state$navigation, formMethod, formAction, formEncType, activeSubmission, overrideNavigation;
       return _regeneratorRuntime().wrap(function _callee8$(_context8) {
         while (1) switch (_context8.prev = _context8.next) {
           case 0:
-            _ref7 = _temp === void 0 ? {} : _temp, submission = _ref7.submission, replace = _ref7.replace, isFetchActionRedirect = _ref7.isFetchActionRedirect;
+            _ref7 = _temp === void 0 ? {} : _temp, submission = _ref7.submission, fetcherSubmission = _ref7.fetcherSubmission, replace = _ref7.replace;
             if (redirect.revalidate) {
               isRevalidationRequired = true;
             }
-            redirectLocation = createLocation(state.location, redirect.location,
-            // TODO: This can be removed once we get rid of useTransition in Remix v2
-            _extends({
+            redirectLocation = createLocation(state.location, redirect.location, {
               _isRedirect: true
-            }, isFetchActionRedirect ? {
-              _isFetchActionRedirect: true
-            } : {}));
+            });
             invariant(redirectLocation, "Expected a location on the redirect navigation");
             if (!isBrowser) {
               _context8.next = 10;
@@ -48377,14 +49224,19 @@ function createRouter(init) {
             pendingNavigationController = null;
             redirectHistoryAction = replace === true ? Action.Replace : Action.Push; // Use the incoming submission if provided, fallback on the active one in
             // state.navigation
-            activeSubmission = submission || getSubmissionFromNavigation(state.navigation); // If this was a 307/308 submission we want to preserve the HTTP method and
+            _state$navigation = state.navigation, formMethod = _state$navigation.formMethod, formAction = _state$navigation.formAction, formEncType = _state$navigation.formEncType;
+            if (!submission && !fetcherSubmission && formMethod && formAction && formEncType) {
+              submission = getSubmissionFromNavigation(state.navigation);
+            }
+            // If this was a 307/308 submission we want to preserve the HTTP method and
             // re-submit the GET/POST/PUT/PATCH/DELETE as a submission navigation to the
             // redirected location
+            activeSubmission = submission || fetcherSubmission;
             if (!(redirectPreserveMethodStatusCodes.has(redirect.status) && activeSubmission && isMutationMethod(activeSubmission.formMethod))) {
-              _context8.next = 18;
+              _context8.next = 20;
               break;
             }
-            _context8.next = 16;
+            _context8.next = 18;
             return startNavigation(redirectHistoryAction, redirectLocation, {
               submission: _extends({}, activeSubmission, {
                 formAction: redirect.location
@@ -48392,34 +49244,22 @@ function createRouter(init) {
               // Preserve this flag across redirects
               preventScrollReset: pendingPreventScrollReset
             });
-          case 16:
-            _context8.next = 26;
-            break;
           case 18:
-            if (!isFetchActionRedirect) {
-              _context8.next = 23;
-              break;
-            }
-            _context8.next = 21;
-            return startNavigation(redirectHistoryAction, redirectLocation, {
-              overrideNavigation: getLoadingNavigation(redirectLocation),
-              fetcherSubmission: activeSubmission,
-              // Preserve this flag across redirects
-              preventScrollReset: pendingPreventScrollReset
-            });
-          case 21:
-            _context8.next = 26;
+            _context8.next = 23;
             break;
-          case 23:
-            // If we have a submission, we will preserve it through the redirect navigation
-            overrideNavigation = getLoadingNavigation(redirectLocation, activeSubmission);
-            _context8.next = 26;
+          case 20:
+            // If we have a navigation submission, we will preserve it through the
+            // redirect navigation
+            overrideNavigation = getLoadingNavigation(redirectLocation, submission);
+            _context8.next = 23;
             return startNavigation(redirectHistoryAction, redirectLocation, {
               overrideNavigation: overrideNavigation,
+              // Send fetcher submissions through for shouldRevalidate
+              fetcherSubmission: fetcherSubmission,
               // Preserve this flag across redirects
               preventScrollReset: pendingPreventScrollReset
             });
-          case 26:
+          case 23:
           case "end":
             return _context8.stop();
         }
@@ -48427,7 +49267,7 @@ function createRouter(init) {
     }));
     return _startRedirectNavigation.apply(this, arguments);
   }
-  function callLoadersAndMaybeResolveData(_x37, _x38, _x39, _x40, _x41) {
+  function callLoadersAndMaybeResolveData(_x36, _x37, _x38, _x39, _x40) {
     return _callLoadersAndMaybeResolveData.apply(this, arguments);
   }
   function _callLoadersAndMaybeResolveData() {
@@ -48512,7 +49352,24 @@ function createRouter(init) {
     fetchLoadMatches.delete(key);
     fetchReloadIds.delete(key);
     fetchRedirectIds.delete(key);
+    deletedFetchers.delete(key);
     state.fetchers.delete(key);
+  }
+  function deleteFetcherAndUpdateState(key) {
+    if (future.v7_fetcherPersist) {
+      var count = (activeFetchers.get(key) || 0) - 1;
+      if (count <= 0) {
+        activeFetchers.delete(key);
+        deletedFetchers.add(key);
+      } else {
+        activeFetchers.set(key, count);
+      }
+    } else {
+      deleteFetcher(key);
+    }
+    updateState({
+      fetchers: new Map(state.fetchers)
+    });
   }
   function abortFetcher(key) {
     var controller = fetchControllers.get(key);
@@ -48683,7 +49540,7 @@ function createRouter(init) {
   function getScrollKey(location, matches) {
     if (getScrollRestorationKey) {
       var key = getScrollRestorationKey(location, matches.map(function (m) {
-        return createUseMatchesMatch(m, state.loaderData);
+        return convertRouteMatchToUiMatch(m, state.loaderData);
       }));
       return key || location.key;
     }
@@ -48719,6 +49576,9 @@ function createRouter(init) {
     get routes() {
       return dataRoutes;
     },
+    get window() {
+      return routerWindow;
+    },
     initialize: initialize,
     subscribe: subscribe,
     enableScrollRestoration: enableScrollRestoration,
@@ -48734,7 +49594,7 @@ function createRouter(init) {
       return init.history.encodeLocation(to);
     },
     getFetcher: getFetcher,
-    deleteFetcher: deleteFetcher,
+    deleteFetcher: deleteFetcherAndUpdateState,
     dispose: dispose,
     getBlocker: getBlocker,
     deleteBlocker: deleteBlocker,
@@ -48750,8 +49610,7 @@ function createRouter(init) {
 ////////////////////////////////////////////////////////////////////////////////
 //#region createStaticHandler
 ////////////////////////////////////////////////////////////////////////////////
-var UNSAFE_DEFERRED_SYMBOL = Symbol("deferred");
-exports.UNSAFE_DEFERRED_SYMBOL = UNSAFE_DEFERRED_SYMBOL;
+var UNSAFE_DEFERRED_SYMBOL = exports.UNSAFE_DEFERRED_SYMBOL = Symbol("deferred");
 function createStaticHandler(routes, opts) {
   invariant(routes.length > 0, "You must provide a non-empty routes array to createStaticHandler");
   var manifest = {};
@@ -48790,7 +49649,7 @@ function createStaticHandler(routes, opts) {
    * propagate that out and return the raw Response so the HTTP server can
    * return it directly.
    */
-  function query(_x42, _x43) {
+  function query(_x41, _x42) {
     return _query.apply(this, arguments);
   }
   /**
@@ -48888,7 +49747,7 @@ function createStaticHandler(routes, opts) {
     }));
     return _query.apply(this, arguments);
   }
-  function queryRoute(_x44, _x45) {
+  function queryRoute(_x43, _x44) {
     return _queryRoute.apply(this, arguments);
   }
   function _queryRoute() {
@@ -48980,7 +49839,7 @@ function createStaticHandler(routes, opts) {
     }));
     return _queryRoute.apply(this, arguments);
   }
-  function queryImpl(_x46, _x47, _x48, _x49, _x50) {
+  function queryImpl(_x45, _x46, _x47, _x48, _x49) {
     return _queryImpl.apply(this, arguments);
   }
   function _queryImpl() {
@@ -49039,7 +49898,7 @@ function createStaticHandler(routes, opts) {
     }));
     return _queryImpl.apply(this, arguments);
   }
-  function submit(_x51, _x52, _x53, _x54, _x55) {
+  function submit(_x50, _x51, _x52, _x53, _x54) {
     return _submit.apply(this, arguments);
   }
   function _submit() {
@@ -49083,7 +49942,7 @@ function createStaticHandler(routes, opts) {
               break;
             }
             method = isRouteRequest ? "queryRoute" : "query";
-            throw new Error(method + "() call aborted");
+            throw new Error(method + "() call aborted: " + request.method + " " + request.url);
           case 13:
             if (!isRedirectResult(result)) {
               _context14.next = 15;
@@ -49178,7 +50037,7 @@ function createStaticHandler(routes, opts) {
     }));
     return _submit.apply(this, arguments);
   }
-  function loadRouteData(_x56, _x57, _x58, _x59, _x60) {
+  function loadRouteData(_x55, _x56, _x57, _x58, _x59) {
     return _loadRouteData.apply(this, arguments);
   }
   function _loadRouteData() {
@@ -49233,7 +50092,7 @@ function createStaticHandler(routes, opts) {
               break;
             }
             method = isRouteRequest ? "queryRoute" : "query";
-            throw new Error(method + "() call aborted");
+            throw new Error(method + "() call aborted: " + request.method + " " + request.url);
           case 13:
             // Process and commit output from loaders
             activeDeferreds = new Map();
@@ -49624,7 +50483,7 @@ function shouldRevalidateLoader(loaderMatch, arg) {
  * shouldRevalidate) and update the routeManifest in place which shares objects
  * with dataRoutes so those get updated as well.
  */
-function loadLazyRouteModule(_x61, _x62, _x63) {
+function loadLazyRouteModule(_x60, _x61, _x62) {
   return _loadLazyRouteModule.apply(this, arguments);
 }
 function _loadLazyRouteModule() {
@@ -49688,14 +50547,14 @@ function _loadLazyRouteModule() {
   }));
   return _loadLazyRouteModule.apply(this, arguments);
 }
-function callLoaderOrAction(_x64, _x65, _x66, _x67, _x68, _x69, _x70, _x71) {
+function callLoaderOrAction(_x63, _x64, _x65, _x66, _x67, _x68, _x69, _x70) {
   return _callLoaderOrAction.apply(this, arguments);
 } // Utility method for creating the Request instances for loaders/actions during
 // client-side navigations and fetches.  During SSR we will always have a
 // Request instance from the static handler (query/queryRoute)
 function _callLoaderOrAction() {
   _callLoaderOrAction = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee16(type, request, match, matches, manifest, mapRouteProperties, basename, opts) {
-    var resultType, result, onReject, runHandler, handler, values, url, pathname, _url, _pathname, status, location, currentUrl, _url2, isSameBasename, queryRouteResponse, data, contentType, _result$init, _result$init2;
+    var resultType, result, onReject, runHandler, handler, handlerError, values, url, pathname, _url, _pathname, status, location, currentUrl, _url2, isSameBasename, queryRouteResponse, data, contentType, _result$init, _result$init2;
     return _regeneratorRuntime().wrap(function _callee16$(_context17) {
       while (1) switch (_context17.prev = _context17.next) {
         case 0:
@@ -49721,38 +50580,50 @@ function _callLoaderOrAction() {
           _context17.prev = 2;
           handler = match.route[type];
           if (!match.route.lazy) {
-            _context17.next = 30;
+            _context17.next = 32;
             break;
           }
           if (!handler) {
-            _context17.next = 12;
+            _context17.next = 14;
             break;
           }
           _context17.next = 8;
-          return Promise.all([runHandler(handler), loadLazyRouteModule(match.route, mapRouteProperties, manifest)]);
+          return Promise.all([
+          // If the handler throws, don't let it immediately bubble out,
+          // since we need to let the lazy() execution finish so we know if this
+          // route has a boundary that can handle the error
+          runHandler(handler).catch(function (e) {
+            handlerError = e;
+          }), loadLazyRouteModule(match.route, mapRouteProperties, manifest)]);
         case 8:
           values = _context17.sent;
-          result = values[0];
-          _context17.next = 28;
-          break;
-        case 12:
-          _context17.next = 14;
-          return loadLazyRouteModule(match.route, mapRouteProperties, manifest);
-        case 14:
-          handler = match.route[type];
-          if (!handler) {
-            _context17.next = 21;
+          if (!handlerError) {
+            _context17.next = 11;
             break;
           }
-          _context17.next = 18;
-          return runHandler(handler);
-        case 18:
-          result = _context17.sent;
-          _context17.next = 28;
+          throw handlerError;
+        case 11:
+          result = values[0];
+          _context17.next = 30;
           break;
-        case 21:
+        case 14:
+          _context17.next = 16;
+          return loadLazyRouteModule(match.route, mapRouteProperties, manifest);
+        case 16:
+          handler = match.route[type];
+          if (!handler) {
+            _context17.next = 23;
+            break;
+          }
+          _context17.next = 20;
+          return runHandler(handler);
+        case 20:
+          result = _context17.sent;
+          _context17.next = 30;
+          break;
+        case 23:
           if (!(type === "action")) {
-            _context17.next = 27;
+            _context17.next = 29;
             break;
           }
           url = new URL(request.url);
@@ -49762,17 +50633,17 @@ function _callLoaderOrAction() {
             pathname: pathname,
             routeId: match.route.id
           });
-        case 27:
+        case 29:
           return _context17.abrupt("return", {
             type: ResultType.data,
             data: undefined
           });
-        case 28:
-          _context17.next = 39;
-          break;
         case 30:
+          _context17.next = 41;
+          break;
+        case 32:
           if (handler) {
-            _context17.next = 36;
+            _context17.next = 38;
             break;
           }
           _url = new URL(request.url);
@@ -49780,34 +50651,34 @@ function _callLoaderOrAction() {
           throw getInternalRouterError(404, {
             pathname: _pathname
           });
-        case 36:
-          _context17.next = 38;
-          return runHandler(handler);
         case 38:
+          _context17.next = 40;
+          return runHandler(handler);
+        case 40:
           result = _context17.sent;
-        case 39:
+        case 41:
           invariant(result !== undefined, "You defined " + (type === "action" ? "an action" : "a loader") + " for route " + ("\"" + match.route.id + "\" but didn't return anything from your `" + type + "` ") + "function. Please return a value or `null`.");
-          _context17.next = 46;
+          _context17.next = 48;
           break;
-        case 42:
-          _context17.prev = 42;
+        case 44:
+          _context17.prev = 44;
           _context17.t0 = _context17["catch"](2);
           resultType = ResultType.error;
           result = _context17.t0;
-        case 46:
-          _context17.prev = 46;
+        case 48:
+          _context17.prev = 48;
           if (onReject) {
             request.signal.removeEventListener("abort", onReject);
           }
-          return _context17.finish(46);
-        case 49:
+          return _context17.finish(48);
+        case 51:
           if (!isResponse(result)) {
-            _context17.next = 75;
+            _context17.next = 77;
             break;
           }
           status = result.status; // Process redirects
           if (!redirectStatusCodes.has(status)) {
-            _context17.next = 59;
+            _context17.next = 61;
             break;
           }
           location = result.headers.get("Location");
@@ -49831,12 +50702,12 @@ function _callLoaderOrAction() {
           // redirect.  We also update the Location header in place in this flow so
           // basename and relative routing is taken into account
           if (!opts.isStaticRequest) {
-            _context17.next = 58;
+            _context17.next = 60;
             break;
           }
           result.headers.set("Location", location);
           throw result;
-        case 58:
+        case 60:
           return _context17.abrupt("return", {
             type: ResultType.redirect,
             status: status,
@@ -49844,9 +50715,9 @@ function _callLoaderOrAction() {
             revalidate: result.headers.get("X-Remix-Revalidate") !== null,
             reloadDocument: result.headers.get("X-Remix-Reload-Document") !== null
           });
-        case 59:
+        case 61:
           if (!opts.isRouteRequest) {
-            _context17.next = 62;
+            _context17.next = 64;
             break;
           }
           queryRouteResponse = {
@@ -49854,53 +50725,53 @@ function _callLoaderOrAction() {
             response: result
           };
           throw queryRouteResponse;
-        case 62:
+        case 64:
           contentType = result.headers.get("Content-Type"); // Check between word boundaries instead of startsWith() due to the last
           // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
           if (!(contentType && /\bapplication\/json\b/.test(contentType))) {
-            _context17.next = 69;
+            _context17.next = 71;
             break;
           }
-          _context17.next = 66;
+          _context17.next = 68;
           return result.json();
-        case 66:
+        case 68:
           data = _context17.sent;
-          _context17.next = 72;
+          _context17.next = 74;
           break;
-        case 69:
-          _context17.next = 71;
-          return result.text();
         case 71:
+          _context17.next = 73;
+          return result.text();
+        case 73:
           data = _context17.sent;
-        case 72:
+        case 74:
           if (!(resultType === ResultType.error)) {
-            _context17.next = 74;
+            _context17.next = 76;
             break;
           }
           return _context17.abrupt("return", {
             type: resultType,
-            error: new ErrorResponse(status, result.statusText, data),
+            error: new ErrorResponseImpl(status, result.statusText, data),
             headers: result.headers
           });
-        case 74:
+        case 76:
           return _context17.abrupt("return", {
             type: ResultType.data,
             data: data,
             statusCode: result.status,
             headers: result.headers
           });
-        case 75:
+        case 77:
           if (!(resultType === ResultType.error)) {
-            _context17.next = 77;
+            _context17.next = 79;
             break;
           }
           return _context17.abrupt("return", {
             type: resultType,
             error: result
           });
-        case 77:
+        case 79:
           if (!isDeferredData(result)) {
-            _context17.next = 79;
+            _context17.next = 81;
             break;
           }
           return _context17.abrupt("return", {
@@ -49909,16 +50780,16 @@ function _callLoaderOrAction() {
             statusCode: (_result$init = result.init) == null ? void 0 : _result$init.status,
             headers: ((_result$init2 = result.init) == null ? void 0 : _result$init2.headers) && new Headers(result.init.headers)
           });
-        case 79:
+        case 81:
           return _context17.abrupt("return", {
             type: ResultType.data,
             data: result
           });
-        case 80:
+        case 82:
         case "end":
           return _context17.stop();
       }
-    }, _callee16, null, [[2, 42, 46, 49]]);
+    }, _callee16, null, [[2, 44, 48, 51]]);
   }));
   return _callLoaderOrAction.apply(this, arguments);
 }
@@ -50141,7 +51012,7 @@ function findNearestBoundary(matches, routeId) {
 }
 function getShortCircuitMatches(routes) {
   // Prefer a root layout route if present, otherwise shim in a route object
-  var route = routes.find(function (r) {
+  var route = routes.length === 1 ? routes[0] : routes.find(function (r) {
     return r.index || !r.path || r.path === "/";
   }) || {
     id: "__shim-error-route__"
@@ -50187,7 +51058,7 @@ function getInternalRouterError(status, _temp4) {
       errorMessage = "Invalid request method \"" + method.toUpperCase() + "\"";
     }
   }
-  return new ErrorResponse(status || 500, statusText, new Error(errorMessage), true);
+  return new ErrorResponseImpl(status || 500, statusText, new Error(errorMessage), true);
 }
 // Find any returned redirect errors, starting from the lowest match
 function findRedirect(results) {
@@ -50258,7 +51129,7 @@ function isValidMethod(method) {
 function isMutationMethod(method) {
   return validMutationMethods.has(method.toLowerCase());
 }
-function resolveDeferredResults(_x72, _x73, _x74, _x75, _x76, _x77) {
+function resolveDeferredResults(_x71, _x72, _x73, _x74, _x75, _x76) {
   return _resolveDeferredResults.apply(this, arguments);
 }
 function _resolveDeferredResults() {
@@ -50332,7 +51203,7 @@ function _resolveDeferredResults() {
   }));
   return _resolveDeferredResults.apply(this, arguments);
 }
-function resolveDeferredData(_x78, _x79, _x80) {
+function resolveDeferredData(_x77, _x78, _x79) {
   return _resolveDeferredData.apply(this, arguments);
 }
 function _resolveDeferredData() {
@@ -50387,20 +51258,6 @@ function hasNakedIndexQuery(search) {
   return new URLSearchParams(search).getAll("index").some(function (v) {
     return v === "";
   });
-}
-// Note: This should match the format exported by useMatches, so if you change
-// this please also change that :)  Eventually we'll DRY this up
-function createUseMatchesMatch(match, loaderData) {
-  var route = match.route,
-    pathname = match.pathname,
-    params = match.params;
-  return {
-    id: route.id,
-    pathname: pathname,
-    params: params,
-    data: loaderData[route.id],
-    handle: route.handle
-  };
 }
 function getTargetMatch(matches, location) {
   var search = typeof location === "string" ? parsePath(location).search : location.search;
@@ -50502,8 +51359,7 @@ function getLoadingFetcher(submission, data) {
       formData: submission.formData,
       json: submission.json,
       text: submission.text,
-      data: data,
-      " _hasFetcherDoneAnything ": true
+      data: data
     };
     return fetcher;
   } else {
@@ -50515,8 +51371,7 @@ function getLoadingFetcher(submission, data) {
       formData: undefined,
       json: undefined,
       text: undefined,
-      data: data,
-      " _hasFetcherDoneAnything ": true
+      data: data
     };
     return _fetcher;
   }
@@ -50530,8 +51385,7 @@ function getSubmittingFetcher(submission, existingFetcher) {
     formData: submission.formData,
     json: submission.json,
     text: submission.text,
-    data: existingFetcher ? existingFetcher.data : undefined,
-    " _hasFetcherDoneAnything ": true
+    data: existingFetcher ? existingFetcher.data : undefined
   };
   return fetcher;
 }
@@ -50544,10 +51398,51 @@ function getDoneFetcher(data) {
     formData: undefined,
     json: undefined,
     text: undefined,
-    data: data,
-    " _hasFetcherDoneAnything ": true
+    data: data
   };
   return fetcher;
+}
+function restoreAppliedTransitions(_window, transitions) {
+  try {
+    var sessionPositions = _window.sessionStorage.getItem(TRANSITIONS_STORAGE_KEY);
+    if (sessionPositions) {
+      var _json2 = JSON.parse(sessionPositions);
+      for (var _i = 0, _Object$entries = Object.entries(_json2 || {}); _i < _Object$entries.length; _i++) {
+        var _Object$entries$_i = _slicedToArray(_Object$entries[_i], 2),
+          k = _Object$entries$_i[0],
+          v = _Object$entries$_i[1];
+        if (v && Array.isArray(v)) {
+          transitions.set(k, new Set(v || []));
+        }
+      }
+    }
+  } catch (e) {
+    // no-op, use default empty object
+  }
+}
+function persistAppliedTransitions(_window, transitions) {
+  if (transitions.size > 0) {
+    var _json3 = {};
+    var _iterator9 = _createForOfIteratorHelper(transitions),
+      _step9;
+    try {
+      for (_iterator9.s(); !(_step9 = _iterator9.n()).done;) {
+        var _step9$value = _slicedToArray(_step9.value, 2),
+          k = _step9$value[0],
+          v = _step9$value[1];
+        _json3[k] = _toConsumableArray(v);
+      }
+    } catch (err) {
+      _iterator9.e(err);
+    } finally {
+      _iterator9.f();
+    }
+    try {
+      _window.sessionStorage.setItem(TRANSITIONS_STORAGE_KEY, JSON.stringify(_json3));
+    } catch (error) {
+      warning(false, "Failed to save applied view transitions in sessionStorage (" + error + ").");
+    }
+  }
 }
 //#endregion
 },{}],"../node_modules/react-router/dist/index.js":[function(require,module,exports) {
@@ -50672,9 +51567,9 @@ exports.useRouteLoaderData = useRouteLoaderData;
 exports.useRoutes = useRoutes;
 var React = _interopRequireWildcard(require("react"));
 var _router = require("@remix-run/router");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
@@ -50683,7 +51578,7 @@ function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArra
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
@@ -50697,15 +51592,15 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf.bind() : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); } /**
-                                                                                                                                                                                                                      * React Router v6.15.0
-                                                                                                                                                                                                                      *
-                                                                                                                                                                                                                      * Copyright (c) Remix Software Inc.
-                                                                                                                                                                                                                      *
-                                                                                                                                                                                                                      * This source code is licensed under the MIT license found in the
-                                                                                                                                                                                                                      * LICENSE.md file in the root directory of this source tree.
-                                                                                                                                                                                                                      *
-                                                                                                                                                                                                                      * @license MIT
-                                                                                                                                                                                                                      */
+ * React Router v6.18.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -50723,13 +51618,11 @@ function _extends() {
 
 // Create react-specific types from the agnostic types in @remix-run/router to
 // export from react-router
-var DataRouterContext = /*#__PURE__*/React.createContext(null);
-exports.UNSAFE_DataRouterContext = DataRouterContext;
+var DataRouterContext = exports.UNSAFE_DataRouterContext = /*#__PURE__*/React.createContext(null);
 if ("development" !== "production") {
   DataRouterContext.displayName = "DataRouter";
 }
-var DataRouterStateContext = /*#__PURE__*/React.createContext(null);
-exports.UNSAFE_DataRouterStateContext = DataRouterStateContext;
+var DataRouterStateContext = exports.UNSAFE_DataRouterStateContext = /*#__PURE__*/React.createContext(null);
 if ("development" !== "production") {
   DataRouterStateContext.displayName = "DataRouterState";
 }
@@ -50742,28 +51635,25 @@ if ("development" !== "production") {
  * A Navigator is a "location changer"; it's how you get to different locations.
  *
  * Every history instance conforms to the Navigator interface, but the
- * distinction is useful primarily when it comes to the low-level <Router> API
+ * distinction is useful primarily when it comes to the low-level `<Router>` API
  * where both the location and a navigator must be provided separately in order
  * to avoid "tearing" that may occur in a suspense-enabled app if the action
  * and/or location were to be read directly from the history instance.
  */
 
-var NavigationContext = /*#__PURE__*/React.createContext(null);
-exports.UNSAFE_NavigationContext = NavigationContext;
+var NavigationContext = exports.UNSAFE_NavigationContext = /*#__PURE__*/React.createContext(null);
 if ("development" !== "production") {
   NavigationContext.displayName = "Navigation";
 }
-var LocationContext = /*#__PURE__*/React.createContext(null);
-exports.UNSAFE_LocationContext = LocationContext;
+var LocationContext = exports.UNSAFE_LocationContext = /*#__PURE__*/React.createContext(null);
 if ("development" !== "production") {
   LocationContext.displayName = "Location";
 }
-var RouteContext = /*#__PURE__*/React.createContext({
+var RouteContext = exports.UNSAFE_RouteContext = /*#__PURE__*/React.createContext({
   outlet: null,
   matches: [],
   isDataRoute: false
 });
-exports.UNSAFE_RouteContext = RouteContext;
 if ("development" !== "production") {
   RouteContext.displayName = "Route";
 }
@@ -50811,7 +51701,7 @@ function useHref(to, _temp) {
 }
 
 /**
- * Returns true if this component is a descendant of a <Router>.
+ * Returns true if this component is a descendant of a `<Router>`.
  *
  * @see https://reactrouter.com/hooks/use-in-router-context
  */
@@ -50850,7 +51740,7 @@ function useNavigationType() {
 /**
  * Returns a PathMatch object if the given pattern matches the current URL.
  * This is useful for components that need to know "active" state, e.g.
- * <NavLink>.
+ * `<NavLink>`.
  *
  * @see https://reactrouter.com/hooks/use-match
  */
@@ -50884,7 +51774,7 @@ function useIsomorphicLayoutEffect(cb) {
 }
 
 /**
- * Returns an imperative method for changing the location. Used by <Link>s, but
+ * Returns an imperative method for changing the location. Used by `<Link>`s, but
  * may also be used by other elements to change the location.
  *
  * @see https://reactrouter.com/hooks/use-navigate
@@ -50957,7 +51847,7 @@ function useOutletContext() {
 
 /**
  * Returns the element for the child route at this level of the route
- * hierarchy. Used internally by <Outlet> to render child routes.
+ * hierarchy. Used internally by `<Outlet>` to render child routes.
  *
  * @see https://reactrouter.com/hooks/use-outlet
  */
@@ -51007,7 +51897,7 @@ function useResolvedPath(to, _temp2) {
 /**
  * Returns the element of the route that matched the current location, prepared
  * with the correct context to render the remainder of the route tree. Route
- * elements in the tree must render an <Outlet> to render their child route's
+ * elements in the tree must render an `<Outlet>` to render their child route's
  * element.
  *
  * @see https://reactrouter.com/hooks/use-routes
@@ -51386,19 +52276,8 @@ function useMatches() {
     matches = _useDataRouterState.matches,
     loaderData = _useDataRouterState.loaderData;
   return React.useMemo(function () {
-    return matches.map(function (match) {
-      var pathname = match.pathname,
-        params = match.params;
-      // Note: This structure matches that created by createUseMatchesMatch
-      // in the @remix-run/router , so if you change this please also change
-      // that :)  Eventually we'll DRY this up
-      return {
-        id: match.route.id,
-        pathname: pathname,
-        params: params,
-        data: loaderData[match.route.id],
-        handle: match.route.handle
-      };
+    return matches.map(function (m) {
+      return (0, _router.UNSAFE_convertRouteMatchToUiMatch)(m, loaderData);
     });
   }, [matches, loaderData]);
 }
@@ -51456,7 +52335,7 @@ function useRouteError() {
 }
 
 /**
- * Returns the happy-path data from the nearest ancestor <Await /> value
+ * Returns the happy-path data from the nearest ancestor `<Await />` value
  */
 function useAsyncValue() {
   var value = React.useContext(AwaitContext);
@@ -51464,7 +52343,7 @@ function useAsyncValue() {
 }
 
 /**
- * Returns the error from the nearest ancestor <Await /> value
+ * Returns the error from the nearest ancestor `<Await />` value
  */
 function useAsyncError() {
   var value = React.useContext(AwaitContext);
@@ -51607,8 +52486,6 @@ function RouterProvider(_ref) {
   var fallbackElement = _ref.fallbackElement,
     router = _ref.router,
     future = _ref.future;
-  // Need to use a layout effect here so we are subscribed early enough to
-  // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
   var _React$useState3 = React.useState(router.state),
     _React$useState4 = _slicedToArray(_React$useState3, 2),
     state = _React$useState4[0],
@@ -51616,10 +52493,17 @@ function RouterProvider(_ref) {
   var _ref11 = future || {},
     v7_startTransition = _ref11.v7_startTransition;
   var setState = React.useCallback(function (newState) {
-    v7_startTransition && startTransitionImpl ? startTransitionImpl(function () {
-      return setStateImpl(newState);
-    }) : setStateImpl(newState);
+    if (v7_startTransition && startTransitionImpl) {
+      startTransitionImpl(function () {
+        return setStateImpl(newState);
+      });
+    } else {
+      setStateImpl(newState);
+    }
   }, [setStateImpl, v7_startTransition]);
+
+  // Need to use a layout effect here so we are subscribed early enough to
+  // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
   React.useLayoutEffect(function () {
     return router.subscribe(setState);
   }, [router, setState]);
@@ -51681,7 +52565,7 @@ function DataRoutes(_ref2) {
   return useRoutesImpl(routes, undefined, state);
 }
 /**
- * A <Router> that stores all entries in memory.
+ * A `<Router>` that stores all entries in memory.
  *
  * @see https://reactrouter.com/router-components/memory-router
  */
@@ -51784,9 +52668,9 @@ function Route(_props) {
 /**
  * Provides location context for the rest of the app.
  *
- * Note: You usually won't render a <Router> directly. Instead, you'll render a
- * router that is more specific to your environment such as a <BrowserRouter>
- * in web browsers or a <StaticRouter> for server rendering.
+ * Note: You usually won't render a `<Router>` directly. Instead, you'll render a
+ * router that is more specific to your environment such as a `<BrowserRouter>`
+ * in web browsers or a `<StaticRouter>` for server rendering.
  *
  * @see https://reactrouter.com/router-components/router
  */
@@ -51855,7 +52739,7 @@ function Router(_ref5) {
   }));
 }
 /**
- * A container for a nested tree of <Route> elements that renders the branch
+ * A container for a nested tree of `<Route>` elements that renders the branch
  * that best matches the current location.
  *
  * @see https://reactrouter.com/components/routes
@@ -52004,7 +52888,7 @@ var AwaitErrorBoundary = /*#__PURE__*/function (_React$Component2) {
 }(React.Component);
 /**
  * @private
- * Indirection to leverage useAsyncValue for a render-prop API on <Await>
+ * Indirection to leverage useAsyncValue for a render-prop API on `<Await>`
  */
 function ResolveAwait(_ref8) {
   var children = _ref8.children;
@@ -52119,6 +53003,7 @@ function createMemoryRouter(routes, opts) {
   }).initialize();
 }
 },{"react":"../node_modules/react/index.js","@remix-run/router":"../node_modules/@remix-run/router/dist/router.js"}],"../node_modules/react-router-dom/dist/index.js":[function(require,module,exports) {
+var define;
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -52177,12 +53062,7 @@ Object.defineProperty(exports, "Router", {
     return _reactRouter.Router;
   }
 });
-Object.defineProperty(exports, "RouterProvider", {
-  enumerable: true,
-  get: function () {
-    return _reactRouter.RouterProvider;
-  }
-});
+exports.RouterProvider = RouterProvider;
 Object.defineProperty(exports, "Routes", {
   enumerable: true,
   get: function () {
@@ -52202,6 +53082,7 @@ Object.defineProperty(exports, "UNSAFE_DataRouterStateContext", {
     return _reactRouter.UNSAFE_DataRouterStateContext;
   }
 });
+exports.UNSAFE_FetchersContext = void 0;
 Object.defineProperty(exports, "UNSAFE_LocationContext", {
   enumerable: true,
   get: function () {
@@ -52220,6 +53101,7 @@ Object.defineProperty(exports, "UNSAFE_RouteContext", {
     return _reactRouter.UNSAFE_RouteContext;
   }
 });
+exports.UNSAFE_ViewTransitionContext = void 0;
 Object.defineProperty(exports, "UNSAFE_useRouteId", {
   enumerable: true,
   get: function () {
@@ -52328,6 +53210,7 @@ Object.defineProperty(exports, "unstable_useBlocker", {
   }
 });
 exports.unstable_usePrompt = usePrompt;
+exports.unstable_useViewTransitionState = useViewTransitionState;
 Object.defineProperty(exports, "useActionData", {
   enumerable: true,
   get: function () {
@@ -52458,27 +53341,32 @@ exports.useSubmit = useSubmit;
 var React = _interopRequireWildcard(require("react"));
 var _reactRouter = require("react-router");
 var _router = require("@remix-run/router");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
-function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && iter[Symbol.iterator] != null || iter["@@iterator"] != null) return Array.from(iter); }
-function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw new Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator.return && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw new Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, catch: function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+function _toPropertyKey(arg) { var key = _toPrimitive(arg, "string"); return _typeof(key) === "symbol" ? key : String(key); }
+function _toPrimitive(input, hint) { if (_typeof(input) !== "object" || input === null) return input; var prim = input[Symbol.toPrimitive]; if (prim !== undefined) { var res = prim.call(input, hint || "default"); if (_typeof(res) !== "object") return res; throw new TypeError("@@toPrimitive must return a primitive value."); } return (hint === "string" ? String : Number)(input); }
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; } /**
-                                                                       * React Router DOM v6.15.0
-                                                                       *
-                                                                       * Copyright (c) Remix Software Inc.
-                                                                       *
-                                                                       * This source code is licensed under the MIT license found in the
-                                                                       * LICENSE.md file in the root directory of this source tree.
-                                                                       *
-                                                                       * @license MIT
-                                                                       */
+ * React Router DOM v6.18.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
 function _extends() {
   _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -52670,9 +53558,9 @@ function getFormSubmissionInfo(target, basename) {
     body: body
   };
 }
-var _excluded = ["onClick", "relative", "reloadDocument", "replace", "state", "target", "to", "preventScrollReset"],
-  _excluded2 = ["aria-current", "caseSensitive", "className", "end", "style", "to", "children"],
-  _excluded3 = ["reloadDocument", "replace", "state", "method", "action", "onSubmit", "submit", "relative", "preventScrollReset"];
+var _excluded = ["onClick", "relative", "reloadDocument", "replace", "state", "target", "to", "preventScrollReset", "unstable_viewTransition"],
+  _excluded2 = ["aria-current", "caseSensitive", "className", "end", "style", "to", "unstable_viewTransition", "children"],
+  _excluded3 = ["fetcherKey", "navigate", "reloadDocument", "replace", "state", "method", "action", "onSubmit", "relative", "preventScrollReset", "unstable_viewTransition"];
 function createBrowserRouter(routes, opts) {
   return (0, _router.createRouter)({
     basename: opts == null ? void 0 : opts.basename,
@@ -52684,7 +53572,8 @@ function createBrowserRouter(routes, opts) {
     }),
     hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
     routes: routes,
-    mapRouteProperties: _reactRouter.UNSAFE_mapRouteProperties
+    mapRouteProperties: _reactRouter.UNSAFE_mapRouteProperties,
+    window: opts == null ? void 0 : opts.window
   }).initialize();
 }
 function createHashRouter(routes, opts) {
@@ -52698,7 +53587,8 @@ function createHashRouter(routes, opts) {
     }),
     hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
     routes: routes,
-    mapRouteProperties: _reactRouter.UNSAFE_mapRouteProperties
+    mapRouteProperties: _reactRouter.UNSAFE_mapRouteProperties,
+    window: opts == null ? void 0 : opts.window
   }).initialize();
 }
 function parseHydrationData() {
@@ -52722,7 +53612,7 @@ function deserializeErrors(errors) {
     // Hey you!  If you change this, please change the corresponding logic in
     // serializeErrors in react-router-dom/server.tsx :)
     if (val && val.__type === "RouteErrorResponse") {
-      serialized[key] = new _router.ErrorResponse(val.status, val.statusText, val.data, val.internal === true);
+      serialized[key] = new _router.UNSAFE_ErrorResponseImpl(val.status, val.statusText, val.data, val.internal === true);
     } else if (val && val.__type === "Error") {
       // Attempt to reconstruct the right type of Error (i.e., ReferenceError)
       if (val.__subType) {
@@ -52753,6 +53643,16 @@ function deserializeErrors(errors) {
   }
   return serialized;
 }
+var ViewTransitionContext = exports.UNSAFE_ViewTransitionContext = /*#__PURE__*/React.createContext({
+  isTransitioning: false
+});
+if ("development" !== "production") {
+  ViewTransitionContext.displayName = "ViewTransition";
+}
+var FetchersContext = exports.UNSAFE_FetchersContext = /*#__PURE__*/React.createContext(new Map());
+if ("development" !== "production") {
+  FetchersContext.displayName = "Fetchers";
+}
 //#endregion
 ////////////////////////////////////////////////////////////////////////////////
 //#region Components
@@ -52780,14 +53680,244 @@ function deserializeErrors(errors) {
 */
 var START_TRANSITION = "startTransition";
 var startTransitionImpl = React[START_TRANSITION];
+function startTransitionSafe(cb) {
+  if (startTransitionImpl) {
+    startTransitionImpl(cb);
+  } else {
+    cb();
+  }
+}
+var Deferred = /*#__PURE__*/_createClass(function Deferred() {
+  var _this = this;
+  _classCallCheck(this, Deferred);
+  this.status = "pending";
+  this.promise = new Promise(function (resolve, reject) {
+    _this.resolve = function (value) {
+      if (_this.status === "pending") {
+        _this.status = "resolved";
+        resolve(value);
+      }
+    };
+    _this.reject = function (reason) {
+      if (_this.status === "pending") {
+        _this.status = "rejected";
+        reject(reason);
+      }
+    };
+  });
+});
+/**
+ * Given a Remix Router instance, render the appropriate UI
+ */
+function RouterProvider(_ref) {
+  var fallbackElement = _ref.fallbackElement,
+    router = _ref.router,
+    future = _ref.future;
+  var _React$useState = React.useState(router.state),
+    _React$useState2 = _slicedToArray(_React$useState, 2),
+    state = _React$useState2[0],
+    setStateImpl = _React$useState2[1];
+  var _React$useState3 = React.useState(),
+    _React$useState4 = _slicedToArray(_React$useState3, 2),
+    pendingState = _React$useState4[0],
+    setPendingState = _React$useState4[1];
+  var _React$useState5 = React.useState({
+      isTransitioning: false
+    }),
+    _React$useState6 = _slicedToArray(_React$useState5, 2),
+    vtContext = _React$useState6[0],
+    setVtContext = _React$useState6[1];
+  var _React$useState7 = React.useState(),
+    _React$useState8 = _slicedToArray(_React$useState7, 2),
+    renderDfd = _React$useState8[0],
+    setRenderDfd = _React$useState8[1];
+  var _React$useState9 = React.useState(),
+    _React$useState10 = _slicedToArray(_React$useState9, 2),
+    transition = _React$useState10[0],
+    setTransition = _React$useState10[1];
+  var _React$useState11 = React.useState(),
+    _React$useState12 = _slicedToArray(_React$useState11, 2),
+    interruption = _React$useState12[0],
+    setInterruption = _React$useState12[1];
+  var fetcherData = React.useRef(new Map());
+  var _ref13 = future || {},
+    v7_startTransition = _ref13.v7_startTransition;
+  var optInStartTransition = React.useCallback(function (cb) {
+    if (v7_startTransition) {
+      startTransitionSafe(cb);
+    } else {
+      cb();
+    }
+  }, [v7_startTransition]);
+  var setState = React.useCallback(function (newState, _ref2) {
+    var deletedFetchers = _ref2.deletedFetchers,
+      viewTransitionOpts = _ref2.unstable_viewTransitionOpts;
+    deletedFetchers.forEach(function (key) {
+      return fetcherData.current.delete(key);
+    });
+    newState.fetchers.forEach(function (fetcher, key) {
+      if (fetcher.data !== undefined) {
+        fetcherData.current.set(key, fetcher.data);
+      }
+    });
+    if (!viewTransitionOpts || router.window == null || typeof router.window.document.startViewTransition !== "function") {
+      // Mid-navigation state update, or startViewTransition isn't available
+      optInStartTransition(function () {
+        return setStateImpl(newState);
+      });
+    } else if (transition && renderDfd) {
+      // Interrupting an in-progress transition, cancel and let everything flush
+      // out, and then kick off a new transition from the interruption state
+      renderDfd.resolve();
+      transition.skipTransition();
+      setInterruption({
+        state: newState,
+        currentLocation: viewTransitionOpts.currentLocation,
+        nextLocation: viewTransitionOpts.nextLocation
+      });
+    } else {
+      // Completed navigation update with opted-in view transitions, let 'er rip
+      setPendingState(newState);
+      setVtContext({
+        isTransitioning: true,
+        currentLocation: viewTransitionOpts.currentLocation,
+        nextLocation: viewTransitionOpts.nextLocation
+      });
+    }
+  }, [router.window, transition, renderDfd, fetcherData, optInStartTransition]);
+  // Need to use a layout effect here so we are subscribed early enough to
+  // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
+  React.useLayoutEffect(function () {
+    return router.subscribe(setState);
+  }, [router, setState]);
+  // When we start a view transition, create a Deferred we can use for the
+  // eventual "completed" render
+  React.useEffect(function () {
+    if (vtContext.isTransitioning) {
+      setRenderDfd(new Deferred());
+    }
+  }, [vtContext.isTransitioning]);
+  // Once the deferred is created, kick off startViewTransition() to update the
+  // DOM and then wait on the Deferred to resolve (indicating the DOM update has
+  // happened)
+  React.useEffect(function () {
+    if (renderDfd && pendingState && router.window) {
+      var newState = pendingState;
+      var renderPromise = renderDfd.promise;
+      var _transition = router.window.document.startViewTransition( /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+        return _regeneratorRuntime().wrap(function _callee$(_context) {
+          while (1) switch (_context.prev = _context.next) {
+            case 0:
+              optInStartTransition(function () {
+                return setStateImpl(newState);
+              });
+              _context.next = 3;
+              return renderPromise;
+            case 3:
+            case "end":
+              return _context.stop();
+          }
+        }, _callee);
+      })));
+      _transition.finished.finally(function () {
+        setRenderDfd(undefined);
+        setTransition(undefined);
+        setPendingState(undefined);
+        setVtContext({
+          isTransitioning: false
+        });
+      });
+      setTransition(_transition);
+    }
+  }, [optInStartTransition, pendingState, renderDfd, router.window]);
+  // When the new location finally renders and is committed to the DOM, this
+  // effect will run to resolve the transition
+  React.useEffect(function () {
+    if (renderDfd && pendingState && state.location.key === pendingState.location.key) {
+      renderDfd.resolve();
+    }
+  }, [renderDfd, transition, state.location, pendingState]);
+  // If we get interrupted with a new navigation during a transition, we skip
+  // the active transition, let it cleanup, then kick it off again here
+  React.useEffect(function () {
+    if (!vtContext.isTransitioning && interruption) {
+      setPendingState(interruption.state);
+      setVtContext({
+        isTransitioning: true,
+        currentLocation: interruption.currentLocation,
+        nextLocation: interruption.nextLocation
+      });
+      setInterruption(undefined);
+    }
+  }, [vtContext.isTransitioning, interruption]);
+  var navigator = React.useMemo(function () {
+    return {
+      createHref: router.createHref,
+      encodeLocation: router.encodeLocation,
+      go: function go(n) {
+        return router.navigate(n);
+      },
+      push: function push(to, state, opts) {
+        return router.navigate(to, {
+          state: state,
+          preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+        });
+      },
+      replace: function replace(to, state, opts) {
+        return router.navigate(to, {
+          replace: true,
+          state: state,
+          preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+        });
+      }
+    };
+  }, [router]);
+  var basename = router.basename || "/";
+  var dataRouterContext = React.useMemo(function () {
+    return {
+      router: router,
+      navigator: navigator,
+      static: false,
+      basename: basename
+    };
+  }, [router, navigator, basename]);
+  // The fragment and {null} here are important!  We need them to keep React 18's
+  // useId happy when we are server-rendering since we may have a <script> here
+  // containing the hydrated server-side staticContext (from StaticRouterProvider).
+  // useId relies on the component tree structure to generate deterministic id's
+  // so we need to ensure it remains the same on the client even though
+  // we don't need the <script> tag
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(_reactRouter.UNSAFE_DataRouterContext.Provider, {
+    value: dataRouterContext
+  }, /*#__PURE__*/React.createElement(_reactRouter.UNSAFE_DataRouterStateContext.Provider, {
+    value: state
+  }, /*#__PURE__*/React.createElement(FetchersContext.Provider, {
+    value: fetcherData.current
+  }, /*#__PURE__*/React.createElement(ViewTransitionContext.Provider, {
+    value: vtContext
+  }, /*#__PURE__*/React.createElement(_reactRouter.Router, {
+    basename: basename,
+    location: state.location,
+    navigationType: state.historyAction,
+    navigator: navigator
+  }, state.initialized ? /*#__PURE__*/React.createElement(DataRoutes, {
+    routes: router.routes,
+    state: state
+  }) : fallbackElement))))), null);
+}
+function DataRoutes(_ref3) {
+  var routes = _ref3.routes,
+    state = _ref3.state;
+  return (0, _reactRouter.UNSAFE_useRoutesImpl)(routes, undefined, state);
+}
 /**
  * A `<Router>` for use in web browsers. Provides the cleanest URLs.
  */
-function BrowserRouter(_ref) {
-  var basename = _ref.basename,
-    children = _ref.children,
-    future = _ref.future,
-    window = _ref.window;
+function BrowserRouter(_ref4) {
+  var basename = _ref4.basename,
+    children = _ref4.children,
+    future = _ref4.future,
+    window = _ref4.window;
   var historyRef = React.useRef();
   if (historyRef.current == null) {
     historyRef.current = (0, _router.createBrowserHistory)({
@@ -52796,15 +53926,15 @@ function BrowserRouter(_ref) {
     });
   }
   var history = historyRef.current;
-  var _React$useState = React.useState({
+  var _React$useState13 = React.useState({
       action: history.action,
       location: history.location
     }),
-    _React$useState2 = _slicedToArray(_React$useState, 2),
-    state = _React$useState2[0],
-    setStateImpl = _React$useState2[1];
-  var _ref9 = future || {},
-    v7_startTransition = _ref9.v7_startTransition;
+    _React$useState14 = _slicedToArray(_React$useState13, 2),
+    state = _React$useState14[0],
+    setStateImpl = _React$useState14[1];
+  var _ref15 = future || {},
+    v7_startTransition = _ref15.v7_startTransition;
   var setState = React.useCallback(function (newState) {
     v7_startTransition && startTransitionImpl ? startTransitionImpl(function () {
       return setStateImpl(newState);
@@ -52825,11 +53955,11 @@ function BrowserRouter(_ref) {
  * A `<Router>` for use in web browsers. Stores the location in the hash
  * portion of the URL so it is not sent to the server.
  */
-function HashRouter(_ref2) {
-  var basename = _ref2.basename,
-    children = _ref2.children,
-    future = _ref2.future,
-    window = _ref2.window;
+function HashRouter(_ref5) {
+  var basename = _ref5.basename,
+    children = _ref5.children,
+    future = _ref5.future,
+    window = _ref5.window;
   var historyRef = React.useRef();
   if (historyRef.current == null) {
     historyRef.current = (0, _router.createHashHistory)({
@@ -52838,15 +53968,15 @@ function HashRouter(_ref2) {
     });
   }
   var history = historyRef.current;
-  var _React$useState3 = React.useState({
+  var _React$useState15 = React.useState({
       action: history.action,
       location: history.location
     }),
-    _React$useState4 = _slicedToArray(_React$useState3, 2),
-    state = _React$useState4[0],
-    setStateImpl = _React$useState4[1];
-  var _ref10 = future || {},
-    v7_startTransition = _ref10.v7_startTransition;
+    _React$useState16 = _slicedToArray(_React$useState15, 2),
+    state = _React$useState16[0],
+    setStateImpl = _React$useState16[1];
+  var _ref16 = future || {},
+    v7_startTransition = _ref16.v7_startTransition;
   var setState = React.useCallback(function (newState) {
     v7_startTransition && startTransitionImpl ? startTransitionImpl(function () {
       return setStateImpl(newState);
@@ -52869,20 +53999,20 @@ function HashRouter(_ref2) {
  * two versions of the history library to your bundles unless you use the same
  * version of the history library that React Router uses internally.
  */
-function HistoryRouter(_ref3) {
-  var basename = _ref3.basename,
-    children = _ref3.children,
-    future = _ref3.future,
-    history = _ref3.history;
-  var _React$useState5 = React.useState({
+function HistoryRouter(_ref6) {
+  var basename = _ref6.basename,
+    children = _ref6.children,
+    future = _ref6.future,
+    history = _ref6.history;
+  var _React$useState17 = React.useState({
       action: history.action,
       location: history.location
     }),
-    _React$useState6 = _slicedToArray(_React$useState5, 2),
-    state = _React$useState6[0],
-    setStateImpl = _React$useState6[1];
-  var _ref11 = future || {},
-    v7_startTransition = _ref11.v7_startTransition;
+    _React$useState18 = _slicedToArray(_React$useState17, 2),
+    state = _React$useState18[0],
+    setStateImpl = _React$useState18[1];
+  var _ref17 = future || {},
+    v7_startTransition = _ref17.v7_startTransition;
   var setState = React.useCallback(function (newState) {
     v7_startTransition && startTransitionImpl ? startTransitionImpl(function () {
       return setStateImpl(newState);
@@ -52905,18 +54035,19 @@ if ("development" !== "production") {
 var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
 var ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
 /**
- * The public API for rendering a history-aware <a>.
+ * The public API for rendering a history-aware `<a>`.
  */
-var Link = /*#__PURE__*/React.forwardRef(function LinkWithRef(_ref4, ref) {
-  var onClick = _ref4.onClick,
-    relative = _ref4.relative,
-    reloadDocument = _ref4.reloadDocument,
-    replace = _ref4.replace,
-    state = _ref4.state,
-    target = _ref4.target,
-    to = _ref4.to,
-    preventScrollReset = _ref4.preventScrollReset,
-    rest = _objectWithoutPropertiesLoose(_ref4, _excluded);
+var Link = exports.Link = /*#__PURE__*/React.forwardRef(function LinkWithRef(_ref7, ref) {
+  var onClick = _ref7.onClick,
+    relative = _ref7.relative,
+    reloadDocument = _ref7.reloadDocument,
+    replace = _ref7.replace,
+    state = _ref7.state,
+    target = _ref7.target,
+    to = _ref7.to,
+    preventScrollReset = _ref7.preventScrollReset,
+    unstable_viewTransition = _ref7.unstable_viewTransition,
+    rest = _objectWithoutPropertiesLoose(_ref7, _excluded);
   var _React$useContext = React.useContext(_reactRouter.UNSAFE_NavigationContext),
     basename = _React$useContext.basename;
   // Rendered into <a href> for absolute URLs
@@ -52952,7 +54083,8 @@ var Link = /*#__PURE__*/React.forwardRef(function LinkWithRef(_ref4, ref) {
     state: state,
     target: target,
     preventScrollReset: preventScrollReset,
-    relative: relative
+    relative: relative,
+    unstable_viewTransition: unstable_viewTransition
   });
   function handleClick(event) {
     if (onClick) onClick(event);
@@ -52970,26 +54102,26 @@ var Link = /*#__PURE__*/React.forwardRef(function LinkWithRef(_ref4, ref) {
     }))
   );
 });
-exports.Link = Link;
 if ("development" !== "production") {
   Link.displayName = "Link";
 }
 /**
- * A <Link> wrapper that knows if it's "active" or not.
+ * A `<Link>` wrapper that knows if it's "active" or not.
  */
-var NavLink = /*#__PURE__*/React.forwardRef(function NavLinkWithRef(_ref5, ref) {
-  var _ref5$ariaCurrent = _ref5["aria-current"],
-    ariaCurrentProp = _ref5$ariaCurrent === void 0 ? "page" : _ref5$ariaCurrent,
-    _ref5$caseSensitive = _ref5.caseSensitive,
-    caseSensitive = _ref5$caseSensitive === void 0 ? false : _ref5$caseSensitive,
-    _ref5$className = _ref5.className,
-    classNameProp = _ref5$className === void 0 ? "" : _ref5$className,
-    _ref5$end = _ref5.end,
-    end = _ref5$end === void 0 ? false : _ref5$end,
-    styleProp = _ref5.style,
-    to = _ref5.to,
-    children = _ref5.children,
-    rest = _objectWithoutPropertiesLoose(_ref5, _excluded2);
+var NavLink = exports.NavLink = /*#__PURE__*/React.forwardRef(function NavLinkWithRef(_ref8, ref) {
+  var _ref8$ariaCurrent = _ref8["aria-current"],
+    ariaCurrentProp = _ref8$ariaCurrent === void 0 ? "page" : _ref8$ariaCurrent,
+    _ref8$caseSensitive = _ref8.caseSensitive,
+    caseSensitive = _ref8$caseSensitive === void 0 ? false : _ref8$caseSensitive,
+    _ref8$className = _ref8.className,
+    classNameProp = _ref8$className === void 0 ? "" : _ref8$className,
+    _ref8$end = _ref8.end,
+    end = _ref8$end === void 0 ? false : _ref8$end,
+    styleProp = _ref8.style,
+    to = _ref8.to,
+    unstable_viewTransition = _ref8.unstable_viewTransition,
+    children = _ref8.children,
+    rest = _objectWithoutPropertiesLoose(_ref8, _excluded2);
   var path = (0, _reactRouter.useResolvedPath)(to, {
     relative: rest.relative
   });
@@ -52997,6 +54129,10 @@ var NavLink = /*#__PURE__*/React.forwardRef(function NavLinkWithRef(_ref5, ref) 
   var routerState = React.useContext(_reactRouter.UNSAFE_DataRouterStateContext);
   var _React$useContext2 = React.useContext(_reactRouter.UNSAFE_NavigationContext),
     navigator = _React$useContext2.navigator;
+  var isTransitioning = routerState != null &&
+  // Conditional usage is OK here because the usage of a data router is static
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useViewTransitionState(path) && unstable_viewTransition === true;
   var toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
   var locationPathname = location.pathname;
   var nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
@@ -53007,37 +54143,33 @@ var NavLink = /*#__PURE__*/React.forwardRef(function NavLinkWithRef(_ref5, ref) 
   }
   var isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
   var isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
+  var renderProps = {
+    isActive: isActive,
+    isPending: isPending,
+    isTransitioning: isTransitioning
+  };
   var ariaCurrent = isActive ? ariaCurrentProp : undefined;
   var className;
   if (typeof classNameProp === "function") {
-    className = classNameProp({
-      isActive: isActive,
-      isPending: isPending
-    });
+    className = classNameProp(renderProps);
   } else {
     // If the className prop is not a function, we use a default `active`
     // class for <NavLink />s that are active. In v5 `active` was the default
     // value for `activeClassName`, but we are removing that API and can still
     // use the old default behavior for a cleaner upgrade path and keep the
     // simple styling rules working as they currently do.
-    className = [classNameProp, isActive ? "active" : null, isPending ? "pending" : null].filter(Boolean).join(" ");
+    className = [classNameProp, isActive ? "active" : null, isPending ? "pending" : null, isTransitioning ? "transitioning" : null].filter(Boolean).join(" ");
   }
-  var style = typeof styleProp === "function" ? styleProp({
-    isActive: isActive,
-    isPending: isPending
-  }) : styleProp;
+  var style = typeof styleProp === "function" ? styleProp(renderProps) : styleProp;
   return /*#__PURE__*/React.createElement(Link, _extends({}, rest, {
     "aria-current": ariaCurrent,
     className: className,
     ref: ref,
     style: style,
-    to: to
-  }), typeof children === "function" ? children({
-    isActive: isActive,
-    isPending: isPending
-  }) : children);
+    to: to,
+    unstable_viewTransition: unstable_viewTransition
+  }), typeof children === "function" ? children(renderProps) : children);
 });
-exports.NavLink = NavLink;
 if ("development" !== "production") {
   NavLink.displayName = "NavLink";
 }
@@ -53047,33 +54179,25 @@ if ("development" !== "production") {
  * requests, allowing components to add nicer UX to the page as the form is
  * submitted and returns with data.
  */
-var Form = /*#__PURE__*/React.forwardRef(function (props, ref) {
+var Form = exports.Form = /*#__PURE__*/React.forwardRef(function (_ref9, forwardedRef) {
+  var fetcherKey = _ref9.fetcherKey,
+    navigate = _ref9.navigate,
+    reloadDocument = _ref9.reloadDocument,
+    replace = _ref9.replace,
+    state = _ref9.state,
+    _ref9$method = _ref9.method,
+    method = _ref9$method === void 0 ? defaultMethod : _ref9$method,
+    action = _ref9.action,
+    onSubmit = _ref9.onSubmit,
+    relative = _ref9.relative,
+    preventScrollReset = _ref9.preventScrollReset,
+    unstable_viewTransition = _ref9.unstable_viewTransition,
+    props = _objectWithoutPropertiesLoose(_ref9, _excluded3);
   var submit = useSubmit();
-  return /*#__PURE__*/React.createElement(FormImpl, _extends({}, props, {
-    submit: submit,
-    ref: ref
-  }));
-});
-exports.Form = Form;
-if ("development" !== "production") {
-  Form.displayName = "Form";
-}
-var FormImpl = /*#__PURE__*/React.forwardRef(function (_ref6, forwardedRef) {
-  var reloadDocument = _ref6.reloadDocument,
-    replace = _ref6.replace,
-    state = _ref6.state,
-    _ref6$method = _ref6.method,
-    method = _ref6$method === void 0 ? defaultMethod : _ref6$method,
-    action = _ref6.action,
-    onSubmit = _ref6.onSubmit,
-    submit = _ref6.submit,
-    relative = _ref6.relative,
-    preventScrollReset = _ref6.preventScrollReset,
-    props = _objectWithoutPropertiesLoose(_ref6, _excluded3);
-  var formMethod = method.toLowerCase() === "get" ? "get" : "post";
   var formAction = useFormAction(action, {
     relative: relative
   });
+  var formMethod = method.toLowerCase() === "get" ? "get" : "post";
   var submitHandler = function submitHandler(event) {
     onSubmit && onSubmit(event);
     if (event.defaultPrevented) return;
@@ -53081,11 +54205,14 @@ var FormImpl = /*#__PURE__*/React.forwardRef(function (_ref6, forwardedRef) {
     var submitter = event.nativeEvent.submitter;
     var submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
     submit(submitter || event.currentTarget, {
+      fetcherKey: fetcherKey,
       method: submitMethod,
+      navigate: navigate,
       replace: replace,
       state: state,
       relative: relative,
-      preventScrollReset: preventScrollReset
+      preventScrollReset: preventScrollReset,
+      unstable_viewTransition: unstable_viewTransition
     });
   };
   return /*#__PURE__*/React.createElement("form", _extends({
@@ -53096,15 +54223,15 @@ var FormImpl = /*#__PURE__*/React.forwardRef(function (_ref6, forwardedRef) {
   }, props));
 });
 if ("development" !== "production") {
-  FormImpl.displayName = "FormImpl";
+  Form.displayName = "Form";
 }
 /**
  * This component will emulate the browser's scroll restoration on location
  * changes.
  */
-function ScrollRestoration(_ref7) {
-  var getKey = _ref7.getKey,
-    storageKey = _ref7.storageKey;
+function ScrollRestoration(_ref10) {
+  var getKey = _ref10.getKey,
+    storageKey = _ref10.storageKey;
   useScrollRestoration({
     getKey: getKey,
     storageKey: storageKey
@@ -53124,12 +54251,15 @@ var DataRouterHook;
   DataRouterHook["UseSubmit"] = "useSubmit";
   DataRouterHook["UseSubmitFetcher"] = "useSubmitFetcher";
   DataRouterHook["UseFetcher"] = "useFetcher";
+  DataRouterHook["useViewTransitionState"] = "useViewTransitionState";
 })(DataRouterHook || (DataRouterHook = {}));
 var DataRouterStateHook;
 (function (DataRouterStateHook) {
+  DataRouterStateHook["UseFetcher"] = "useFetcher";
   DataRouterStateHook["UseFetchers"] = "useFetchers";
   DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
 })(DataRouterStateHook || (DataRouterStateHook = {}));
+// Internal hooks
 function getDataRouterConsoleError(hookName) {
   return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
 }
@@ -53143,18 +54273,20 @@ function useDataRouterState(hookName) {
   !state ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName)) : (0, _router.UNSAFE_invariant)(false) : void 0;
   return state;
 }
+// External hooks
 /**
  * Handles the click behavior for router `<Link>` components. This is useful if
  * you need to create custom `<Link>` components with the same click behavior we
  * use in our exported `<Link>`.
  */
 function useLinkClickHandler(to, _temp) {
-  var _ref12 = _temp === void 0 ? {} : _temp,
-    target = _ref12.target,
-    replaceProp = _ref12.replace,
-    state = _ref12.state,
-    preventScrollReset = _ref12.preventScrollReset,
-    relative = _ref12.relative;
+  var _ref18 = _temp === void 0 ? {} : _temp,
+    target = _ref18.target,
+    replaceProp = _ref18.replace,
+    state = _ref18.state,
+    preventScrollReset = _ref18.preventScrollReset,
+    relative = _ref18.relative,
+    unstable_viewTransition = _ref18.unstable_viewTransition;
   var navigate = (0, _reactRouter.useNavigate)();
   var location = (0, _reactRouter.useLocation)();
   var path = (0, _reactRouter.useResolvedPath)(to, {
@@ -53170,10 +54302,11 @@ function useLinkClickHandler(to, _temp) {
         replace: replace,
         state: state,
         preventScrollReset: preventScrollReset,
-        relative: relative
+        relative: relative,
+        unstable_viewTransition: unstable_viewTransition
       });
     }
-  }, [location, navigate, path, replaceProp, state, target, to, preventScrollReset, relative]);
+  }, [location, navigate, path, replaceProp, state, target, to, preventScrollReset, relative, unstable_viewTransition]);
 }
 /**
  * A convenient wrapper for reading and writing search parameters via the
@@ -53205,6 +54338,10 @@ function validateClientSideSubmission() {
     throw new Error("You are calling submit during the server render. " + "Try calling submit within a `useEffect` or callback instead.");
   }
 }
+var fetcherId = 0;
+var getUniqueFetcherId = function getUniqueFetcherId() {
+  return "__" + String(++fetcherId) + "__";
+};
 /**
  * Returns a function that may be used to programmatically submit a form (or
  * some arbitrary data) to the server.
@@ -53226,54 +54363,37 @@ function useSubmit() {
       encType = _getFormSubmissionInf.encType,
       formData = _getFormSubmissionInf.formData,
       body = _getFormSubmissionInf.body;
-    router.navigate(options.action || action, {
-      preventScrollReset: options.preventScrollReset,
-      formData: formData,
-      body: body,
-      formMethod: options.method || method,
-      formEncType: options.encType || encType,
-      replace: options.replace,
-      state: options.state,
-      fromRouteId: currentRouteId
-    });
-  }, [router, basename, currentRouteId]);
-}
-/**
- * Returns the implementation for fetcher.submit
- */
-function useSubmitFetcher(fetcherKey, fetcherRouteId) {
-  var _useDataRouterContext2 = useDataRouterContext(DataRouterHook.UseSubmitFetcher),
-    router = _useDataRouterContext2.router;
-  var _React$useContext4 = React.useContext(_reactRouter.UNSAFE_NavigationContext),
-    basename = _React$useContext4.basename;
-  return React.useCallback(function (target, options) {
-    if (options === void 0) {
-      options = {};
+    if (options.navigate === false) {
+      var key = options.fetcherKey || getUniqueFetcherId();
+      router.fetch(key, currentRouteId, options.action || action, {
+        preventScrollReset: options.preventScrollReset,
+        formData: formData,
+        body: body,
+        formMethod: options.method || method,
+        formEncType: options.encType || encType
+      });
+    } else {
+      router.navigate(options.action || action, {
+        preventScrollReset: options.preventScrollReset,
+        formData: formData,
+        body: body,
+        formMethod: options.method || method,
+        formEncType: options.encType || encType,
+        replace: options.replace,
+        state: options.state,
+        fromRouteId: currentRouteId,
+        unstable_viewTransition: options.unstable_viewTransition
+      });
     }
-    validateClientSideSubmission();
-    var _getFormSubmissionInf2 = getFormSubmissionInfo(target, basename),
-      action = _getFormSubmissionInf2.action,
-      method = _getFormSubmissionInf2.method,
-      encType = _getFormSubmissionInf2.encType,
-      formData = _getFormSubmissionInf2.formData,
-      body = _getFormSubmissionInf2.body;
-    !(fetcherRouteId != null) ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "No routeId available for useFetcher()") : (0, _router.UNSAFE_invariant)(false) : void 0;
-    router.fetch(fetcherKey, fetcherRouteId, options.action || action, {
-      preventScrollReset: options.preventScrollReset,
-      formData: formData,
-      body: body,
-      formMethod: options.method || method,
-      formEncType: options.encType || encType
-    });
-  }, [router, basename, fetcherKey, fetcherRouteId]);
+  }, [router, basename, currentRouteId]);
 }
 // v7: Eventually we should deprecate this entirely in favor of using the
 // router method directly?
 function useFormAction(action, _temp2) {
-  var _ref13 = _temp2 === void 0 ? {} : _temp2,
-    relative = _ref13.relative;
-  var _React$useContext5 = React.useContext(_reactRouter.UNSAFE_NavigationContext),
-    basename = _React$useContext5.basename;
+  var _ref19 = _temp2 === void 0 ? {} : _temp2,
+    relative = _ref19.relative;
+  var _React$useContext4 = React.useContext(_reactRouter.UNSAFE_NavigationContext),
+    basename = _React$useContext4.basename;
   var routeContext = React.useContext(_reactRouter.UNSAFE_RouteContext);
   !routeContext ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "useFormAction must be used inside a RouteContext") : (0, _router.UNSAFE_invariant)(false) : void 0;
   var _routeContext$matches = routeContext.matches.slice(-1),
@@ -53315,73 +54435,79 @@ function useFormAction(action, _temp2) {
   }
   return (0, _reactRouter.createPath)(path);
 }
-function createFetcherForm(fetcherKey, routeId) {
-  var FetcherForm = /*#__PURE__*/React.forwardRef(function (props, ref) {
-    var submit = useSubmitFetcher(fetcherKey, routeId);
-    return /*#__PURE__*/React.createElement(FormImpl, _extends({}, props, {
-      ref: ref,
-      submit: submit
-    }));
-  });
-  if ("development" !== "production") {
-    FetcherForm.displayName = "fetcher.Form";
-  }
-  return FetcherForm;
-}
-var fetcherId = 0;
+// TODO: (v7) Change the useFetcher generic default from `any` to `unknown`
 /**
  * Interacts with route loaders and actions without causing a navigation. Great
  * for any interaction that stays on the same page.
  */
-function useFetcher() {
+function useFetcher(_temp3) {
   var _route$matches;
-  var _useDataRouterContext3 = useDataRouterContext(DataRouterHook.UseFetcher),
-    router = _useDataRouterContext3.router;
+  var _ref20 = _temp3 === void 0 ? {} : _temp3,
+    key = _ref20.key;
+  var _useDataRouterContext2 = useDataRouterContext(DataRouterHook.UseFetcher),
+    router = _useDataRouterContext2.router;
+  var state = useDataRouterState(DataRouterStateHook.UseFetcher);
+  var fetcherData = React.useContext(FetchersContext);
   var route = React.useContext(_reactRouter.UNSAFE_RouteContext);
-  !route ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext") : (0, _router.UNSAFE_invariant)(false) : void 0;
   var routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
+  !fetcherData ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a FetchersContext") : (0, _router.UNSAFE_invariant)(false) : void 0;
+  !route ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext") : (0, _router.UNSAFE_invariant)(false) : void 0;
   !(routeId != null) ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "useFetcher can only be used on routes that contain a unique \"id\"") : (0, _router.UNSAFE_invariant)(false) : void 0;
-  var _React$useState7 = React.useState(function () {
-      return String(++fetcherId);
-    }),
-    _React$useState8 = _slicedToArray(_React$useState7, 1),
-    fetcherKey = _React$useState8[0];
-  var _React$useState9 = React.useState(function () {
-      !routeId ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.Form()") : (0, _router.UNSAFE_invariant)(false) : void 0;
-      return createFetcherForm(fetcherKey, routeId);
-    }),
-    _React$useState10 = _slicedToArray(_React$useState9, 1),
-    Form = _React$useState10[0];
-  var _React$useState11 = React.useState(function () {
-      return function (href) {
-        !router ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "No router available for fetcher.load()") : (0, _router.UNSAFE_invariant)(false) : void 0;
-        !routeId ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()") : (0, _router.UNSAFE_invariant)(false) : void 0;
-        router.fetch(fetcherKey, routeId, href);
-      };
-    }),
-    _React$useState12 = _slicedToArray(_React$useState11, 1),
-    load = _React$useState12[0];
-  var submit = useSubmitFetcher(fetcherKey, routeId);
-  var fetcher = router.getFetcher(fetcherKey);
-  var fetcherWithComponents = React.useMemo(function () {
-    return _extends({
-      Form: Form,
-      submit: submit,
-      load: load
-    }, fetcher);
-  }, [fetcher, Form, submit, load]);
+  // Fetcher key handling
+  var _React$useState19 = React.useState(key || ""),
+    _React$useState20 = _slicedToArray(_React$useState19, 2),
+    fetcherKey = _React$useState20[0],
+    setFetcherKey = _React$useState20[1];
+  if (!fetcherKey) {
+    setFetcherKey(getUniqueFetcherId());
+  }
+  // Registration/cleanup
   React.useEffect(function () {
-    // Is this busted when the React team gets real weird and calls effects
-    // twice on mount?  We really just need to garbage collect here when this
-    // fetcher is no longer around.
+    router.getFetcher(fetcherKey);
     return function () {
-      if (!router) {
-        console.warn("No router available to clean up from useFetcher()");
-        return;
-      }
+      // Tell the router we've unmounted - if v7_fetcherPersist is enabled this
+      // will not delete immediately but instead queue up a delete after the
+      // fetcher returns to an `idle` state
       router.deleteFetcher(fetcherKey);
     };
   }, [router, fetcherKey]);
+  // Fetcher additions
+  var load = React.useCallback(function (href) {
+    !routeId ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()") : (0, _router.UNSAFE_invariant)(false) : void 0;
+    router.fetch(fetcherKey, routeId, href);
+  }, [fetcherKey, routeId, router]);
+  var submitImpl = useSubmit();
+  var submit = React.useCallback(function (target, opts) {
+    submitImpl(target, _extends({}, opts, {
+      navigate: false,
+      fetcherKey: fetcherKey
+    }));
+  }, [fetcherKey, submitImpl]);
+  var FetcherForm = React.useMemo(function () {
+    var FetcherForm = /*#__PURE__*/React.forwardRef(function (props, ref) {
+      return /*#__PURE__*/React.createElement(Form, _extends({}, props, {
+        navigate: false,
+        fetcherKey: fetcherKey,
+        ref: ref
+      }));
+    });
+    if ("development" !== "production") {
+      FetcherForm.displayName = "fetcher.Form";
+    }
+    return FetcherForm;
+  }, [fetcherKey]);
+  // Exposed FetcherWithComponents
+  var fetcher = state.fetchers.get(fetcherKey) || _router.IDLE_FETCHER;
+  var data = fetcherData.get(fetcherKey);
+  var fetcherWithComponents = React.useMemo(function () {
+    return _extends({
+      Form: FetcherForm,
+      submit: submit,
+      load: load
+    }, fetcher, {
+      data: data
+    });
+  }, [FetcherForm, submit, load, fetcher, data]);
   return fetcherWithComponents;
 }
 /**
@@ -53390,24 +54516,31 @@ function useFetcher() {
  */
 function useFetchers() {
   var state = useDataRouterState(DataRouterStateHook.UseFetchers);
-  return _toConsumableArray(state.fetchers.values());
+  return Array.from(state.fetchers.entries()).map(function (_ref11) {
+    var _ref21 = _slicedToArray(_ref11, 2),
+      key = _ref21[0],
+      fetcher = _ref21[1];
+    return _extends({}, fetcher, {
+      key: key
+    });
+  });
 }
 var SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
 var savedScrollPositions = {};
 /**
  * When rendered inside a RouterProvider, will restore scroll positions on navigations
  */
-function useScrollRestoration(_temp3) {
-  var _ref14 = _temp3 === void 0 ? {} : _temp3,
-    getKey = _ref14.getKey,
-    storageKey = _ref14.storageKey;
-  var _useDataRouterContext4 = useDataRouterContext(DataRouterHook.UseScrollRestoration),
-    router = _useDataRouterContext4.router;
+function useScrollRestoration(_temp4) {
+  var _ref22 = _temp4 === void 0 ? {} : _temp4,
+    getKey = _ref22.getKey,
+    storageKey = _ref22.storageKey;
+  var _useDataRouterContext3 = useDataRouterContext(DataRouterHook.UseScrollRestoration),
+    router = _useDataRouterContext3.router;
   var _useDataRouterState = useDataRouterState(DataRouterStateHook.UseScrollRestoration),
     restoreScrollPosition = _useDataRouterState.restoreScrollPosition,
     preventScrollReset = _useDataRouterState.preventScrollReset;
-  var _React$useContext6 = React.useContext(_reactRouter.UNSAFE_NavigationContext),
-    basename = _React$useContext6.basename;
+  var _React$useContext5 = React.useContext(_reactRouter.UNSAFE_NavigationContext),
+    basename = _React$useContext5.basename;
   var location = (0, _reactRouter.useLocation)();
   var matches = (0, _reactRouter.useMatches)();
   var navigation = (0, _reactRouter.useNavigation)();
@@ -53424,7 +54557,11 @@ function useScrollRestoration(_temp3) {
       var key = (getKey ? getKey(location, matches) : null) || location.key;
       savedScrollPositions[key] = window.scrollY;
     }
-    sessionStorage.setItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY, JSON.stringify(savedScrollPositions));
+    try {
+      sessionStorage.setItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY, JSON.stringify(savedScrollPositions));
+    } catch (error) {
+      "development" !== "production" ? (0, _router.UNSAFE_warning)(false, "Failed to save scroll positions in sessionStorage, <ScrollRestoration /> will not work properly (" + error + ").") : void 0;
+    }
     window.history.scrollRestoration = "auto";
   }, [storageKey, getKey, navigation.state, location, matches]));
   // Read in any saved scroll locations
@@ -53495,8 +54632,8 @@ function useScrollRestoration(_temp3) {
  * `React.useCallback()`.
  */
 function useBeforeUnload(callback, options) {
-  var _ref15 = options || {},
-    capture = _ref15.capture;
+  var _ref23 = options || {},
+    capture = _ref23.capture;
   React.useEffect(function () {
     var opts = capture != null ? {
       capture: capture
@@ -53516,8 +54653,8 @@ function useBeforeUnload(callback, options) {
  * `React.useCallback()`.
  */
 function usePageHide(callback, options) {
-  var _ref16 = options || {},
-    capture = _ref16.capture;
+  var _ref24 = options || {},
+    capture = _ref24.capture;
   React.useEffect(function () {
     var opts = capture != null ? {
       capture: capture
@@ -53536,9 +54673,9 @@ function usePageHide(callback, options) {
  * very incorrectly in some cases) across browsers if user click addition
  * back/forward navigations while the confirm is open.  Use at your own risk.
  */
-function usePrompt(_ref8) {
-  var when = _ref8.when,
-    message = _ref8.message;
+function usePrompt(_ref12) {
+  var when = _ref12.when,
+    message = _ref12.message;
   var blocker = (0, _reactRouter.unstable_useBlocker)(when);
   React.useEffect(function () {
     if (blocker.state === "blocked") {
@@ -53559,8 +54696,47 @@ function usePrompt(_ref8) {
     }
   }, [blocker, when]);
 }
+/**
+ * Return a boolean indicating if there is an active view transition to the
+ * given href.  You can use this value to render CSS classes or viewTransitionName
+ * styles onto your elements
+ *
+ * @param href The destination href
+ * @param [opts.relative] Relative routing type ("route" | "path")
+ */
+function useViewTransitionState(to, opts) {
+  if (opts === void 0) {
+    opts = {};
+  }
+  var vtContext = React.useContext(ViewTransitionContext);
+  !(vtContext != null) ? "development" !== "production" ? (0, _router.UNSAFE_invariant)(false, "`unstable_useViewTransitionState` must be used within `react-router-dom`'s `RouterProvider`.  " + "Did you accidentally import `RouterProvider` from `react-router`?") : (0, _router.UNSAFE_invariant)(false) : void 0;
+  var _useDataRouterContext4 = useDataRouterContext(DataRouterHook.useViewTransitionState),
+    basename = _useDataRouterContext4.basename;
+  var path = (0, _reactRouter.useResolvedPath)(to, {
+    relative: opts.relative
+  });
+  if (!vtContext.isTransitioning) {
+    return false;
+  }
+  var currentPath = (0, _router.stripBasename)(vtContext.currentLocation.pathname, basename) || vtContext.currentLocation.pathname;
+  var nextPath = (0, _router.stripBasename)(vtContext.nextLocation.pathname, basename) || vtContext.nextLocation.pathname;
+  // Transition is active if we're going to or coming from the indicated
+  // destination.  This ensures that other PUSH navigations that reverse
+  // an indicated transition apply.  I.e., on the list view you have:
+  //
+  //   <NavLink to="/details/1" unstable_viewTransition>
+  //
+  // If you click the breadcrumb back to the list view:
+  //
+  //   <NavLink to="/list" unstable_viewTransition>
+  //
+  // We should apply the transition because it's indicated as active going
+  // from /list -> /details/1 and therefore should be active on the reverse
+  // (even though this isn't strictly a POP reverse)
+  return (0, _router.matchPath)(path.pathname, nextPath) != null || (0, _router.matchPath)(path.pathname, currentPath) != null;
+}
 //#endregion
-},{"react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/dist/index.js","@remix-run/router":"../node_modules/@remix-run/router/dist/router.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-router":"../node_modules/react-router/dist/index.js","@remix-run/router":"../node_modules/@remix-run/router/dist/router.js"}],"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -53585,7 +54761,7 @@ function getBaseURL(url) {
 }
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 function updateLink(link) {
   var newLink = link.cloneNode();
@@ -53611,11 +54787,11 @@ function reloadCSS() {
   }, 50);
 }
 module.exports = reloadCSS;
-},{"./bundle-url":"../node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/movie-card/movie-card.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/movie-card/movie-card.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-card/movie-card.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-card/movie-card.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -53628,7 +54804,14 @@ var _reactBootstrap = require("react-bootstrap");
 var _reactRouterDom = require("react-router-dom");
 require("./movie-card.scss");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-var MovieCard = function MovieCard(_ref) {
+/**
+ * A component to display movie information in a card format.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.movie - The movie object to display.
+ * @returns {JSX.Element} The movie card component's JSX.
+ */
+var MovieCard = exports.MovieCard = function MovieCard(_ref) {
   var movie = _ref.movie;
   return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "h-100 movie-card-wrapper"
@@ -53641,15 +54824,16 @@ var MovieCard = function MovieCard(_ref) {
   }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Card.Img, {
     variant: "top",
     src: movie.ImagePath
-  }), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Card.Body, {
+  })), /*#__PURE__*/_react.default.createElement(_reactBootstrap.Card.Body, {
     className: "text-white"
   }, /*#__PURE__*/_react.default.createElement(_reactBootstrap.Card.Title, {
     className: "d-flex justify-content-center"
-  }, /*#__PURE__*/_react.default.createElement("h2", null, movie.Title)))))));
+  }, /*#__PURE__*/_react.default.createElement("h2", null, movie.Title))))));
 };
 
-// Defines all the props constraints for the MovieCard
-exports.MovieCard = MovieCard;
+/**
+ * PropTypes for the MovieCard component, defining the prop constraints.
+ */
 MovieCard.propTypes = {
   movie: _propTypes.default.shape({
     ImagePath: _propTypes.default.string.isRequired,
@@ -53668,7 +54852,7 @@ MovieCard.propTypes = {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-view/movie-view.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/movie-view/movie-view.jsx":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -53682,25 +54866,34 @@ var _reactRouter = require("react-router");
 require("./movie-view.scss");
 var _reactRouterDom = require("react-router-dom");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-var MovieView = function MovieView(_ref) {
+/**
+ * A component to view and interact with a specific movie's details.
+ * @function
+ * @param {Object} props - the component's props 
+ * @param {Array} props.movies - array of movies
+ * @param {Object} props.user - user object
+ * @param {Function} props.setUser - A callback function to set the user object.
+ * @returns {JSX.Element} The movie view component's JSX.
+ */
+var MovieView = exports.MovieView = function MovieView(_ref) {
   var movies = _ref.movies,
     user = _ref.user,
     setUser = _ref.setUser;
-  console.log("Received user prop:", user);
   var _useParams = (0, _reactRouter.useParams)(),
     movieId = _useParams.movieId;
   var _useState = (0, _react.useState)(false),
     _useState2 = _slicedToArray(_useState, 2),
     isFavorite = _useState2[0],
     setIsFavorite = _useState2[1];
+  var navigate = (0, _reactRouterDom.useNavigate)();
   var storedUser = JSON.parse(localStorage.getItem('user'));
   var _useState3 = (0, _react.useState)(false),
     _useState4 = _slicedToArray(_useState3, 2),
@@ -53719,6 +54912,11 @@ var MovieView = function MovieView(_ref) {
       setIsMovieToWatch(isAMovieToWatch);
     }
   }, [user, movieId]);
+
+  /**
+   * Removes the movie from the user's favorite list.
+   * @function
+   */
   var removeFavorite = function removeFavorite() {
     fetch("https://myflixmovieapp-3df5d197457c.herokuapp.com/users/".concat(user.Username, "/movies/").concat(movieId, "/favorites"), {
       method: "DELETE",
@@ -53736,6 +54934,11 @@ var MovieView = function MovieView(_ref) {
       setUser(data);
     });
   };
+
+  /**
+   * Removes the movie from the user's watchlist.
+   * @function
+   */
   var removeMovieToWatch = function removeMovieToWatch() {
     fetch("https://myflixmovieapp-3df5d197457c.herokuapp.com/users/".concat(user.Username, "/movies/").concat(movieId, "/watchlist"), {
       method: "DELETE",
@@ -53753,6 +54956,11 @@ var MovieView = function MovieView(_ref) {
       setUser(data);
     });
   };
+
+  /**
+   * Adds the movie to the user's favorite list.
+   * @function
+   */
   var addToFavorite = function addToFavorite() {
     fetch("https://myflixmovieapp-3df5d197457c.herokuapp.com/users/".concat(user.Username, "/movies/").concat(movieId, "/favorites"), {
       method: "POST",
@@ -53770,6 +54978,11 @@ var MovieView = function MovieView(_ref) {
       setUser(data);
     });
   };
+
+  /**
+   * Adds the movie to the user's watchlist.
+   * @function
+   */
   var addToMoviesToWatch = function addToMoviesToWatch() {
     console.log("Adding movie to watchlist...");
     fetch("https://myflixmovieapp-3df5d197457c.herokuapp.com/users/".concat(user.Username, "/").concat(movieId, "/watchlist"), {
@@ -53828,14 +55041,20 @@ var MovieView = function MovieView(_ref) {
     className: "mb-3",
     size: "sm",
     onClick: addToMoviesToWatch
-  }, "Add movie to Watchlist")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null))));
+  }, "Add movie to Watchlist")), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("br", null), /*#__PURE__*/_react.default.createElement("div", {
+    className: "d-flex justify-content-center",
+    onClick: function onClick() {
+      return navigate(-1);
+    }
+  }, /*#__PURE__*/_react.default.createElement(_Button.default, {
+    variant: "secondary"
+  }, "Back")))));
 };
-exports.MovieView = MovieView;
 },{"react":"../node_modules/react/index.js","react-bootstrap/Button":"../node_modules/react-bootstrap/esm/Button.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","react-router":"../node_modules/react-router/dist/index.js","./movie-view.scss":"components/movie-view/movie-view.scss","react-router-dom":"../node_modules/react-router-dom/dist/index.js"}],"components/login-view/login-view.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/login.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/login.png":[function(require,module,exports) {
 module.exports = "/login.748995fe.png";
 },{}],"components/login-view/login-view.jsx":[function(require,module,exports) {
 "use strict";
@@ -53851,15 +55070,22 @@ var _reactRouterDom = require("react-router-dom");
 require("./login-view.scss");
 var _login = _interopRequireDefault(require("../../assets/login.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-var LoginView = function LoginView(_ref) {
+/**
+ * A component for user login.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Function} props.onLoggedIn - A callback function for handling user login.
+ * @returns {JSX.Element} The component's JSX.
+ */
+var LoginView = exports.LoginView = function LoginView(_ref) {
   var onLoggedIn = _ref.onLoggedIn;
   var _useState = (0, _react.useState)(""),
     _useState2 = _slicedToArray(_useState, 2),
@@ -53869,6 +55095,12 @@ var LoginView = function LoginView(_ref) {
     _useState4 = _slicedToArray(_useState3, 2),
     Password = _useState4[0],
     setPassword = _useState4[1];
+
+  /**
+   * Handles the form submission for user login.
+   * @function
+   * @param {Event} event - The form submission event.
+   */
   var handleSubmit = function handleSubmit(event) {
     event.preventDefault();
     var data = {
@@ -53884,10 +55116,9 @@ var LoginView = function LoginView(_ref) {
     }).then(function (response) {
       return response.json();
     }).then(function (data) {
-      console.log("Login response: ", data);
       if (data.token) {
         localStorage.setItem("user", JSON.stringify(data.user));
-        localStorage.setItem("token", JSON.stringify(data.token)); // Set the token in localStorage
+        localStorage.setItem("token", data.token); // Set the token in localStorage
         onLoggedIn(data.user, data.token);
       } else {
         alert("No such user found.");
@@ -53911,6 +55142,10 @@ var LoginView = function LoginView(_ref) {
   }, /*#__PURE__*/_react.default.createElement(_Form.default.Label, {
     className: "text-white"
   }, "Username:"), /*#__PURE__*/_react.default.createElement(_Form.default.Control, {
+    className: "text-white",
+    style: {
+      color: 'white'
+    },
     type: "text",
     value: Username,
     onChange: function onChange(e) {
@@ -53924,6 +55159,10 @@ var LoginView = function LoginView(_ref) {
   }, /*#__PURE__*/_react.default.createElement(_Form.default.Label, {
     className: "text-white"
   }, "Password:"), /*#__PURE__*/_react.default.createElement(_Form.default.Control, {
+    className: "text-white",
+    style: {
+      color: 'white'
+    },
     type: "password",
     value: Password,
     onChange: function onChange(e) {
@@ -53942,12 +55181,11 @@ var LoginView = function LoginView(_ref) {
     to: "/signup"
   }, "Sign Up")))));
 };
-exports.LoginView = LoginView;
 },{"react":"../node_modules/react/index.js","react-bootstrap/Button":"../node_modules/react-bootstrap/esm/Button.js","react-bootstrap/Form":"../node_modules/react-bootstrap/esm/Form.js","react-router-dom":"../node_modules/react-router-dom/dist/index.js","./login-view.scss":"components/login-view/login-view.scss","../../assets/login.png":"assets/login.png"}],"components/signup-view/signup-view.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/signup.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/signup.png":[function(require,module,exports) {
 module.exports = "/signup.5b219ab2.png";
 },{}],"components/signup-view/signup-view.jsx":[function(require,module,exports) {
 "use strict";
@@ -53962,15 +55200,20 @@ var _Form = _interopRequireDefault(require("react-bootstrap/Form"));
 require("./signup-view.scss");
 var _signup = _interopRequireDefault(require("../../assets/signup.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-var SignupView = function SignupView() {
+/**
+ * A component that provides a form for user signup.
+ * @function
+ * @returns {JSX.Element} The signup view component's JSX.
+ */
+var SignupView = exports.SignupView = function SignupView() {
   var _useState = (0, _react.useState)(""),
     _useState2 = _slicedToArray(_useState, 2),
     Username = _useState2[0],
@@ -53987,6 +55230,12 @@ var SignupView = function SignupView() {
     _useState8 = _slicedToArray(_useState7, 2),
     Birthdate = _useState8[0],
     setBirthdate = _useState8[1];
+
+  /**
+   * Handles the form submission for user signup.
+   * @function
+   * @param {Event} event - The form submission event.
+   */
   var handleSubmit = function handleSubmit(event) {
     event.preventDefault();
     var data = {
@@ -54038,6 +55287,10 @@ var SignupView = function SignupView() {
   }, /*#__PURE__*/_react.default.createElement(_Form.default.Label, {
     className: "text-white"
   }, "Password:"), /*#__PURE__*/_react.default.createElement(_Form.default.Control, {
+    className: "text-white",
+    style: {
+      color: 'white'
+    },
     type: "password",
     value: Password,
     onChange: function onChange(e) {
@@ -54074,12 +55327,11 @@ var SignupView = function SignupView() {
     className: "mt-3 mb-4 mx-auto d-block"
   }, "Submit")));
 };
-exports.SignupView = SignupView;
 },{"react":"../node_modules/react/index.js","react-bootstrap/Button":"../node_modules/react-bootstrap/esm/Button.js","react-bootstrap/Form":"../node_modules/react-bootstrap/esm/Form.js","./signup-view.scss":"components/signup-view/signup-view.scss","../../assets/signup.png":"assets/signup.png"}],"components/profile-view/profile-view.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/profile.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/profile.png":[function(require,module,exports) {
 module.exports = "/profile.ae7bce2d.png";
 },{}],"components/profile-view/profile-view.jsx":[function(require,module,exports) {
 "use strict";
@@ -54098,15 +55350,26 @@ var _movieCard = require("../movie-card/movie-card");
 require("./profile-view.scss");
 var _profile = _interopRequireDefault(require("../../assets/profile.png"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-var ProfileView = function ProfileView(_ref) {
+/**
+ * A component that displays the user's profile information, favorite movies, and movies to watch.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.user - The user object.
+ * @param {string} props.token - The user's authentication token.
+ * @param {Array} props.movies - An array of movie objects.
+ * @param {Function} props.onLoggedOut - A callback function to handle user logout.
+ * @param {Function} props.setUser - A callback function to update user information.
+ * @returns {JSX.Element} The profile view component's JSX.
+ */
+var ProfileView = exports.ProfileView = function ProfileView(_ref) {
   var user = _ref.user,
     token = _ref.token,
     movies = _ref.movies,
@@ -54146,12 +55409,29 @@ var ProfileView = function ProfileView(_ref) {
     return user.MoviesToWatch && user.MoviesToWatch.includes(movie._id);
   });
   console.log("MoviesToWatch IDs from user object:", moviesToWatchIds);
+
+  /**
+   * Show the profile edit modal.
+   * @function
+   */
   var handleShowModal = function handleShowModal() {
     setShowModal(true);
   };
+
+  /**
+   * Close the profile edit modal.
+   * @function
+   */
   var handleCloseModal = function handleCloseModal() {
     setShowModal(false);
   };
+
+  /**
+   * Format a date string.
+   * @function
+   * @param {string} date - The date to format.
+   * @returns {string} The formatted date in "YYYY-MM-DD" format.
+   */
   var formatDate = function formatDate(date) {
     var formattedDate = new Date(date);
     var year = formattedDate.getFullYear();
@@ -54159,6 +55439,11 @@ var ProfileView = function ProfileView(_ref) {
     var day = String(formattedDate.getDate()).padStart(2, '0');
     return "".concat(year, "-").concat(month, "-").concat(day);
   };
+
+  /**
+   * Handle the submission of profile edits.
+   * @function
+   */
   var handleProfileEditSubmit = function handleProfileEditSubmit() {
     var data = {
       Username: Username,
@@ -54193,6 +55478,11 @@ var ProfileView = function ProfileView(_ref) {
       console.error("Error updating profile:", error);
     });
   };
+
+  /**
+   * Handle the deletion of a user account.
+   * @function
+   */
   var handleDeleteUser = function handleDeleteUser() {
     fetch("https://myflixmovieapp-3df5d197457c.herokuapp.com/users/".concat(user.Username), {
       method: "DELETE",
@@ -54320,16 +55610,19 @@ var ProfileView = function ProfileView(_ref) {
     }));
   })));
 };
-exports.ProfileView = ProfileView;
 },{"react":"../node_modules/react/index.js","react-bootstrap/Button":"../node_modules/react-bootstrap/esm/Button.js","react-bootstrap/Col":"../node_modules/react-bootstrap/esm/Col.js","react-bootstrap/Form":"../node_modules/react-bootstrap/esm/Form.js","react-bootstrap/Row":"../node_modules/react-bootstrap/esm/Row.js","react-bootstrap/Modal":"../node_modules/react-bootstrap/esm/Modal.js","../movie-card/movie-card":"components/movie-card/movie-card.jsx","./profile-view.scss":"components/profile-view/profile-view.scss","../../assets/profile.png":"assets/profile.png"}],"assets/movies.png":[function(require,module,exports) {
 module.exports = "/movies.2b355d1e.png";
 },{}],"assets/logo.png":[function(require,module,exports) {
 module.exports = "/logo.e9a9c890.png";
-},{}],"components/navigation-bar/navigation-bar.scss":[function(require,module,exports) {
+},{}],"components/main-view/main-view.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/myFlix-logo.png":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/navigation-bar/navigation-bar.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"assets/myFlix-logo.png":[function(require,module,exports) {
 module.exports = "/myFlix-logo.6520c8a4.png";
 },{}],"components/delete-account-confirmation/delete-account-confirmation.jsx":[function(require,module,exports) {
 "use strict";
@@ -54340,15 +55633,24 @@ Object.defineProperty(exports, "__esModule", {
 exports.DeleteAccountConfirmation = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _reactBootstrap = require("react-bootstrap");
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-var DeleteAccountConfirmation = function DeleteAccountConfirmation(_ref) {
+/**
+ * A component to confirm the deletion of a user account.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.user - The user information.
+ * @param {string} props.token - The user's authentication token.
+ * @param {Function} props.onLoggedOut - A callback function to log the user out.
+ * @returns {JSX.Element} The component's JSX.
+ */
+var DeleteAccountConfirmation = exports.DeleteAccountConfirmation = function DeleteAccountConfirmation(_ref) {
   var user = _ref.user,
     token = _ref.token,
     onLoggedOut = _ref.onLoggedOut;
@@ -54356,13 +55658,27 @@ var DeleteAccountConfirmation = function DeleteAccountConfirmation(_ref) {
     _useState2 = _slicedToArray(_useState, 2),
     showModal = _useState2[0],
     setShowModal = _useState2[1];
-  console.log("Token from localStorage:", token);
+
+  /**
+   * Opens the delete account confirmation modal.
+   * @function
+   */
   var handleShowModal = function handleShowModal() {
     return setShowModal(true);
   };
+
+  /**
+   * Closes the delete account confirmation modal.
+   * @function
+   */
   var handleCloseModal = function handleCloseModal() {
     return setShowModal(false);
   };
+
+  /**
+   * Handles the user account deletion process.
+   * @function
+   */
   var handleDeleteUser = function handleDeleteUser() {
     fetch("https://myflixmovieapp-3df5d197457c.herokuapp.com/users/".concat(user.Username), {
       method: "DELETE",
@@ -54398,7 +55714,6 @@ var DeleteAccountConfirmation = function DeleteAccountConfirmation(_ref) {
     onClick: handleCloseModal
   }, "No"))));
 };
-exports.DeleteAccountConfirmation = DeleteAccountConfirmation;
 },{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js"}],"components/navigation-bar/navigation-bar.jsx":[function(require,module,exports) {
 "use strict";
 
@@ -54415,7 +55730,16 @@ var _deleteAccountConfirmation = require("../delete-account-confirmation/delete-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // Import the logo image
 
-var NavigationBar = function NavigationBar(_ref) {
+/**
+ * A component for the navigation bar at the top of the application.
+ * @function
+ * @param {Object} props - The component's props.
+ * @param {Object} props.user - The user object.
+ * @param {string} props.token - The user's authentication token.
+ * @param {Function} props.onLoggedOut - A callback function to handle user logout.
+ * @returns {JSX.Element} The navigation bar component's JSX.
+ */
+var NavigationBar = exports.NavigationBar = function NavigationBar(_ref) {
   var user = _ref.user,
     token = _ref.token,
     onLoggedOut = _ref.onLoggedOut;
@@ -54464,7 +55788,6 @@ var NavigationBar = function NavigationBar(_ref) {
     to: "/signup"
   }, "Signup"))))));
 };
-exports.NavigationBar = NavigationBar;
 },{"react":"../node_modules/react/index.js","react-bootstrap":"../node_modules/react-bootstrap/esm/index.js","react-router-dom":"../node_modules/react-router-dom/dist/index.js","./navigation-bar.scss":"components/navigation-bar/navigation-bar.scss","../../assets/myFlix-logo.png":"assets/myFlix-logo.png","../delete-account-confirmation/delete-account-confirmation":"components/delete-account-confirmation/delete-account-confirmation.jsx"}],"components/main-view/main-view.jsx":[function(require,module,exports) {
 "use strict";
 
@@ -54480,6 +55803,7 @@ var _signupView = require("../signup-view/signup-view");
 var _profileView = require("../profile-view/profile-view");
 var _movies = _interopRequireDefault(require("../../assets/movies.png"));
 var _logo = _interopRequireDefault(require("../../assets/logo.png"));
+require("./main-view.scss");
 var _Button = _interopRequireDefault(require("react-bootstrap/Button"));
 var _Col = _interopRequireDefault(require("react-bootstrap/Col"));
 var _Row = _interopRequireDefault(require("react-bootstrap/Row"));
@@ -54487,15 +55811,20 @@ var _Form = _interopRequireDefault(require("react-bootstrap/Form"));
 var _reactRouterDom = require("react-router-dom");
 var _navigationBar = require("../navigation-bar/navigation-bar");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
+function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && Object.prototype.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
-function _iterableToArrayLimit(arr, i) { var _i = null == arr ? null : "undefined" != typeof Symbol && arr[Symbol.iterator] || arr["@@iterator"]; if (null != _i) { var _s, _e, _x, _r, _arr = [], _n = !0, _d = !1; try { if (_x = (_i = _i.call(arr)).next, 0 === i) { if (Object(_i) !== _i) return; _n = !1; } else for (; !(_n = (_s = _x.call(_i)).done) && (_arr.push(_s.value), _arr.length !== i); _n = !0); } catch (err) { _d = !0, _e = err; } finally { try { if (!_n && null != _i.return && (_r = _i.return(), Object(_r) !== _r)) return; } finally { if (_d) throw _e; } } return _arr; } }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t.return && (u = t.return(), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-var MainView = function MainView() {
+/**
+ * The main view component for the application.
+ * @function
+ * @returns {JSX.Element} The main view component's JSX.
+ */
+var MainView = exports.MainView = function MainView() {
   var _useState = (0, _react.useState)(true),
     _useState2 = _slicedToArray(_useState, 2),
     loading = _useState2[0],
@@ -54535,8 +55864,12 @@ var MainView = function MainView() {
     moviesLoaded = _useState16[0],
     setMoviesLoaded = _useState16[1];
   console.log("Token from localStorage:", token);
+
+  /**
+   * Handles the user's log out action.
+   * @function
+   */
   var onLoggedOut = function onLoggedOut() {
-    console.log("test");
     setUser(null);
     setToken(null);
     localStorage.clear(); // Clearing token and other user data from localStorage
@@ -54656,14 +55989,17 @@ var MainView = function MainView() {
         maxWidth: "400px"
       }
     })), /*#__PURE__*/_react.default.createElement(_Row.default, {
-      className: "mt-1 mb-2 ms-1 w-100"
+      className: "mt-1 mb-2 ms-1 w-100 text-white"
     }, /*#__PURE__*/_react.default.createElement(_Form.default.Control, {
-      className: "text-white",
+      className: "search-input",
       type: "text",
       placeholder: "Search...",
       value: filter,
       onChange: function onChange(e) {
         return setFilter(e.target.value);
+      },
+      style: {
+        color: 'white'
       }
     })), loading ? /*#__PURE__*/_react.default.createElement(_Col.default, null, "Loading movies...") : movies.length === 0 ? /*#__PURE__*/_react.default.createElement(_Col.default, null, "This list is empty!") : movies.sort(function (a, b) {
       return a.Title.localeCompare(b.Title);
@@ -54722,12 +56058,11 @@ var MainView = function MainView() {
     }
   }, "Visit my GitHub"))));
 };
-exports.MainView = MainView;
-},{"react":"../node_modules/react/index.js","../movie-card/movie-card":"components/movie-card/movie-card.jsx","../movie-view/movie-view":"components/movie-view/movie-view.jsx","../login-view/login-view":"components/login-view/login-view.jsx","../signup-view/signup-view":"components/signup-view/signup-view.jsx","../profile-view/profile-view":"components/profile-view/profile-view.jsx","../../assets/movies.png":"assets/movies.png","../../assets/logo.png":"assets/logo.png","react-bootstrap/Button":"../node_modules/react-bootstrap/esm/Button.js","react-bootstrap/Col":"../node_modules/react-bootstrap/esm/Col.js","react-bootstrap/Row":"../node_modules/react-bootstrap/esm/Row.js","react-bootstrap/Form":"../node_modules/react-bootstrap/esm/Form.js","react-router-dom":"../node_modules/react-router-dom/dist/index.js","../navigation-bar/navigation-bar":"components/navigation-bar/navigation-bar.jsx"}],"index.scss":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","../movie-card/movie-card":"components/movie-card/movie-card.jsx","../movie-view/movie-view":"components/movie-view/movie-view.jsx","../login-view/login-view":"components/login-view/login-view.jsx","../signup-view/signup-view":"components/signup-view/signup-view.jsx","../profile-view/profile-view":"components/profile-view/profile-view.jsx","../../assets/movies.png":"assets/movies.png","../../assets/logo.png":"assets/logo.png","./main-view.scss":"components/main-view/main-view.scss","react-bootstrap/Button":"../node_modules/react-bootstrap/esm/Button.js","react-bootstrap/Col":"../node_modules/react-bootstrap/esm/Col.js","react-bootstrap/Row":"../node_modules/react-bootstrap/esm/Row.js","react-bootstrap/Form":"../node_modules/react-bootstrap/esm/Form.js","react-router-dom":"../node_modules/react-router-dom/dist/index.js","../navigation-bar/navigation-bar":"components/navigation-bar/navigation-bar.jsx"}],"index.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.jsx":[function(require,module,exports) {
+},{"_css_loader":"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.jsx":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireDefault(require("react"));
@@ -54738,18 +56073,30 @@ require("./index.scss");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 // Import statement to indicate that you need to bundle `./index.scss`
 
-// Main component (will eventually use all the others)
+/**
+ * The main component of the application.
+ * @function
+ * @returns {JSX.Element} The main component's JSX.
+ */
 var MyFlixApplication = function MyFlixApplication() {
   return /*#__PURE__*/_react.default.createElement(_Container.default, null, /*#__PURE__*/_react.default.createElement(_mainView.MainView, null));
 };
 
-// Finds the root of the app
+/**
+ * Finds the root of the app.
+ * @constant {Element} container - The root element to render the app into.
+ */
 var container = document.querySelector("#root");
+
+/**
+ * The root element used to render the application.
+ * @constant {ReactRoot} root - The root element for rendering the app.
+ */
 var root = (0, _client.createRoot)(container);
 
 // Tells React to render the app in the root DOM element
 root.render( /*#__PURE__*/_react.default.createElement(MyFlixApplication, null));
-},{"react":"../node_modules/react/index.js","react-dom/client":"../node_modules/react-dom/client.js","./components/main-view/main-view":"components/main-view/main-view.jsx","react-bootstrap/Container":"../node_modules/react-bootstrap/esm/Container.js","./index.scss":"index.scss"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom/client":"../node_modules/react-dom/client.js","./components/main-view/main-view":"components/main-view/main-view.jsx","react-bootstrap/Container":"../node_modules/react-bootstrap/esm/Container.js","./index.scss":"index.scss"}],"../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -54774,7 +56121,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58748" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57563" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
@@ -54918,5 +56265,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
+},{}]},{},["../../../../.nvm/versions/node/v18.17.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.jsx"], null)
 //# sourceMappingURL=/src.78399e21.js.map

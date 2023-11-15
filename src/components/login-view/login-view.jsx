@@ -63,6 +63,8 @@ export const LoginView = ({ onLoggedIn }) => {
         <Form.Group controlId="formUsername">
           <Form.Label className="text-white">Username:</Form.Label>
           <Form.Control
+            className="text-white"
+            style={{ color: 'white' }}
             type="text"
             value={Username}
             onChange={(e) => setUsername(e.target.value)}
@@ -74,6 +76,8 @@ export const LoginView = ({ onLoggedIn }) => {
         <Form.Group className='mt-3' controlId="formPassword">
           <Form.Label className="text-white">Password:</Form.Label>
           <Form.Control 
+            className="text-white"
+            style={{ color: 'white' }}
             type="password"
             value={Password}
             onChange={(e) => setPassword(e.target.value)}

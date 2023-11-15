@@ -6,6 +6,7 @@ import { SignupView } from "../signup-view/signup-view";
 import { ProfileView } from "../profile-view/profile-view";
 import moviesImage from "../../assets/movies.png";
 import logo from "../../assets/logo.png";
+import "./main-view.scss";
 
 
 import Button from "react-bootstrap/Button";
@@ -211,13 +212,14 @@ export const MainView = () => {
                           style={{ width: "80%", maxWidth: "400px" }}
                         />
                       </Row>
-                      <Row className="mt-1 mb-2 ms-1 w-100">
+                      <Row className="mt-1 mb-2 ms-1 w-100 text-white">
                         <Form.Control
-                          class="text-white"
+                          className="search-input"
                           type="text"
                           placeholder="Search..."
                           value={filter}
                           onChange={(e) => setFilter(e.target.value)}
+                          style={{ color: 'white' }}
                         />
                         
                       </Row>

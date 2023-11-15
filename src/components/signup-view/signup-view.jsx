@@ -70,6 +70,8 @@ export const SignupView = () => {
         <Form.Group controlId="signUpFormPassword">
           <Form.Label className="text-white">Password:</Form.Label>
           <Form.Control
+            className="text-white"
+            style={{ color: 'white' }}
             type="password"
             value={Password}
             onChange={(e) => setPassword(e.target.value)}
