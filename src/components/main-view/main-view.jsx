@@ -37,10 +37,6 @@ export const MainView = () => {
   const [selectedGenre, setSelectedGenre] = useState("");
   const [moviesLoaded, setMoviesLoaded] = useState(false);
 
-
-  
-  console.log("Token from localStorage:", token);
-
   /**
    * Handles the user's log out action.
    * @function
